@@ -4,7 +4,7 @@ branch=gh-pages
 build_command() {
   set -e # Exit on any errors
 
-  # Get the directory of this script
+  # Get the directory of this script ($DIR is the current directory "hanabi_cn")
   # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
   DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
@@ -49,4 +49,5 @@ cd $directory &&
   git push origin $branch
   
 echo -e "\033[0;32mCleaning up...\033[0m"
+cd $DIR
 git worktree remove $directory  
