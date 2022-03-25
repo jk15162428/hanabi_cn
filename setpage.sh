@@ -39,14 +39,18 @@ rm -rf $directory
 echo -e "\033[0;32mChecking out $branch....\033[0m"
 git worktree add $directory $branch
 
+mv ./$directory/.git ./temp
+
 echo -e "\033[0;32mGenerating site...\033[0m"
 build_command
+
+mv ./temp ./$directory/.git
 
 echo -e "\033[0;32mDeploying $branch branch...\033[0m"
 cd $directory &&
   git add --all &&
   git commit -m "Deploy updates" &&
-  git push origin $branch
+  git push origin $branch -f
 
 echo -e "\033[0;32mCleaning up...\033[0m"
 cd $DIR
