@@ -1,6 +1,6 @@
 ---
 id: early-game-question-2
-title: The Early Game (Question 2)
+title: 开局（题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

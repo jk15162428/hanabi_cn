@@ -1,6 +1,6 @@
 ---
 id: other-general-strategy-question-2
-title: Other General Strategy (Question 2)
+title: 其他策略（题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

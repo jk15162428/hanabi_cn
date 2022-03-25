@@ -1,6 +1,6 @@
 ---
 id: single-card-focus-question-2
-title: Single Card Focus (Question 2)
+title: 焦点牌唯一（题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

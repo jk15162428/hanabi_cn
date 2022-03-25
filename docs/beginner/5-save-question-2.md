@@ -1,6 +1,6 @@
 ---
 id: 5-save-question-2
-title: The 5 Save (Question 2)
+title: 保留5（题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

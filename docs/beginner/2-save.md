@@ -1,6 +1,6 @@
 ---
 id: 2-save
-title: 保留2（2 Save）
+title: 保留2（The 2 Save）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

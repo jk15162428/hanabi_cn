@@ -1,6 +1,6 @@
 ---
 id: good-touch-principle-question-3
-title: Good Touch Principle (Question 3)
+title: 点优原则（题3）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

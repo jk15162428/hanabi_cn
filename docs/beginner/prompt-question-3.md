@@ -1,6 +1,6 @@
 ---
 id: prompt-question-3
-title: The Prompt (Question 3)
+title: 示意（题1）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

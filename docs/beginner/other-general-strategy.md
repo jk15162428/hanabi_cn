@@ -1,6 +1,6 @@
 ---
 id: other-general-strategy
-title: 其他的一般策略
+title: 其他策略
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

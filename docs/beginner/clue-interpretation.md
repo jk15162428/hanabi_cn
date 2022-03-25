@@ -9,7 +9,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 ## Clue Overview
 
-总得来说，现在我们有：
+总的来说，现在我们有：
 
 1. *打出提示*
     - 普通的*打出提示*

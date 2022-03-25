@@ -90,6 +90,16 @@ function Home() {
               学习更多
             </Link>
           </div>
+          <div>
+            本约定由<a
+              href="https://github.com/hanabi/hanabi.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              H-group玩家群组
+            </a>
+            编写，由Utopia完成翻译。
+          </div>
         </div>
       </header>
       <main>

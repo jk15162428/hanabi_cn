@@ -28,4 +28,6 @@ cd "$DIR"
 SECONDS=0
 rm -rf "$DIR/build"
 npm run build
+cp -r ./.git ./build/
 echo "Build successful. (It took $SECONDS seconds.)"
+

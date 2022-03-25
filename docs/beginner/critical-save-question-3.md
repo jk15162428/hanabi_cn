@@ -1,6 +1,6 @@
 ---
 id: critical-save-question-3
-title: The Critical Save (Question 3)
+title: 保留关键卡牌（题3）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

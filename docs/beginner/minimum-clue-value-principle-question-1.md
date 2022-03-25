@@ -1,6 +1,6 @@
 ---
 id: minimum-clue-value-principle-question-1
-title: Minimum Clue Value Principle (Question 1)
+title: 最小提示价值原则（题1）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

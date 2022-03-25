@@ -14,7 +14,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 ### 仅应用于弃牌位
 
-- *保留提示***只应该给到待弃牌**。
+- *保留提示* **只应该给到待弃牌**。
   - 所以说，如果一个提示的焦点并不是待弃牌，那么这就肯定是一个*打出提示*。
 
 <br />

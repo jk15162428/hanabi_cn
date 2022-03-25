@@ -1,6 +1,6 @@
 ---
 id: 5-save
-title: 保留5（5 Save）
+title: 保留5（The 5 Save）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
