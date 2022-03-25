@@ -90,16 +90,19 @@ function Home() {
               学习更多
             </Link>
           </div>
-          <div>
-            本约定由<a
+          <br></br>
+          <p>
+            本约定由
+            <a
               href="https://github.com/hanabi/hanabi.github.io"
               target="_blank"
               rel="noopener noreferrer"
+              style="hero__subtitle"
             >
               H-group玩家群组
             </a>
             编写，由Utopia完成翻译。
-          </div>
+          </p>
         </div>
       </header>
       <main>
