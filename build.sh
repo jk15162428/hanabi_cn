@@ -26,7 +26,7 @@ echo "All the YAML files are valid. (It took $SECONDS seconds.)"
 # Build the website, which will go into the "build" subdirectory
 cd "$DIR"
 SECONDS=0
-# rm -rf "$DIR/build" no need for this
+rm -rf "$DIR/build" no need for this
 npm run build
 echo "Build successful. (It took $SECONDS seconds.)"
 
