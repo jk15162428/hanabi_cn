@@ -91,13 +91,12 @@ function Home() {
             </Link>
           </div>
           <br></br>
-          <p>
+          <p className="hero__subtitle">
             本约定由
             <a
               href="https://github.com/hanabi/hanabi.github.io"
               target="_blank"
               rel="noopener noreferrer"
-              style="hero__subtitle"
             >
               H-group玩家群组
             </a>
