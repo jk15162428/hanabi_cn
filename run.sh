@@ -1,5 +1,4 @@
 #!/bin/bash
-
 set -e # Exit on any errors
 
 # Get the directory of this script
