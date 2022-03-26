@@ -1,10 +1,10 @@
-# H-Group Conventions for Hanabi
+# 花火的H-Group约定
 
 [![H-Group](/static/img/hyphenated-circle.png)](https://hanabi.github.io/)
 
-Please visit the **[conventions website](https://hanabi.github.io/)**.
+约定细则请查阅**[该网站](https://jk15162428.github.io/hanabi_cn/)**.
 
-This is the GitHub repository for the website. It is built with [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+这是该约定网页的Github repository。使用一个现代静态网页生成器[Docusaurus 2](https://v2.docusaurus.io/)搭建。
 
 <br />
 

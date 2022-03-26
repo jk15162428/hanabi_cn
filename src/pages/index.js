@@ -100,7 +100,7 @@ function Home() {
             >
               H-group玩家群组
             </a>
-            编写，由Utopia完成翻译。
+            编写。
           </p>
         </div>
       </header>
