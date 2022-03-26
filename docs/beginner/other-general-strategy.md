@@ -41,4 +41,3 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 ### 坦然弃牌
 
 - **不要畏惧弃牌**。如果你弃掉了重要的卡牌，那不是你的错——保留重要的卡牌是你队友的职责。
-

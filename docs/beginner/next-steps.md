@@ -23,4 +23,3 @@ import Bluff from '@site/image-generator/yml/level-10/bluff-question1.yml';
 - 你现在已经可以与H-group的其他成员一起玩游戏了
 - 在你已经与我们群组的成员耍了好几把前，不要深入阅读该网站的内容。
 - 现在，来看看[怎么加入我们的游戏](../how-to-join.md)吧。
-

@@ -16,7 +16,6 @@ import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
   - 玩家**只被允许**向在*保留原则*中提到的特定卡牌给出*保留提示*。
 - 如果玩家没法给出一个合法的*打出提示*或*保留提示*，那么他们必须**弃牌**。
 
-
 <br />
 
 ### 负节奏提示（Tempo Clues）
@@ -34,4 +33,3 @@ import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
 - 所以，如果一名玩家只有给出*负节奏提示*和弃牌的选项时，他**必须弃牌**。
 - 我们将这个概念命名为*最小提示价值原则*：**所有的提示都必须点到至少一张先前并未提示或保留的卡牌**。
 - 换句话说，作为一个玩家群组，我们要秉持高标准，我们不应该给出低效的提示。
-

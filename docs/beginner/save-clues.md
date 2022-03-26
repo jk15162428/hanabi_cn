@@ -45,4 +45,3 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
   - *保留2*
   - *保留关键卡牌*
 - 我们再具体讲讲每一种类型的保留提示。
-
