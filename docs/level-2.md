@@ -21,7 +21,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ## Special Moves
 
-### The 5 Stall (Cluing Off Chop 5's)
+### 5踏步（The 5 Stall）
 
 - Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is **not** on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
 - As a special exception, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
@@ -32,7 +32,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Double Prompt / Triple Prompt / Quadruple Prompt
+### 多重示意
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
 - For example, in a 3-player game:
@@ -45,7 +45,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Double Finesse / Triple Finesse / Quadruple Finesse
+### 多重巧技
 
 - Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
 - For example, in a 4-player game:
@@ -85,7 +85,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Reverse Finesse
+### 逆向巧技
 
 - In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card.
   - i.e. clue --> blind-play --> clued-card plays
@@ -111,7 +111,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Self-Finesse
+### 自巧技
 
 - It is also possible to perform a *Finesse* on a player by giving **them** a clue.
 - For example, in a 3-player game:

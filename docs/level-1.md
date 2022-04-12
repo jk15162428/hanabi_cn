@@ -72,7 +72,7 @@ This process is represented in the following flowchart:
 
 <br />
 
-### The Early Game
+### 开局
 
 - The *Early Game* is the period of time before someone discards for the first time.
 - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
@@ -100,7 +100,7 @@ This process is represented in the following flowchart:
 
 <br />
 
-### The Prompt
+### 示意
 
 - A *Prompt* is when you get a player to play a clued card that was previously unknown.
 - If the player **was already going to play** the card, then **it isn't a *Prompt***. *Prompts* can only be on cards that were not going to play otherwise.
@@ -109,7 +109,7 @@ This process is represented in the following flowchart:
 
 <br />
 
-### The Finesse
+### 巧技
 
 - A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
 - *Finesses* are covered in detail in the [beginner's guide](beginner/finesse.md).

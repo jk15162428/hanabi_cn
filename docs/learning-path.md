@@ -28,7 +28,7 @@ title: 学习路径
 | 进阶等级        | 进阶名称              | 主要内容 |
 | ------------------- | ----------------------- | ------------------------|
 | [1](level-1.md)     | 基础            | 「[开局](level-1.md#开局)」，「[示意](level-1.md#示意)」，「[巧技](level-1.md#巧技)」
-| [2](level-2.md)     | 初级巧技          | 「[5踏步](level-2.md#5踏步)」，「[多重巧技](level-2.md#多重巧技)」，「[逆向巧技](level-2.md#逆向巧技)」，「[自巧技](level-2.md#自巧技)」
+| [2](level-2.md)     | 初级巧技          | 「[5踏步](level-2.md#5踏步The-5-Stall)」，「[多重巧技](level-2.md#多重巧技)」，「[逆向巧技](level-2.md#逆向巧技)」，「[自巧技](level-2.md#自巧技)」
 | [3](level-3.md)     | 基础策略          | 「[多张1可打时](level-3.md#多张1可打时)」，「[指正提示](level-3.md#指正提示)」，「[Sarcastic Discards](level-3.md#the-sarcastic-discard)」
 
 <br />

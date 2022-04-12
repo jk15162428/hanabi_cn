@@ -261,7 +261,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 ### Mistaking a Layered Finesse for a Bluff
 
-- First, see the section on the *[Layered Finesse](level-5.md#the-layered-finesse)*.
+- First, see the section on the *[Layered Finesse](level-5.md#多层巧技the-layered-finesse)*.
 - Sometimes, players only play one card into a *Layered Finesse*, and then stop (when they should instead be digging for the promised card).
 - To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
   - If the clue-giver was in *Bluff Seat*, then it is a *Bluff*.
@@ -288,6 +288,6 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 ### Stacked Bluffs (Illegal)
 
-- First, see the section on the *[Stacked Finesse](level-5.md#the-stacked-finesse)*.
+- First, see the section on the *[Stacked Finesse](level-5.md#堆叠巧技the-stacked-finesse)*.
 - *Stacked Finesses* are encouraged, since they have few downsides.
 - However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. This mistake is really bad because it causes severe *Information Desynchronization*.
