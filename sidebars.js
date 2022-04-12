@@ -46,7 +46,7 @@ module.exports = {
           ],
         },
         {
-          "提示解读（Clue Interpretation）": [
+          "提示解读": [
             "beginner/single-card-focus",
             "beginner/single-card-focus-question-1",
             "beginner/single-card-focus-question-2",
@@ -83,7 +83,7 @@ module.exports = {
           ],
         },
         {
-          "开局（The Early Game）": [
+          "开局": [
             "beginner/early-game",
             "beginner/early-game-question-1",
             "beginner/early-game-question-2",

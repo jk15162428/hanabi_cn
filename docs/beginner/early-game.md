@@ -1,6 +1,6 @@
 ---
 id: early-game
-title: 开局
+title: 开局（The Early Game）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

@@ -1,6 +1,6 @@
 ---
 id: save-principle
-title: 点优原则
+title: 保留原则
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
