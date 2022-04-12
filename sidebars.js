@@ -101,7 +101,7 @@ module.exports = {
           ],
         },
         {
-          "特殊行动（Special Moves）": [
+          "特殊操作（Special Moves）": [
             "beginner/special-moves",
             "beginner/prompt",
             "beginner/prompt-question-1",
@@ -115,15 +115,15 @@ module.exports = {
         "beginner/next-steps",
       ],
     },
-    // "how-to-join",
-    // "learning-path",
-    // {
-    //   "Basic Strategies": [
+    "how-to-join",
+    "learning-path",
+    {
+      "初级策略": [
     //     "reference",
     //     "first-principles",
     //     "level-1",
     //     "level-2",
-        // "level-3",
+        "level-3",
         // "level-4",
         // "level-5",
         // "level-6",
@@ -144,8 +144,8 @@ module.exports = {
         // "level-21",
         // "level-22",
         // "level-23",
-      // ],
-    // },
+      ],
+    },
     // {
     //   "Advanced Strategies": [
     //     "extras",

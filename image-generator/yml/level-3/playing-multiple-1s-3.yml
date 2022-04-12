@@ -11,22 +11,20 @@ players:
       - type: 1
         clue: 1
         middle_note: 2nd
-        below: Fresh
+        below: 新抽的
       - type: 1
         clue: 1
         middle_note: 4th
         below:
           text:
-            - Starting
-            - Hand
+            - 起手牌
           color: gray
       - type: 1
         clue: 1
         middle_note: 3rd
         below:
           text:
-            - Starting
-            - Hand
+            - 起手牌
           color: gray
       - type: x
       - type: 1
@@ -34,9 +32,8 @@ players:
         middle_note: 1st
         below:
           text:
-            - Starting
-            - Hand
-            - + Chop
+            - 起手牌
+            - + 弃牌位
           color: gray
 
   - clue_giver: true

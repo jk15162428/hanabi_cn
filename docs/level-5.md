@@ -59,7 +59,7 @@ import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principl
 
 <br />
 
-### The Layered Finesse
+### 多层巧技（The Layered Finesse）
 
 - Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a *Lie*, since the blind-playing player does indeed have the true copy of the card.
 - We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
@@ -105,7 +105,7 @@ import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principl
 
 <br />
 
-### The Stacked Finesse
+### 堆叠巧技（The Stacked Finesse）
 
 - If a player has been *Finessed*, then their *Finesse Position* moves right one slot, exactly like if the blind card was clued. (This is a similar concept to how the chop moves left one slot when a player is *Chop Moved*.)
 - If **another** *Finesse* is performed on the player who has already been *Finessed*, it is stacking a 2nd *Finesse* on top of the first, and they are expected to blind-play the new *Finesse Position* card.

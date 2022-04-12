@@ -1,44 +1,45 @@
 ---
 id: learning-path
-title: Learning Path
+title: 学习路径
 ---
 
-### Intro
+### 简述
 
-People from all around the world like to play Hanabi. Thanks to the internet, we regularly see new players from all walks of life. Some only play for a few days, while some continue to play for years! But no matter how long people play for, there is always more to learn, because Hanabi has a ton of depth, similar to chess.
+世界各地都有喜欢玩花火的人。感谢因特网，我们可以经常见到各行各业的新玩家不断出现。有一些只玩了几天，但有一些可能已经玩了数年！但不论一个人玩了多久花火，总有更多的知识需要学习，因为花火非常非常的复杂，和国际象棋平分秋色。
 
-For those who love Hanabi and wish to continue playing with the group, the path from a new player to an expert player is a long one. It will be filled with many practice games, countless mistakes, and the learning of many different conventions. If that sounds daunting, it isn't meant to - getting to know the various people in the group and playing a lot of Hanabi will be a ton of fun, regardless of your skill level.
+对于那些热爱花火并希望一直与我们群组内的其他玩家游玩的人，这条从萌新到带师的进化之旅有亿点点长。路途中会有很多练习局，数不尽的失误以及学习与成长。听上去可能有点骇人，但实则不然。认识我们群组中各种各样的玩家，游玩各种各样的变体会非常有意思的，不管你如今水平如何。
 
-When playing with new players, everyone in the group knows to **keep it simple**, and only use the basic strategies that are covered in the [beginner's guide](beginner). However, after someone plays a few beginner games, things start to "open up" a bit, and new "special moves" start to be taught, like *Chop Moves* and *Layered Finesses*. There's a lot to learn, and we don't want to overwhelm new players with it all at once. So what is the correct order to learn stuff in?
+在和新玩家游玩的时候，每名H-Group的玩家都知道**从简**，只应用在[初学者指南](beginner)中涉及的最简单的策略。不过，在几把入门局后，大家就会“放开”那么一点，一些“特殊的行为”就会开始慢慢渗透其中，比如「弃牌位移动」和「多层巧技」。有很多东西需要学习，我们并不希望全部告诉新人一下子把他们给吓坏咯，那么什么样的学习顺序会比较适合新手呢？
 
-Handily, we sort our conventions into different "levels" based on experience. Before a game starts, newer players **should make it clear to the group what level they want to play with**. And then everyone in the group **should stick to using only conventions in that level**. For advanced players, it may be tempting to show a newer-players an advanced move. But don't do it! Keep it simple! Let them learn the fundamentals before introducing more complicated things.
+为方便，我们根据经验整理了约定，将它们分为了多个“进阶等级”。在一局游戏开始前，萌新玩家**应该告诉其他玩家自己可以玩哪个进阶等级**。然后其他玩家**只应该使用那个进阶中所涉及的约定**。对那些高手来说，也许向新手展示一个高级操作很诱人。但不要那么做！从简！让他们先打好基础，再引入更加复杂的东西。
 
-Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a completely inappropriate situation. As the expression goes, "you have to learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor understanding of the game **are much harder to play with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
+为什么这个事这么重要？我们在一些位于中级玩家身上发现这么一个常见的错误：一旦他们学到了一种高级操作，他们就会以为自己完全理解了怎么用它，然后他们就会在完全不适用的场合模仿这种高级操作。正如俗话所说，“先学走，再学跑”。那些知道高级操作，但决策糟糕，只知其一不知其二的中级玩家要比那些忠于基础，行为都在预料之中，一步一步来的中级玩家**更加不讨人喜欢**。
 
-If you are a newer player and you feel like you have mastered the concepts in the beginner's guide, then use the left sidebar to start exploring the level 2 conventions.
+如果你是一名新玩家，感觉自己已经精通了初学者指南中的内容，那么就请使用左侧的侧边栏，开始探索进阶2的内容吧！
 
-For information on how variants tie in to the levels, see the [variant summary](#variant-summary).
+想要了解变体与进阶等级如何挂钩的信息，请查看[变体概括](#变体概括)。
 
 <br />
 
-### Level Summary
+### 进阶概括
 
-The following is a quick summary of the levels.
+下表是对各个进阶等级内容的高度概括。
 
-| Level Number        | Level Name              | Main Conventions Learned|
+| 进阶等级        | 进阶名称              | 主要内容 |
 | ------------------- | ----------------------- | ------------------------|
-| [1](level-1.md)     | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*|
-| [2](level-2.md)     | Basic Finesses          | *[5 Stalls](level-2.md#the-5-stall-cluing-off-chop-5s)*, *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*|
+| [1](level-1.md)     | 基础            | 「[开局](level-1.md#开局)」，「[示意](level-1.md#示意)」，「[巧技](level-1.md#巧技)」
+| [2](level-2.md)     | 初级巧技          | 「[5踏步](level-2.md#5踏步)」，「[多重巧技](level-2.md#多重巧技)」，「[逆向巧技](level-2.md#逆向巧技)」，「[自巧技](level-2.md#自巧技)」
+| [3](level-3.md)     | 基础策略          | 「[多张1可打时](level-3.md#多张1可打时)」，「[指正提示](level-3.md#指正提示)」，「[Sarcastic Discards](level-3.md#the-sarcastic-discard)」
 
 <br />
 
-### Variant Summary
+### 变体概括
 
-Hanab Live has a lot of different variants and the *H-Group* plays a good mix of them. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
+Hanab Live有层出不穷的变体，而H-Group常常会混着挑一些游玩。变体的目的旨在提高游戏的难度，给那些经验丰富的玩家一些挑战。与你在很好地掌握底层的一些机理之前就试图尝试高级操作会弄巧成拙一样，游玩过于复杂的变体也会适得其反。因此，新手在打扎实基础前应该先多游玩“No Variant”（无变体）。
 
-The following is a rough description of how some variants map to convention levels.
+下表列出了部分变体与进阶等级大体上是如何挂钩的。
 
-| Variant    | Level
+| 变体    | 进阶等级
 | ----------- | -----
 | No Variant  | 1
 | 3/4/6 Suits | 2

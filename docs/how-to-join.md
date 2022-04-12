@@ -1,6 +1,6 @@
 ---
 id: how-to-join
-title: How to Join Games
+title: 如何加入游戏（尚未翻译）
 ---
 
 Once you have read the [beginner's guide](beginner), you can join a game with the *H-Group*.

@@ -83,7 +83,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
+          editUrl: "https://github.com/jk15162428/hanabi_cn/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

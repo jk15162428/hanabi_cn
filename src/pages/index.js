@@ -102,6 +102,16 @@ function Home() {
             </a>
             编写。
           </p>
+          <br></br>
+          <p className="hero__subtitle">
+            若您有兴趣帮助H-group约定中文化，可加入<a
+              href="https://discord.gg/BvW4sDxrQx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              H-group中文Discord群组
+            </a>。
+          </p>
         </div>
       </header>
       <main>

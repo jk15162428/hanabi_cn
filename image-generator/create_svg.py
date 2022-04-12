@@ -627,9 +627,13 @@ def draw_textbox(svg_file, opts, offset):
         ):
             color = {
                 "focus": "gold",
+                "焦点": "gold",
                 "play": "gold",
+                "打出": "gold",
                 "chop": "darkred",
+                "弃牌位": "darkred",
                 "fresh": "green",
+                "新抽的": "green",
                 "bad": "gray",
                 "brown": "sienna",
             }.get(color, "black")

@@ -1,6 +1,6 @@
 ---
 id: level-3
-title: Level 3 - Basic Strategy
+title: 进阶3 - 基础策略
 ---
 
 import PlayingMultiple1s1 from '@site/image-generator/yml/level-3/playing-multiple-1s-1.yml';
@@ -13,69 +13,69 @@ import FixClue4 from '@site/image-generator/yml/level-3/fix-clue-4.yml';
 import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discard.yml';
 import InformationLock from '@site/image-generator/yml/level-3/information-lock.yml';
 
-- From here on out, you can move to the next level once you feel comfortable with the previous one.
-- For levels 3-9, a good rule of thumb is 10-15 games of practice per level.
-- For later levels, a good rule of thumb is 15-20 games of practice per level.
-- Don't rush moving to the next level! If you haven't mastered what you already know, it can be frustrating for your teammates.
+- 从现在开始，只要你觉得自己熟练掌握了前一个进阶的内容，你可以随时学习下一个进阶等级。
+- 对于进阶3-9的内容，比较好的建议是每个进阶练习10-15把游戏。
+- 对于之后的进阶内容，比较好的建议是每个进阶练习15-20把游戏。
+- 不要急于学习下一个进阶的内容！如果你还未融会贯通所学的知识，你很可能会让队友失望。
 
 <br />
 
-## Conventions
+## 约定
 
 <br />
 
-### Playing Multiple 1's
+### 多张1可打时
 
-#### Part 1 - Play Order Inversion in the Starting Hand
+#### 第一环：起手牌需反向打出
 
-- If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
-- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
-- In the below example:
-  - On the first turn of the game, Alice clues number 1 to Bob, which touches three 1s (on slot 2, slot 3, and slot 4).
-  - From *Good Touch Principle*, Bob knows that he can now play all three of these cards.
-  - Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
+- 如果你的手中有多于一张1被提示，**你应该假设它们都可以被打出**。（这仅适用于1，为什么？想想「点优原则」。）
+- 我们规定在游戏开局打出数字1是一种特殊情况：你应该总是**从右往左打出起手牌中的1**。（这是一个特殊情况，因为一般情况下，「打出提示」意味着打出最左边的卡。）
+- 在下面的例子中：
+  - 在游戏开始的第一轮，Alice向Bob提示数字1，点到了三张1（2号、3号和4号槽位）。
+  - 由「点优原则」可知，Bob知道他手中的三张牌都可以打出。
+  - Bob应该优先打出4号槽位的卡牌，然后是3号槽位，最后是2号槽位的卡牌。
 
 <PlayingMultiple1s1 />
 
-- (The logic behind this convention is explained [in the convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).)
+- （这个约定背后的逻辑在[约定解释文档](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s)中有解释）
 
 <br />
 
-#### Part 2 - The Fresh 1's Rule
+#### 第二环：新1原则
 
-- If:
-  - two (or more) 1's are clued in someone's hand,
-  - and one of the 1's was in the starting hand,
-  - and one of the 1's was not,
-  - then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
-- Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-- Continuing on from the example in the previous section, imagine that:
-  - Bob plays his slot 4 card. It is a red 1 and it successfully plays. (He then draws a card, and all of the other cards in his hand slide over.)
-  - Alice clues 1's to Bob, which touches a new card on slot 1 and re-touches the ones on slot 3 and slot 4.
-  - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next.
-  - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 card.
+- 如果：
+  - 一名玩家手中的两张（或更多）张卡牌被提示1，
+  - 其中一张（或多张）1在起手牌中，
+  - 并且有另一张不在起手牌中，
+  - 那么“最新的”卡牌直觉上来说更为重要。（否则，这个提示之前就应该被给出）
+- 因此，刚抓上来的1应该总是比原本留在起手牌中的1先打出。
+- 我们接着上面的那个例子，假设：
+  - Bob打出了4号槽位的卡牌。成功打出1张红1。（他之后抽了张牌，其他牌会依次往右挪一格）
+  - Alice向Bob提示了数字1，点到了1号槽位的新牌，重新点到了3号与4号槽位的1。
+  - Bob知道新抽的1优先级更高，他打出1号槽位的卡牌。
+  - 之后，Bob恢复到先前的打牌顺序中，先打出4号槽位的1，再打出3号槽位的1。
 
 <PlayingMultiple1s2 />
 
 <br />
 
-#### Part 3 - The Chop-Focus Exception
+#### 第三环：弃牌位聚焦特例
 
-- The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
-- For example, in a 3-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice discards a red 4.
-  - Bob clues number 1 to Alice, touching four 1's on slots 1, 2, 3, and 5.
-  - Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
-    - Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that the slot 5 card (her chop) should play first.
-    - After that, she uses the *Fresh 1's Rule*, and knows to play the 1 in slot 1 next.
-    - After that, she will play the rest of the 1's from oldest to newest (since they were in her starting hand), so she will play slot 3 and then slot 2.
+- 「新1原则」有一个例外：弃牌位聚焦优先级**更高**。
+- 例子如下，在一个三人游戏中：
+  - 红2与蓝2已经打出。
+  - Alice弃掉了一张红4。
+  - Bob向Alice提示了数字1，点到了1、2、3、5号槽位的4张1。
+  - Alice知道正确的打出顺序是5，1，3，2：
+    - 首先Alice知道通常情况下，你应该打出刚抓的1，再打出起手牌中的其他1。然而，*弃牌位聚焦*会覆盖掉这条规则，所以她知道自己5号槽位（弃牌位）的牌应该优先打出。
+    - 之后，她使用「新1原则」，知道接下来应该打出1号槽位的1。
+    - 再后，她会将剩下的1从右往左打出（因为它们都在起手牌中），所以她会打出3号槽位的1，再打出2号槽位的1。
 
 <PlayingMultiple1s3 />
 
 <br />
 
-### The Fix Clue
+### 指正提示
 
 - Nearly every clue is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
@@ -89,7 +89,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### The Fix Clue (That Touches Multiple Cards)
+### 指正提示（点到多张牌时）
 
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable. The **only** information that a *Fix Clue* conveys is to fix the impending misplay or duplication.
 - In the example below:
@@ -104,7 +104,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### The Fix Clue (That Gives No Additional Information)
+### 指正提示（没有给出额外信息时）
 
 - Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again.
 - In the example below:
@@ -126,7 +126,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-## Special Moves
+## 特殊操作
 
 <br />
 
@@ -151,7 +151,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-## General Principles
+## 一般原则
 
 <br />
 
@@ -164,7 +164,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### Efficiency
+### 效率
 
 - A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
 - If you use one clue to get one card, we refer to that as a 1-for-1 clue. For example:
@@ -180,7 +180,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### Tempo
+### 节奏
 
 - *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
 - Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
