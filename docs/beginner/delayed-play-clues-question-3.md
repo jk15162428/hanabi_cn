@@ -1,6 +1,6 @@
 ---
 id: delayed-play-clues-question-3
-title: 滞后打出提示（题3）
+title: Delayed Play Clues（习题3）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

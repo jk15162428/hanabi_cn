@@ -7,7 +7,7 @@ module.exports = {
         "beginner",
         "beginner/card-layout",
         {
-          "待弃牌（The Chop）": [
+          "The Chop（弃牌位）": [
             "beginner/chop",
             "beginner/chop-question-1",
             "beginner/chop-question-2",
@@ -18,7 +18,7 @@ module.exports = {
         "beginner/card-notes",
         "beginner/two-types-of-clues",
         {
-          "1 - 打出提示（Play Clues）": [
+          "1 - Play Clues（打出提示）": [
             "beginner/play-clues",
             "beginner/play-clues-question-1",
             "beginner/play-clues-question-2",
@@ -29,7 +29,7 @@ module.exports = {
           ],
         },
         {
-          "2 - 保留提示（Save Clues）": [
+          "2 - Save Clues（保留提示）": [
             "beginner/save-clues",
             "beginner/5-save",
             "beginner/5-save-question-1",
@@ -61,7 +61,7 @@ module.exports = {
         },
         "beginner/three-main-principles",
         {
-          "1 - 点优原则（Good Touch Principle）": [
+          "1 - Good Touch Principle（点优原则）": [
             "beginner/good-touch-principle",
             "beginner/good-touch-principle-question-1",
             "beginner/good-touch-principle-question-2",
@@ -70,20 +70,20 @@ module.exports = {
           ],
         },
         {
-          "2 - 保留原则（Save Principle）": [
+          "2 - Save Principle（保留原则）": [
             "beginner/save-principle",
             "beginner/save-principle-question-1",
             "beginner/save-principle-question-2",
           ],
         },
         {
-          "3 - 最小提示价值原则（Minimum Clue Value Principle）": [
+          "3 - Minimum Clue Value Principle（最小提示价值原则）": [
             "beginner/minimum-clue-value-principle",
             "beginner/minimum-clue-value-principle-question-1",
           ],
         },
         {
-          "开局": [
+          "The Early Game（开局）": [
             "beginner/early-game",
             "beginner/early-game-question-1",
             "beginner/early-game-question-2",
@@ -91,7 +91,7 @@ module.exports = {
           ],
         },
         {
-          "一般策略（General Strategy）": [
+          "一般策略": [
             "beginner/other-general-strategy",
             "beginner/other-general-strategy-question-1",
             "beginner/other-general-strategy-question-2",
@@ -101,7 +101,7 @@ module.exports = {
           ],
         },
         {
-          "特殊操作（Special Moves）": [
+          "特殊操作": [
             "beginner/special-moves",
             "beginner/prompt",
             "beginner/prompt-question-1",
@@ -118,7 +118,7 @@ module.exports = {
     "how-to-join",
     "learning-path",
     {
-      "初级策略": [
+      "基础策略": [
     //     "reference",
     //     "first-principles",
     //     "level-1",

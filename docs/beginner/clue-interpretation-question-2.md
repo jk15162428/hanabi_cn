@@ -1,6 +1,6 @@
 ---
 id: clue-interpretation-question-2
-title: 提示解读（题2）
+title: 提示解读（习题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

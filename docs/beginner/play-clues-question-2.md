@@ -1,6 +1,6 @@
 ---
 id: play-clues-question-2
-title: 打出提示（题2）
+title: Play Clues（习题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

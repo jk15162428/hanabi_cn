@@ -9,7 +9,7 @@ title: 学习路径
 
 对于那些热爱花火并希望一直与我们群组内的其他玩家游玩的人，这条从萌新到带师的进化之旅有亿点点长。路途中会有很多练习局，数不尽的失误以及学习与成长。听上去可能有点骇人，但实则不然。认识我们群组中各种各样的玩家，游玩各种各样的变体会非常有意思的，不管你如今水平如何。
 
-在和新玩家游玩的时候，每名H-Group的玩家都知道**从简**，只应用在[初学者指南](beginner)中涉及的最简单的策略。不过，在几把入门局后，大家就会“放开”那么一点，一些“特殊的行为”就会开始慢慢渗透其中，比如「弃牌位移动」和「多层巧技」。有很多东西需要学习，我们并不希望全部告诉新人一下子把他们给吓坏咯，那么什么样的学习顺序会比较适合新手呢？
+在和新玩家游玩的时候，每名H-Group的玩家都知道**从简**，只应用在[初学者指南](beginner)中涉及的最简单的策略。不过，在几把入门局后，大家就会“放开”那么一点，一些“特殊的行为”就会开始慢慢渗透其中，比如「Chop Moves」（弃牌位移动）和「Layered Finesses」（多层巧技）。有很多东西需要学习，我们并不希望全部告诉新人一下子把他们给吓坏咯，那么什么样的学习顺序会比较适合新手呢？
 
 为方便，我们根据经验整理了约定，将它们分为了多个“进阶等级”。在一局游戏开始前，萌新玩家**应该告诉其他玩家自己可以玩哪个进阶等级**。然后其他玩家**只应该使用那个进阶中所涉及的约定**。对那些高手来说，也许向新手展示一个高级操作很诱人。但不要那么做！从简！让他们先打好基础，再引入更加复杂的东西。
 
@@ -27,9 +27,9 @@ title: 学习路径
 
 | 进阶等级        | 进阶名称              | 主要内容 |
 | ------------------- | ----------------------- | ------------------------|
-| [1](level-1.md)     | 基础            | 「[开局](level-1.md#开局)」，「[示意](level-1.md#示意)」，「[巧技](level-1.md#巧技)」
-| [2](level-2.md)     | 初级巧技          | 「[5踏步](level-2.md#5踏步The-5-Stall)」，「[多重巧技](level-2.md#多重巧技)」，「[逆向巧技](level-2.md#逆向巧技)」，「[自巧技](level-2.md#自巧技)」
-| [3](level-3.md)     | 基础策略          | 「[多张1可打时](level-3.md#多张1可打时)」，「[指正提示](level-3.md#指正提示)」，「[Sarcastic Discards](level-3.md#the-sarcastic-discard)」
+| [1](level-1.md)     | Fundamentals<br />（基础）           | 「[The Early Game（开局）](level-1.md#the-early-game)」，「[Prompts（示意）](level-1.md#the-prompt)」，「[Finesses（巧技）](level-1.md#the-finesse)」
+| [2](level-2.md)     | Basic Finesses<br />（初级巧技）          | 「[5 Stalls（5踏步）](level-2.md#the-5-stall-cluing-off-chop-5s5踏步)」，「[Double Finesses（多重巧技）](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse多重巧技)」，「[Reverse Finesses（逆向巧技）](level-2.md#the-reverse-finesse逆向巧技)」，「[Self-Finesses（自巧技）](level-2.md#the-self-finesse自巧技)」
+| [3](level-3.md)     | Basic Strategy<br />（初级策略）          | 「[Playing Multiple 1's（多张1可打时）](level-3.md#playing-multiple-1s多张1可打时)」，「[The Fix Clue（指正提示）](level-3.md#the-fix-clue指正提示)」，「[Sarcastic Discard（讽刺性弃牌）](level-3.md#the-sarcastic-discard讽刺性弃牌)」
 
 <br />
 

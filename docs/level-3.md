@@ -1,6 +1,6 @@
 ---
 id: level-3
-title: 进阶3 - 基础策略
+title: 进阶3 - Basic Strategy（初级策略）
 ---
 
 import PlayingMultiple1s1 from '@site/image-generator/yml/level-3/playing-multiple-1s-1.yml';
@@ -24,7 +24,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### 多张1可打时
+### Playing Multiple 1's（多张1可打时）
 
 #### 第一环：起手牌需反向打出
 
@@ -75,7 +75,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### 指正提示
+### The Fix Clue（指正提示）
 
 - Nearly every clue is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
@@ -130,7 +130,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### The Sarcastic Discard
+### The Sarcastic Discard（讽刺性弃牌）
 
 - Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
 - Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued card, something special must be going on.)

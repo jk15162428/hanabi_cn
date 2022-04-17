@@ -1,0 +1,69 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - name: 红色
+    cards:
+      - type: r1
+        border: false
+      - type: r2
+        border: false
+      - type: r3
+        border: false
+      - type: r4
+        border: false
+      - type: r5
+        border: false
+  - name: 黄色
+    cards:
+      - type: y1
+        border: false
+      - type: y2
+        border: false
+      - type: y3
+        border: false
+      - type: y4
+        border: false
+      - type: y5
+        border: false
+  - name: 绿色
+    cards:
+      - type: g1
+        border: false
+      - type: g2
+        border: false
+      - type: g3
+        border: false
+      - type: g4
+        border: false
+      - type: g5
+        border: false
+  - name: 蓝色
+    cards:
+      - type: b1
+        border: false
+      - type: b2
+        border: false
+      - type: b3
+        border: false
+      - type: b4
+        border: false
+      - type: b5
+        border: false
+  - name: 紫色
+    cards:
+      - type: p1
+        border: false
+      - type: p2
+        border: false
+      - type: p3
+        border: false
+      - type: p4
+        border: false
+      - type: p5
+        border: false
+
+

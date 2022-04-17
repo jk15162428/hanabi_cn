@@ -1,6 +1,6 @@
 ---
 id: finesse-question-2
-title: 巧技（题2）
+title: The Finesse（习题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

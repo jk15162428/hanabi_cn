@@ -1,6 +1,6 @@
 ---
 id: good-touch-principle-question-4
-title: 点优原则（题4）
+title: Good Touch Principle（习题4）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

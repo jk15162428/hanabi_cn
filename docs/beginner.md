@@ -19,26 +19,26 @@ title: 引言
 
 ## 警告
 
-- Note that the beginner's guide assumes that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, either [read them here](https://github.com/Zamiell/hanabi-live/blob/master/docs/RULES.md) or [watch this video](https://www.youtube.com/watch?v=VrFCekQb4nY).
-- If you know the rules but you've *never actually played* Hanabi, then it might be best to play a practice game or two before reading the guide so that you are more familiar with the game mechanics.
+- 注意，初学者指南默认你已经熟悉了花火的基本规则。如果你需要温故一下，可以[阅读这篇](https://github.com/Zamiell/hanabi-live/blob/master/docs/RULES.md)（英文）或[观看这个视频](https://www.youtube.com/watch?v=VrFCekQb4nY)（英文）。中文翻译可以阅读初学者指南之前的[规则](rules.md)页面，视频仍在制作当中。
+- 如果你知道规则，但从来没有**上手**过花火这款游戏，那也许你应该先玩一两把，直到熟悉游戏机制后再阅读初学者指南。
 
 <br />
 
 ## 综述
 
 本篇指南中，你会习得如下策略：
-1. 「待弃牌」 - 未被提示过的最旧的牌。
+1. 「The Chop」（弃牌位） - 未被提示过的最旧的牌。
 1. 两种提示类型：
-    - 「打出提示」 - 表明一张牌之后能被打出。
-    - 「保留提示」 - 防止某些卡牌被弃掉。
-1. 「焦点唯一」 - 每个提示只有一张「焦点牌」。
-1. 「点优原则」 - 只提示会被打出的牌。不提示永远不会被打出的牌。
-1. 「保留原则」 - 保留所有重要的牌。
-1. 「最小提示价值原则」 - 所有提示都应该给出至少一张全新卡牌。
-1. 「示意」 & 「巧技」 - 如果情况允许，用一个提示打出两或多张牌。
+    - 「Play Clues」（打出提示） - 表明一张牌之后能被打出。
+    - 「Save Clues」（保留提示） - 防止某些卡牌被弃掉。
+1. 「Single Focus」（焦点唯一） - 每个提示只有一张「焦点牌」（Focus）。
+1. 「Good Touch Principle」（点优原则） - 只提示会被打出的牌。不提示永远不会被打出的牌。
+1. 「Save Principle」（保留原则） - 保留所有重要的牌。
+1. 「Minimum Clue Value Principle」（最小提示价值原则） - 所有提示都应该给出至少一张全新卡牌。
+1. 「Prompts」（示意） & 「Finesse」（巧技） - 如果情况允许，用一个提示打出两或多张牌。
 
 <br />
 
 ## 准备就绪？
 
-准备就绪了吗？按下面的“Next”按钮，我们开始吧。
+准备就绪了吗？点击下面的“Next”按钮，我们开始吧。

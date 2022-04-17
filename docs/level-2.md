@@ -1,6 +1,6 @@
 ---
 id: level-2
-title: Level 2 - Basic Moves
+title: 进阶2 - Basic Moves（初级操作）
 ---
 
 import DoublePrompt from '@site/image-generator/yml/level-2/double-prompt.yml';
@@ -15,24 +15,24 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-question-4.yml';
 
-- Level 2 strategies can be learned after a few games of experience.
+- 进阶2的策略在游玩几局游戏后就可以开始学习啦。
 
 <br />
 
-## Special Moves
+## 特殊操作
 
-### 5踏步（The 5 Stall）
+### The 5 Stall (Cluing Off Chop 5's)（5踏步）
 
-- Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is **not** on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
-- As a special exception, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
-- However, you are **only** allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
-- Normally, *5 Stalls* are only performed in the *Early Game*. However, you might see someone do a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
-- For level 8 players, there are additional rules relating to the *5 Stall*.
-- For level 17 players, there is a special interaction between *2 Saves* and *5 Stalls*.
+- 通常来说，只有在5到了chop上时你才能给它来一个「Save Clue」，如果你给一个**不在**chop上的5提示了数字5，那么这看着就很像「Play Clue」（或者其他一些进阶策略）。
+- 有个例外，在「Early Game」（开局）时，你**被**允许给不在chop上的5「Save Clue」。这么做只是会被简单的认为是“stall”（踏步），意味着你是想将「Early Game」延长那么一小会。
+- 但是，你**只**在没有别的事可以做时才允许stall，意思就是说所有“寻常的”「Play Clues」和「Save Clues」都应该已经被给出。
+- 一般而言，「5 Stalls」只会在「Early Game」使用。不过呢，你也可能在「Mid-Game」（中局）看到有些玩家会进行「5 Stalls」出于某些原因，譬如说他们不能弃牌。
+- 对于进阶8的玩家来说，会额外增加一些有关「5 Stalls」的规则。
+- 对于进阶17的玩家来说，「2 Saves」和「5 Stalls」之间会有一个特殊的联动操作。
 
 <br />
 
-### 多重示意
+### The Double Prompt / Triple Prompt / Quadruple Prompt（多重示意）
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
 - For example, in a 3-player game:
@@ -45,7 +45,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### 多重巧技
+### The Double Finesse / Triple Finesse / Quadruple Finesse（多重巧技）
 
 - Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
 - For example, in a 4-player game:
@@ -70,22 +70,22 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Prompt + Finesse
+### The Prompt + Finesse（示意+巧技）
 
-- In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand **and then** gets them to blind-play their *Finesse Position* card on the next turn.
-- For example, in a 3-player game:
-  - Red 1 is played on the stacks.
-  - Bob has a clued red card in his hand on slot 4.
-  - Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
-  - Bob knows he must have both red 2 and red 3 (in order to make the red 4 playable), but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
-  - Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4. It is red 2 and it successfully plays.
-  - On his next turn, Bob blind-plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now it slid down to slot 2.)
+- 一般来说，玩家总是优先考虑「Prompts」而非「Finesses」。那么，我们有没有可能先「Prompt」一名玩家手中的牌，**再**让他们下一轮盲打出自己「Finesse Position」的牌呢？
+- 见下面的例子，在一个三人游戏中：
+  - 红1已经打出。
+  - Bob在自己的4号槽位有一张提示过的红色卡牌。
+  - Alice向Cathy提示了红色，点到了一张红4，而这是一个「Play Clue」。
+  - Bob知道他手里一定有红2和红3（这样红4才是可以打出的），但他手里只有一张提示过的红色卡牌。所以这一定是对他而言的「Prompt」及「Finesse」。
+  - 既然「Prompts」优先于「Finesses」，他先打出4号槽位的红色卡牌，成功打出一张红2。
+  - 下一回合，Bob盲打出位于2号槽位的红3。（他的「Finesse Position」在先前是1号槽位，但抽了张卡后变成了2号槽位。）
 
 <PromptFinesse />
 
 <br />
 
-### 逆向巧技
+### The Reverse Finesse（逆向巧技）
 
 - In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card.
   - i.e. clue --> blind-play --> clued-card plays
@@ -111,7 +111,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### 自巧技
+### The Self-Finesse（自巧技）
 
 - It is also possible to perform a *Finesse* on a player by giving **them** a clue.
 - For example, in a 3-player game:

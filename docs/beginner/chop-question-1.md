@@ -1,6 +1,6 @@
 ---
 id: chop-question-1
-title: 待弃牌（题1）
+title: The Chop（习题1）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

@@ -1,6 +1,6 @@
 ---
 id: 2-save-question-2
-title: 保留2（题1）
+title: 保留2（习题1）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

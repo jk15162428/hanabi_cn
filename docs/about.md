@@ -9,6 +9,7 @@ Are you looking to start playing games with the *H-Group*? Head on over to [the 
 
 Have you found your way here from the Internet? That's fine too. Feel free to cherry-pick strategies for your own group, or even adopt the whole convention framework. We enjoy talking to other Hanabi players, so make sure to say hi in the Discord server as well. (Discord is a voice and text chat application that you can run in a browser.)
 
+我们翻译本指南的目的是希望广大中文玩家能通过H-Group寻找更多的玩伴、交流策略、创造新变体，不管您是想与H-Group的外语玩家游玩，还是只想与朋友们挥洒汗水，我们都推荐您记下各个术语的英文原文。考虑到中文社区的玩家很可能会与使用英语的玩家一起游玩，所以我们保留所有在交流时至关重要（或常常需要使用的）的英文原文，而非使用中文翻译，譬如「Focus」等，但我们在同一个页面中，仍然会在第一次出现的英文名词前附上翻译（若没有，则说明该术语暂无翻译）。与此同时，我们希望部分英文术语后面标注的中文可能可以给你带来一些更直观的感觉，譬如「Prompt」（示意），若您仍然感到困惑，就先姑且记住这个术语吧。就跟有些射击游戏中“超级跳”对应的是某个特定身法一样，很多术语本身并没有具体的释义。
 <br />
 
 ### 常用链接

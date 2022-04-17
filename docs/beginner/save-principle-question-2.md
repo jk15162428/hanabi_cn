@@ -1,6 +1,6 @@
 ---
 id: save-principle-question-2
-title: 保留原则（题2）
+title: Save Principle（习题2）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

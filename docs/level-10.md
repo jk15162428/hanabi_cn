@@ -17,6 +17,10 @@ import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/leve
 import GuidePrinciple from '@site/image-generator/yml/level-10/guide-principle.yml';
 import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
+<!-- unused question -->
+
+import BluffProblem1 from '@site/image-generator/yml/level-10/bluff-question1.yml';
+
 - 进阶10我们将介绍*巧诈*，它利用*Fib*来让接下来的玩家直接盲打卡牌。
 - *巧诈*非常有趣，它使得我们可以做出更多盲打的举动。
 - 然而，玩家不再只是一味地给予严格正确的信息使得这个进阶相较于之前更加复杂，也更难以融会贯通。

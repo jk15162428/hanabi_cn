@@ -1,10 +1,10 @@
 ---
 id: early-game-question-4
-title: 开局（题4）
+title: The Early Game（习题4）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
-import Tabs from '@theme/Tabs';
+import Tabs from '@theme/Tabs';w
 import TabItem from '@theme/TabItem';
 import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-question-4.yml';
 

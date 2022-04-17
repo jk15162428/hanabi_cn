@@ -8,25 +8,25 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 <BeginnersGuideProgress id="other-general-strategy" />
 
 - 一般来说，玩家们可以使用三大原则来指导自己的行动：
-  - 「点优原则」（*Good Touch Principle*）
-  - 「保留原则」（*Save Principle*）
-  - 「最小提示价值原则」（*Minimum Clue Value Principle*）
+  - 「Good Touch Principle」（点优原则）
+  - 「Save Principle」（保留原则）
+  - 「Minimum Clue Value Principle」（最小提示价值原则）
 - 但除此以外，还有其他一些策略也最好勤加考虑。
 
 <br />
 
-### 检查队伍的弃牌位
+### 检查队伍的chop
 
-- 在你的回合第一件该干的事是**检查队伍中其他成员的待弃牌**。
-- 有没有待弃牌需要被保留（或打出）的？如果有，你该提示吗，还是让其他成员提示？
-  - 如果其他人都没法提示，那你就要给出「保留提示」（或「打出提示」），即使你手中有可以打的卡牌。
+- 在你的回合第一件该干的事是**检查队伍中其他成员的chop**。
+- 有没有chop card需要被保留（或打出）的？如果有，你该提示吗，还是让其他成员提示？
+  - 如果其他人都没法提示，那你就要给出「Save Clues」（或「Play Clues」），即使你手中有可以打的卡牌。
   - 如果其他人可以提示，是你，还是他们给出提示更好？如果他们有牌要打，而你无牌可打，那么由你来保留卡牌是更好的团队合作行为。
 
 <br />
 
-### 先「打出提示」后「保留提示」
+### 先「Play Clues」后「Save Clues」
 
-- 如果一名玩家既可以被给到「打出提示」**或**「保留提示」，那就给他「打出提示」。
+- 如果一名玩家既可以被给到「Play Clues」**或**「Save Clues」，那就给他「Play Clues」。
 - 如果你能让他疲于出牌，那就没必要现在急着保留卡牌！
 
 <br />
