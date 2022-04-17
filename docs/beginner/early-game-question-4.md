@@ -4,7 +4,7 @@ title: The Early Game（习题4）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
-import Tabs from '@theme/Tabs';w
+import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-question-4.yml';
 
