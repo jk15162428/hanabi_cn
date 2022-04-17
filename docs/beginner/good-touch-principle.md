@@ -1,6 +1,6 @@
 ---
 id: good-touch-principle
-title: Good Touch Principle（点优原则/GTP）
+title: Good Touch Principle（GTP）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

@@ -1,6 +1,6 @@
 ---
 id: minimum-clue-value-principle
-title: Minimum Clue Value Principle（最小提示价值原则/MCVP）
+title: Minimum Clue Value Principle（MCVP）
 ---
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';

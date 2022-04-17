@@ -28,20 +28,20 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 #### 第一环：起手牌需反向打出
 
-- 如果你的手中有多于一张1被提示，**你应该假设它们都可以被打出**。（这仅适用于1，为什么？想想「点优原则」。）
-- 我们规定在游戏开局打出数字1是一种特殊情况：你应该总是**从右往左打出起手牌中的1**。（这是一个特殊情况，因为一般情况下，「打出提示」意味着打出最左边的卡。）
+- 如果你的手中有多于一张1被提示，**你应该假设它们都可以被打出**。（这仅适用于1，为什么？想想「Good Touch Principle」。）
+- 我们规定在游戏开局打出数字1是一种特殊情况：你应该总是**从右往左打出起手牌中的1**。（这是一个特殊情况，因为一般情况下，「Play Clues」意味着打出最左边的卡。）
 - 在下面的例子中：
   - 在游戏开始的第一轮，Alice向Bob提示数字1，点到了三张1（2号、3号和4号槽位）。
-  - 由「点优原则」可知，Bob知道他手中的三张牌都可以打出。
+  - 由「Good Touch Principle」可知，Bob知道他手中的三张牌都可以打出。
   - Bob应该优先打出4号槽位的卡牌，然后是3号槽位，最后是2号槽位的卡牌。
 
 <PlayingMultiple1s1 />
 
-- （这个约定背后的逻辑在[约定解释文档](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s)中有解释）
+- （这个约定背后的逻辑在[约定解释文档](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s)中有说明）
 
 <br />
 
-#### 第二环：新1原则
+#### 第二环：The Fresh 1's Rule（新1原则）
 
 - 如果：
   - 一名玩家手中的两张（或更多）张卡牌被提示1，
@@ -59,68 +59,68 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-#### 第三环：弃牌位聚焦特例
+#### 第三环：Chop-Focus特例
 
-- 「新1原则」有一个例外：弃牌位聚焦优先级**更高**。
+- 「Fresh 1's Rule」有一个例外：Chop-Focus优先级**更高**。
 - 例子如下，在一个三人游戏中：
   - 红2与蓝2已经打出。
   - Alice弃掉了一张红4。
   - Bob向Alice提示了数字1，点到了1、2、3、5号槽位的4张1。
   - Alice知道正确的打出顺序是5，1，3，2：
-    - 首先Alice知道通常情况下，你应该打出刚抓的1，再打出起手牌中的其他1。然而，*弃牌位聚焦*会覆盖掉这条规则，所以她知道自己5号槽位（弃牌位）的牌应该优先打出。
-    - 之后，她使用「新1原则」，知道接下来应该打出1号槽位的1。
+    - 首先Alice知道通常情况下，你应该打出刚抓的1，再打出起手牌中的其他1。然而，Chop-Focus会覆盖掉这条规则，所以她知道自己5号槽位（弃牌位）的牌应该优先打出。
+    - 之后，她使用「Fresh 1's Rule」，知道接下来应该打出1号槽位的1。
     - 再后，她会将剩下的1从右往左打出（因为它们都在起手牌中），所以她会打出3号槽位的1，再打出2号槽位的1。
 
 <PlayingMultiple1s3 />
 
 <br />
 
-### The Fix Clue（指正提示）
+### The Fix Clue（修正提示）
 
-- Nearly every clue is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
-- *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
-- In the example below:
-  - Before the clue was given, Bob had an unknown purple card in his hand.
-  - Alice knows that from *Good Touch Principle*, Bob will conclude that the card is a purple 5, and he will likely play it on his next turn.
-  - Alice clues number 3 to Bob, which "fills in" the purple card and reveals that it is purple 3.
-  - Since Bob was about to play this card, Bob knows that this was a *Fix Clue* and that he can now safely discard the purple 3.
+- 每个提示大体上不是「Save Clue」就是「Play Clue」。一个小小的例外就是「Fix Clue」（修正提示），Fix Clue是用来修正一些信息，避免可能会发生的错误。
+- 「Fix Clues」通常在相同的卡牌被点到的时候发挥作用。提示过的卡牌一般情况下并不会有相同的（根据「Good Touch Principle」），但有些时候会有玩家翻了个错误，或者某个特定的排序导致多张相同卡牌被提示难以避免。相同的卡牌会导致错打，所以整个团队都有责任来修正错误，并在错打发生前及时干涉。
+- 在下面的例子中：
+  - 提示给出前，Bob手中有张未知数字的紫色卡牌。
+  - Alice知道根据「Good Touch Principle」，Bob将认为那张就是紫5，所以他很可能在下一轮直接将他打出。
+  - Alice向Bob提示了数字3，填充了紫色卡牌，让它成为一张明的紫3。
+  - Bob原本打算打出这张牌，所以他知道这是一个「修正提示」，他现在可以安全地弃掉紫3。
 
 <FixClue1 />
 
 <br />
 
-### 指正提示（点到多张牌时）
+### The Fix Clue（点到多张牌时）
 
-- **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable. The **only** information that a *Fix Clue* conveys is to fix the impending misplay or duplication.
-- In the example below:
-  - Before the clue was given, Bob has an unknown 1 in his hand.
-  - Alice knows that from *Good Touch Principle*, Bob will conclude that his 1 is a green 1, and he will likely play it on his next turn.
-  - Alice clues blue to Bob, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
-  - In this situation, Bob might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only new card introduced in the clue. (And the focus of a clue should always be on the new card introduced.)
-  - However, the fact that the blue clue "fixed" an impending misplay means that Alice may have had no choice but to clue blue, and she may not necessarily be trying to give a *Play Clue*.
-  - Bob marks the blue card on slot 1 as either blue 2, blue 3, blue 4, or blue 5. He then discards the blue 1.
+- **一个提示不可能同时是「Play Clue」和「Fix Clue」。**如果你得到的一个「Fix Clue」同时点到了其他牌，这些牌并不一定代表就是可以打出的。「Fix Clue」**唯一**携带的信息就是指出相同卡牌，修正未来可能会发生的错误。
+- 在下面的例子中：
+  - 提示给出前，Bob手中有张未知的1。
+  - Alice知道根据「Good Touch Principle」，Bob会认为自己的1就是绿1，很可能在下一轮会打出他。
+  - Alice向Bob提示了蓝色，“填充”了1，让它成为了明牌蓝1。蓝色提示还点到了1号槽位的卡牌。
+  - 这种情况下，Bob也许会认为这是一个对1号槽位的蓝2的「打出提示」，而且1号槽位的卡是这个提示唯一点到的new card。（而提示的focus都是在new card上）
+  - 然而，考虑到这个提示“修正”了一个可能的错误，所以说Alice可能没有选择，只能给出蓝色提示，她可能完全不是想要给出一个「打出提示」。
+  - Bob将1号槽位的蓝色卡牌记为蓝2、3、4或5，然后弃掉了蓝1。
 
 <FixClue2 />
 
 <br />
 
-### 指正提示（没有给出额外信息时）
+### The Fix Clue（没有给出额外信息时）
 
-- Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again.
-- In the example below:
-  - Alice clues Bob number 1 and it touches three 1's.
-  - Bob successfully plays two 1's.
-  - Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
-  - Since Bob was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
+- 通常情况下「Fix Clue」会“填充”卡牌的信息，显式地让大家知道这张牌不能打出，或者与另一张已提示过的卡牌撞了。不过呢，我们也可以通过再次提示某一张卡牌来给出「Fix Clue」。
+- 在下面的例子中：
+  - Alice像Bob提示了数字1，点到了三张1。
+  - Bob成功打出了两张1。
+  - Alice向Bob再次提示了数字1，这个提示只重复点到了剩下没打的这张1。
+  - 如果Alice不这么做，Bob原本会打出这张1，所以这个提示一定有别的意义。所以，这是一个「Fix Clue」：这张剩下的1是垃圾，Bob可以安全地弃掉它。
 
 <FixClue3 />
 
-- *Fix Clues* that give no additional information only "fix" one card.
-- In the example below:
-  - Alice clues Bob number 1 and it touches three 1's.
-  - Bob successfully plays one 1.
-  - Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
-  - Since Bob was going to play his 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play (on slot 4) and plays the other one (on slot 3).
+- 不给出额外信息的「Fix Clues」只会“修正”一张牌。
+- 在下面的例子中：
+  - Alice向Bob提示了数字1，点到了三张1。
+  - Bob成功打出了一张1。
+  - Alice向Bob再次提示了数字1，提示只重新点到了剩下的两张1。
+  - 如果Alice不这么做，Bob原本会继续打他手中的1，这个提示一定有别的意义。所以，这是一个「Fix Clue」：Bob即将打出的1是垃圾，Bob可以安全地弃掉它。Bob跳过了一张1（4号槽位），打出了另一张1（三号槽位）。
 
 <FixClue4 />
 
@@ -132,22 +132,22 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 ### The Sarcastic Discard（讽刺性弃牌）
 
-- Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
-- Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued card, something special must be going on.)
-- For example, in a 3-player game:
-  - Red 2 is played on the stacks.
-  - Alice has one red 3 clued in his hand with just number 3. (She does not know which suit it is.)
-  - Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
-  - Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
-  - Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
+- 某些情况下，由于错误（或更复杂的情况），两名玩家手中会有某张相同的卡牌都被提示了。通常而言，我们会避免这种情况，但有时难以避免。如何处理这个问题就稍微复杂了些。
+- 一般来说，**第一名**确定自己有另一张相同卡牌的玩家应该直接弃掉它（而不是打出，或者留在手中）。这被称为「Sarcastic Discard」（讽刺性弃牌），这种做法直接告诉其他玩家他们100%有这张被弃掉的卡牌。（因为通常来说，根据「Good Touch Principle」，我们从不会弃掉已经提示过的牌，如果一张提示过的非垃圾牌被弃掉了，那么一定发生了奇怪的事情。）
+- 譬如说，在一局三人游戏中：
+  - 红2已经被打出。
+  - Alice手中有一张只被数字3提示过的红3。（她并不知道颜色）
+  - Alice向Bob提示了数字3，点到了一张3。（这是一个错误，因为可能会违背「Good Touch Principle」）
+  - Bob知道目前唯一能打出的3一定是红3。他也看得到Alice手中有一张已经提示过的红3。因此，他知道他自己有红3，而Alice犯了个错误。
+  - Bob使用「Sarcastic Discard」来将红3的信息传给Alice。
 
 <SarcasticDiscard />
 
-- The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
-- However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:
-  - Alice *Sarcastic Discards* a red 3.
-  - Bob has two cards clued with number 3 in his hand. He does not have any color information on either 3.
-  - Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
+- 「Sarcastic Discard」跟「Prompt」很像，一个由弃牌启动，另一个由提示启动。
+- 不过，与「Prompt」不同的是，如果「Sarcastic Discard」可能会应用在多张牌上时，并**不**保证一定是最左侧的提示过的牌。它只保证这张牌一定在其他玩家的手中。
+  - Alice「Sarcastic Discards」了红3。
+  - Bob手中有两张提示过的数字3，他并没有任何颜色信息。
+  - Bob确定这两张3里一定有张红3，但无法确定是哪张。
 
 <br />
 
@@ -155,85 +155,87 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### Misplay Cost Principle
+### Misplay Cost Principle（错误成本原则）
 
-- On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
-- So, if you can spend one clue to stop one misplay, the value comes out even.
-- Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
-- If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
+- 在某名玩家打错牌的那个回合，他们原本可以弃牌并获得一个提示。
+- 所以，如果你使用了一个提示来避免错误，成本是一样的。
+- 因此，考虑到我们只允许打错2张牌，而错误一多就会让局面僵住，所以用一个提示避免一个错误往往是值得的。
+- 如果需要两个提示才能避免打错一张牌，只要仍有失误的空间，游戏并不会因此结束，那最好还是让那名玩家打错牌吧。
 
 <br />
 
 ### 效率
 
-- A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
-- If you use one clue to get one card, we refer to that as a 1-for-1 clue. For example:
-  - On the first turn of the game, Alice clues Bob number 1, touching one 1 as a 1-for-1.
-- If you use one clue to get two cards, we refer to that as a 2-for-1 clue. For example:
-  - On the first turn of the game, Alice clues Bob number 1, touching two 1's as a 2-for-1. (Bob will play both.)
-- 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
-- If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
-  - On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
-- On Hanab Live, the future required efficiency is shown on the right side of the screen. Future required efficiency is calculated by the following formula:
-  - `number of cards that remain to be clued / number of clues remaining`
-- **If future required efficiency is high, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
+- 花火的核心部分之一就是尽可能地提高效率。这意味着玩家会想要使用一个提示来“点明”尽可能多的牌（即获取某张卡的准确信息）。
+- 如果一个提示点明了一张卡牌，我们称之为一个1-for-1 clue（1换1提示）。譬如说：
+  - 在游戏的第一轮中，Alice向Bob提示了数字1，点到了一张1，这就是一个1-for-1 clue。
+- 如果一个提示点明了两张卡牌，我们称之为2-for-1 clue，比如：
+  - 在游戏的第一轮中，Alice向Bob提示了数字1，点到了两张1，这是一个2-for-1 clue。（Bob会把两张牌挨个打出。）
+- 3-for-1 clues比2-for-1 clues更好，以此类推。在进阶技巧中，甚至可以做到一个提示换得九张牌的信息，即9-for-1 clue。
+- 如果一个提示点到了两张牌，但只有一张可以即刻打出，这**仍然算作**一个2-for-1 clue。因为根据「Good Touch Principle」，我们认为所有点到的卡牌最后都会被打出。比如：
+  - 在游戏的第一轮中，Alice向Bob提示了红色，点到了1号槽位的红1与2号槽位的红5，这是一个2-for-1 clue。（Bob只会先打出红1，将另一张红色卡牌留待后用。）
+- 在Hanab Live里，未来所需的效率（future required efficiency）会在屏幕的右下角显示。未来所需效率通过下述公式计算而得：
+  - `仍需提示的卡牌/剩余的提示`
+- **如果未来所需效率很高，玩家就应该考虑不要给出1-for-1 clues了！**反之，最好是弃牌来让其他玩家给出「Finesse」（至少是一个2-for-1）。
 
 <br />
 
-### 节奏
+### Tempo（节奏）
 
-- *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
-- Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
-- At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of *Efficiency* over clues that get a lot of *Tempo*.
-- At the end of the game, there is almost no time left, so players stop caring about *Efficiency* and start only caring about *Tempo*.
-- On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
-  - `current score + cards in deck + number of players - maximum score`
-- Note that even at the beginning of the game, players might prefer a clue that gets *Tempo* over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
+- 「Tempo」是一个用来描述卡牌打出速度的术语。（与其他游戏，譬如国际象棋中的同名术语类似）
+- 花火可以认为是一个竞速游戏，玩家们要在时间结束前将所有卡牌打出。这意味着即使整个队伍效率很高，他们仍然可能因为没有及时打出卡牌而输掉游戏。因此，玩家需要在**「效率」和「节奏」中间找到平衡**。你可以认为「效率」和「节奏」是花火的阴与阳。
+- 在游戏的开始时，时间还有很多，玩家们会更倾向于「效率」高的提示，而非「节奏」快的提示。
+- 但在游戏即将结束之际，时间所剩不多，玩家们不能再只考虑「效率」，应该同样要关注「节奏」。
+- 在Hanab Live中，屏幕右下角会显示“Pace”。Pace表明玩家还可以再弃置几张牌，间接告诉玩家还有多少时间剩下。游戏开始时的pace计算如下：
+  - `当前分数+抽排堆中的卡牌数量+玩家人数-最大分数`
+- 注意即便是在游戏刚开始时，如果能防止弃置某些有用的卡牌，玩家也可能会优先考虑「节奏」而非「效率」。这取决于游戏过程的上下文！
 
 <br />
 
-### Information Lock Principle
+### Information Lock Principle（信息锁原则）
 
-#### Information Lock with the Full Identity
+#### 身份明了的信息锁
 
-- As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanab Live, this is usually represented as a player writing an "identity note" on the card.)
-- For example, in a 3-player no variant game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
-  - Bob immediately right-clicks on the card and writes a note of "red 1".
-  - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
+- 一旦提示给到了某张卡牌，如果已经足够确定这张牌是什么，那我们就说这张牌的“身份”已经锁定。（在Hanab Live中，通常表现为玩家在牌上面做了“明牌笔记”，比如r2。）
+- 比如说，在一个三人无变体游戏中：
+  - 目前是第一轮，尚未有牌被打出。
+  - Alice向Bob提示了红色，点到了1号槽位的红色卡牌，这显然是一个「Play Clue」。
+  - Bob看到Cathy的手牌中「Finessse Position」上并不是红1，所以这肯定不是一个「Finesse」。
+  - Bob立刻右键这个卡牌，在上面写下了“red 1”（红1）。
+  - 现在这张卡已经被“锁定”为了红1。之后其他玩家的任何提示与操作都不会改变这个信息。
 
-#### Information Lock with a Superposition
+#### 叠加态下的信息锁
 
-- A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. If an electron happens to bounce off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
-- As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
-- For example, in 3-player rainbow game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
-  - Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
-  - This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
+- 「[叠加态](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics)」（Superposition）描述了一个物体可以在同一时间是两种不同的东西。比如说，电子是某种粒子，一个电子既可以是“上旋”也可以是“下旋”。但一个电子也可以处于一种既“上旋”又“下旋”的叠加态中，听上去就是这么玄。如果一个电子正好被某个物体反弹回来（比如被测量），那么叠加态就会“坍缩”，变成一个**确定**的本征态，要么“上旋”，要么“下旋”。量子力学的细节并不重要，我们想借此表达的点是：我们会把未知的卡牌类比为某种未知的例子，即便他们的身份**确实**逐一确定，我们并不在意，仍然把它们的所有可能性同时混在一起看待。
+- 只要一个提示可能带来两种或更多不同的可能，我们就假设所有这些可能都以叠加态锁定在这张卡上。
+- 比如说，在一个三人Rainbow（彩虹）变体游戏中：
+  - 目前是第一轮，尚未有牌被打出。
+  - Alice向Bob提示了红色，点到了1号槽位的红色卡牌，这显然是一个「Play Clue」。
+  - Bob看到Cathy的手牌中「Finessse Position」上并不是红1或彩1，所以这肯定不是一个「Finesse」。
+  - Bob立刻右键这个卡牌，在上面写下了“red 1 or rainbow 1”（红1或彩1）。
+  - 现在这张卡被“锁定”为这种特殊的叠加态。之后的提示和操作可以缩小叠加态，或者让叠加态坍缩，但不可能会有新的可能性加入到这个叠加态中。
 
-#### Information Lock on In-Between Cards
+#### 中间牌的信息锁
 
-- As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** all of the in-between cards.
-- For example, in a 4-player no variant game:
-  - Red 1 is played on the stacks.
-  - Bob has one card in his hand clued with number 2. (It is currently unknown.)
-  - Cathy has one card in her hand clued with number 3. (It is currently unknown.)
-  - Alice clues Donald red, touching a red 4 as a *Play Clue*.
-  - Bob is promised to have the red 2. He writes a note of "red 2" on his clued 2. It is now locked in forever as that card.
-  - Cathy is promised to have the red 3. She writes a note of "red 3" on her clued 3. It is now locked in forever as that card.
-  - Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card clued in his hand.
-  - Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
-  - Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
+- 提示只要给到那些不能立刻打出的牌时，这张牌**及**所有中间牌的身份都已经锁定。
+- 比如说，在一个四人无变体游戏中：
+  - 红1已经打出。
+  - Bob手中有一张被数字2提示过的牌。（颜色未知。）
+  - Cathy手中有一张被数字3提示过的牌。（颜色未知。）
+  - Alice向Donald提示红色，点到了一张红4，这显然是一个「Play Clue」。
+  - Bob因此确信自己手中有红2。他在自己已被提示的2上写下“red 2”。这张牌的身份以后就不会再变动了。
+  - Cathy确信自己手中有红3。她在自己已经被提示的3上写下“red 3”。这张牌的身份以后就不会再变动了。
+  - Donald知道根据「Good Touch Principle」，他的红色卡牌一定不是红2，因为Bob有一张已经提示过的红2。
+  - Donald知道根据「Good Touch Principle」，他的红色卡牌一定不是红3，因为Cathy有一张已经提示过的红3。
+  - Donald因此知道自己的这张红色卡牌一定是红4。他在上面写下“red 4”。这张牌的身份以后就不会再变动了。
 
 <InformationLock />
 
-#### Breaking Information Lock
+#### 打破信息锁
 
-- A direct conflict is the only thing that can "break" an information lock.
-- For example, in a 3-player game:
-  - Bob has a card in his hand that is touched with a number 2 clue. (It has no color clues on it.)
-  - Bob has a written a note of "red 2" on the card, meaning that it has been "locked in" as a red 2. (Bob will permanently think that it is a red 2.)
-  - Alice clues blue to Bob, which "fills in" the card as a blue 2.
-  - It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "red 2" on the card and the *Information Lock* is broken.
+- 直接冲突是唯一能“打破”信息锁的东西。
+- 比如说，在一个三人游戏中：
+  - Bob手中有一张被数字2提示过的牌。（颜色未知）
+  - Bob在上面写了“red 2”，这说明这张牌已经被“锁定”为了红2。（Bob以后将认为这张牌只可能是红2。）
+  - Alice向Bob提示了蓝色，“填充”了这张牌为明牌蓝2。
+  - 现在这张牌不可能是红2了，Bob知道先前的游戏过程中他被谁给骗了。Bob把笔记去掉，信息锁被打破。
