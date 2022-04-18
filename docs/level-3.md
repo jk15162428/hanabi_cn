@@ -200,7 +200,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - 比如说，在一个三人无变体游戏中：
   - 目前是第一轮，尚未有牌被打出。
   - Alice向Bob提示了红色，点到了1号槽位的红色卡牌，这显然是一个「Play Clue」。
-  - Bob看到Cathy的手牌中「Finessse Position」上并不是红1，所以这肯定不是一个「Finesse」。
+  - Bob看到Cathy的手牌中「Finesse Position」上并不是红1，所以这肯定不是一个「Finesse」。
   - Bob立刻右键这个卡牌，在上面写下了“red 1”（红1）。
   - 现在这张卡已经被“锁定”为了红1。之后其他玩家的任何提示与操作都不会改变这个信息。
 
@@ -211,7 +211,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - 比如说，在一个三人Rainbow（彩虹）变体游戏中：
   - 目前是第一轮，尚未有牌被打出。
   - Alice向Bob提示了红色，点到了1号槽位的红色卡牌，这显然是一个「Play Clue」。
-  - Bob看到Cathy的手牌中「Finessse Position」上并不是红1或彩1，所以这肯定不是一个「Finesse」。
+  - Bob看到Cathy的手牌中「Finesse Position」上并不是红1或彩1，所以这肯定不是一个「Finesse」。
   - Bob立刻右键这个卡牌，在上面写下了“red 1 or rainbow 1”（红1或彩1）。
   - 现在这张卡被“锁定”为这种特殊的叠加态。之后的提示和操作可以缩小叠加态，或者让叠加态坍缩，但不可能会有新的可能性加入到这个叠加态中。
 
