@@ -34,7 +34,7 @@ import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
 <br />
 
-### Finesse Urgency（巧技十分紧急）
+### Finesse Urgency（巧技的紧急性）
 
 - 「Finesse」出现时，会导致暂时的信息错位。
 - 譬如，在先前的案例中，如果Bob没有盲打，而是弃牌，Cathy就会认为自己有着红3。但她实际上并没有红3，这意味着队伍中的信息不再同步。

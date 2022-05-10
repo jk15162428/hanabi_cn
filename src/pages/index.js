@@ -100,7 +100,7 @@ function Home() {
             >
               H-group玩家群组
             </a>
-            编写。
+            编写，由中文社区进行翻译。
           </p>
           <br></br>
           <p className="hero__subtitle">

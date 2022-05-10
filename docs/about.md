@@ -19,7 +19,8 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 - [Hanab Live](https://hanab.live) （线上游玩花火的绝佳之地）
 - [Board Game Arena](http://boardgamearena.com) （不如Hanab Live，但玩家不少）
 - [Hanab Discord服务器](https://discord.gg/FADvkJp) （寻找玩伴，交流策略之地）
-- [花火中文Discord交流服务器](https://discord.gg/rxFSaUhyrv)（你可以在这寻找中文玩伴，以及对中文花火指南提出建议等）
+- [花火中文社区Discord交流服务器](https://discord.gg/rxFSaUhyrv)（你可以在这寻找中文玩伴，以及对中文花火指南提出建议等）
+- [花火中文社区QQ交流群](https://jq.qq.com/?_wv=1027&k=GZod4hU8)（对于无法使用Discord的小伙伴，也可以选择加入QQ交流群：413886175）
 
 <br />
 

@@ -34,12 +34,12 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ### The Double Prompt / Triple Prompt / Quadruple Prompt（多重示意）
 
-- Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
-- For example, in a 3-player game:
-  - Red 1 is played on the stacks.
-  - Alice clues Cathy red, which touches a red 4. This must be a *Play Clue*, because the red 4 is not on chop.
-  - Bob has two clued red cards in his hand. Since Alice has indicated that the red 4 must be playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
-  - Bob plays the left-most card as the red 2. On Bob's next turn, he plays the other red card as the red 3.
+- 有些时候，玩家可以只用一个提示「Prompt」来同时示意**两张**（或更多）卡牌，听上去真不错呢。
+- 见下面的例子，在一个三人游戏中：
+  - 红1已经被打出。
+  - Alice向Cathy提示了红色，点到了一张红4。这肯定是一个「Play Clue」，因为红4还没到chop上。
+  - Bob手中有两张提示过的红色卡牌。既然Alice已经指明了红4现在是可以被打出的，他就可以知道自己手中的两张红牌必然是红2和红3（从左往右）。
+  -Bob先打出左边的红2。下一回合，他打出另一张红3。
 
 <DoublePrompt />
 
@@ -47,24 +47,24 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ### The Double Finesse / Triple Finesse / Quadruple Finesse（多重巧技）
 
-- Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
-- For example, in a 4-player game:
-  - Red 1 is played on the stacks.
-  - Alice clues Donald red, which touches a red 4.
-  - Bob plays red 2 from his *Finesse Position*.
-  - Cathy plays red 3 from her *Finesse Position*.
-  - Donald plays red 4.
+- 通常而言，「Finesses」一般会通过提示一张仍差一张才能打的卡牌（one-away-from-playable）。但是，如果你给出一张仍差两张才能打的卡牌，那么让两名不同的玩家盲打是说得通的。这很效率，因为是一个3-for-1提示。
+- 见下面的例子，在一个四人游戏中：
+  - 红1已经被打出。
+  - Alice向Donald提示了红色，点到了一张红4。
+  - Bob从「Finesse Position」打出一张红2。
+  - Cathy从「Finesse Position」打出一张红3。
+  - Donald打出红4。
 
 <DoubleFinesse1 />
 
-- Similarly, it is possible to get a single player to blind-play 2 cards in a row. In this situation, since they see that the blind cards are not in anyone else's hands, they will blind-play two turns in a row, playing from left to right.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Cathy, touching a red 3.
-  - Bob blind-plays red 1 from slot 1.
-  - Cathy would normally think that she has red 2, which would connect to the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
-  - Thus, Cathy discards, giving Bob a chance to blind-play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
-  - On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
+- 类似的，让一名玩家连着盲打两次也是同样的思路。因为这种情况下，那名玩家会发现需要盲打的牌并不在其他玩家手牌中，所以他们会从左往右连着盲打两轮（也就是先打1号槽位的卡牌，再打2号槽位的卡牌）。
+- 见下面的例子，在一个三人游戏中：
+  - 游戏刚刚开始，还没有任何卡牌被打出。
+  - Alice向Cathy提示了红色，点到了一张红3。
+  - Bob盲打出1号槽位的红1。
+  - Cathy正常情况下会思考自己是否有红2，因为红2连着刚刚打出的红1。但是她发现在提示给出的那个回合，红1的右边就是张红2。
+  - 因此，Cathy弃牌，等待一个回合看Bob会不会盲打红2。如果他没有盲打，那这就是个标准的「Finesse」，Cathy会认为自己那张是红2。如果Bob盲打了，那么这就是个「Double Finesse」，而她的红牌是张红3。
+  - 下一回合，Bob从2号槽位盲打出红2。Cathy现在知道自己手中是张红3。
 
 <DoubleFinesse2 />
 
