@@ -87,79 +87,79 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ### The Reverse Finesse（逆向巧技）
 
-- In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card.
-  - i.e. clue --> blind-play --> clued-card plays
-- If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
-  - i.e. clue --> clued player does unrelated action --> blind-play --> clued-card plays
-- Because we agree that *Reverse Finesses* should exist, players need to be careful before playing any cards. Players in this situation need to check out everyone else's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "connects" to the clue, then **they should defer playing the clued card** for at least one go-around and wait to see what happens.
-- If a blind-play does happen, then it means that the clued card is the next card in the chain.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Bob red, which touches his red 2.
-  - Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
-  - However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
-  - Bob discards.
-  - Cathy blind-plays the red 1. Bob now knows that he has the connecting red 2.
+- 在一个标准的「Finesse」中，你会向需要盲打的那名玩家身后抛去一个提示。
+  - 即：提示 --> 盲打 --> 打出提示过的牌。
+- 如果你向需要盲打的那名玩家**前面**抛去一个「Finesse」提示，这就是「Reverse Finesse」。它比标准的「Finesse」更加复杂，也更难看出来。
+  - 即：提示 --> 被提示的玩家做一件不相关的事情 --> 盲打 --> 打出提示过的牌。
+- 因为我们规定「Reverse Finesses」理应存在，所以玩家在打出手中的牌前要小心一点。被给了提示的玩家要留心其他玩家的「Finesse Position」。如果一张能打的牌在某人的「Finesse Position」中，并且“接”（connects）上了刚刚的提示，那**他们就应该推迟打出刚刚提示的卡牌**至少一轮，看看究竟是什么情况。
+  - 如果确实有玩家盲打，那么这就意味着手中提示过的牌是下一张需要打的牌。
+  - 譬如，在一个三人游戏中：
+    - 游戏刚刚开始，还没有牌被打出。
+    - Alice向Bob提示了红色，点到了他的红2。
+    - 接着轮到Bob的回合。通常来说，Bob第一反应是这是张红1，可以立刻打出。
+    - 但是，Bob也注意到在Cathy的1号槽位有一张红1。因此，他应该给Cathy至少一动的机会来确认这究竟是不是「Reverse Finesse」。如果Cathy没有盲打，那么Bob手中的就是红1，他可以在下一轮打出。
+    - Bob弃牌。
+    - Cathy盲打出红1，Bob现在知道他手中是红1连接着的红2。
 
 <ReverseFinesse />
 
-- If the player with the "connecting" card **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
-- For example, in a 3-player game:
-  - The setup is the same as the last example. Bob is clued red, so he suspects a *Reverse Finesse* is occurring and discards.
-  - Cathy does an unrelated action.
-  - Now Bob knows that the red card in his hand is actually the red 1.
+- 如果那名可能有着“连接”牌的玩家**没有**盲打，那么刚刚提示的卡牌大概率就是另一张复制（即相同的卡牌），下一轮就可以打出。
+- 例如，在一个三人游戏中：
+  - 跟之前的例子完全一样，Bob被提示了红色，他会怀疑这是一个「Reverse Finesse」而选择弃牌。
+  - Cathy做了个无关紧要的行为。
+  - 现在Bob知道手中的一定是张红1。
 
 <br />
 
 ### The Self-Finesse（自巧技）
 
-- It is also possible to perform a *Finesse* on a player by giving **them** a clue.
-- For example, in a 3-player game:
-  - All of the 1's are played on the stacks.
-  - Alice clues number 3 to Cathy, touching one 3 on slot 2.
-  - Bob discards.
-  - Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the connecting 2. Since Bob discarded, Cathy must be the one who has the connecting 2.
-  - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is a red 2 and it successfully plays.
-  - Cathy now knows that her 3 must connect to the 2, so she marks her 3 as a red 3.
+- 给需要盲打的玩家一个提示来施展「Finesse」也是合乎逻辑的。
+- 譬如，在一个三人游戏中：
+  - 所有的1都已经被打出。
+  - Alice向Cathy提示了3，点到了2号槽位的一张3。
+  - Bob弃牌。
+  - Cathy知道刚刚对3的提示是「Play Clue」，但没有任何一张3是即刻能打的。因此，一名玩家手中一定有一张能承上启下的2。因为Bob弃牌了，Cathy肯定就有着这张2。
+  - 因此，Cathy从「Finesse Position」打出一张**任意颜色**的2，顺利打出后发现是张红2。
+  - Cathy现在知道她手中的3肯定接着刚刚的2，她将手中的3标记为红3。
 
 <SelfFinesse />
 
-- Note that *Self-Finesses* can be difficult to perform because the player receiving the clue will **only** consider the possibility of a *Self-Finesse* **if there are no other possibilities** for the clue. For example:
-  - If the clue looks like it *could* just be a normal/direct *Play Clue* on a card, then the clue receiver will not blind-play anything - they will just play the card that was clued.
-  - If the clue looks like it *could* be a *Prompt*, then the clue receiver will not play anything and assume that it is a *Prompt*. (At least, until the other player has had a chance to play the *Prompted* card.)
-  - If the clue looks like it *could* be a *Reverse Finesse*, then the clue receiver will not play anything and assume that it is a *Reverse Finesse*. (At least, until the other player has had a chance to blind-play the card.)
+- 注意，「Self-Finesse」可能会比较难施展，因为收到提示的玩家**只**会在**没有其他任何可能性**的情况下才考虑「Self-Finesse」，譬如说：
+  - 如果这个提示看上去**可能**是一个「Play Clue」，那么收到提示的玩家不会盲打，他们会直接打出刚刚提示的卡牌。
+  - 如果这个提示看上去**可能**是一个「Prompt」，那么收到提示的玩家会将这个提示视为「Prompt」而什么都不会打。（至少会等到其他玩家有机会打出被「Prompt」的牌。）
+  - 如果这个提示看上去**可能**是一个「Reverse Finesse」，那么收到提示的玩家会将这个提示视为「Reverse Finesse」而什么都不会打。（至少会等到其他玩家有机会盲打出承上启下的卡牌。）
 
 <br />
 
-## General Principles
+## 一般原则
 
 <br />
 
-### Trash
+### Trash（废牌）
 
-- *Trash* cards are defined as cards that have already been played. Thus, they are useless to the team.
-- Players should generally avoid "touching" trash cards with a clue, as doing so would violate *Good Touch Principle*.
-  - Rarely, it can be useful to deliberately clue a trash card and violate *Good Touch Principle* in order to perform a special move. Several such moves are covered later on.
-- In the case where a suit is partially "dead", the unneeded cards are also considered trash. For example, if both copies of the red 3 have been discarded, then the red 4 and the red 5 are both considered trash.
-
-<br />
-
-## Common Mistakes
+- 「Trash」被定义为已经打出过的卡牌。所以，他们对团队毫无作用。
+- 玩家应该尽量避免“点”到废牌，因为会违背「Good Touch Principle」。
+  - 但偶尔，违背「Good Touch Principle」故意提示一张废牌是有用的。在之后的章节中我们会讲解这样的操作。
+- 在有些花色已经被拦腰截断的情况下，不需要的卡牌也被认为是废牌。譬如，如果两张红3都被弃掉了，那么红4和红5也被视为废牌。
 
 <br />
 
-### Stomping on a Finesse
-
-- This is the term used for when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
-- *Stomping* on a *Finesse* essentially wastes a clue for the team.
+## 常见的错误
 
 <br />
 
-### What to Do After a Strike
+### Stomping on a Finesse（错失「Finesse」）
 
-- When a card is misplayed and goes to the discard pile, the team accumulates a *strike* (which is also referred to as a *bomb*).
-- If three strikes are accumulated, the team will get a score of 0. This is to be **avoided at all costs**.
-  - One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.
+- 当一名玩家本可以给出一个「Finesse」让某张牌被盲打时，却选择直直给这张需要被盲打的牌提示的时候，我们就说他错失了一个「Finesse」。通常来说，这表明那名给出提示的玩家并没有太留心，没能看到一个可能的「Finesse」。
+- 错失（Stomping）一个「Finesse」会导致队伍白白浪费一个clue。
+
+<br />
+
+### 打错牌之后应该做些什么
+
+- 当一张牌打错的时候，队伍会得到一个“红叉”（strike）（在英文中也有时用bomb指代）。
+- 如果队伍有了三个红叉，那么就会直接游戏结束得到0分。应该**不惜一切代价**避免这种情况。
+  - 特例是当玩家们想要在某一个相当困难的变体上获得满分，不过这并不常见。
 - Building on this concept, it can also be **very bad** to get **two strikes in a row**. For example, say that Alice performs a bad clue and Bob misplays, causing a strike. And then Cathy "still believes" the original clue (thinking that Bob was the one who made the mistake instead of Alice), and Cathy goes on to misplay, causing yet another strike.
 - So, in general, we want to **isolate one mistake to one strike**. Why? Since Hanabi is so difficult, mistakes are common, and we don't want to push the team to the precipice of failure after one tiny mistake. That kind of thing is not very good for the overall win-rate.
 - This means that when a strike happens, **the state of information should "reset"** back to what it was before the mistake happened, at least most of the time.
@@ -167,9 +167,10 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-### The Wrong Prompt
+### 错误的「Prompt」
 
-- First, see the section on [What to Do After a Strike](#what-to-do-after-a-strike).
+- Utopia：这是一个非常常见的错误，请务必重视这个章节。（但我还没翻译2333）
+- 首先，你应该看一下“[打错牌之后应该做些什么](#打错牌之后应该做些什么)”这个小节。
 - Normally, after a strike happens, you are supposed to relax and not make any additional assumptions.
 - However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a matching clued card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued card first.
 - When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
@@ -185,27 +186,25 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <WrongPrompt />
 
-## Questions for Level 2
+## 进阶2习题
 
 <!-- lint disable no-undefined-references -->
 
 <Tabs
   defaultValue="question"
   values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
+    {label: '问题', value: 'question'},
+    {label: '题解', value: 'solution'},
   ]}>
 <TabItem value="question">
 
-- It is currently the *Early Game*. There is 1 clue token left.
-- What action should Alice perform?
+- 目前还处于**开局**，还剩下一个提示。
+- Alice应该采取什么行动？
 
 </TabItem>
 <TabItem value="solution">
 
-- The only legal move is for Alice to give a *5 Stall* to Donald
-  (touching the purple 5).
-  There are no other legal Play or Save clues to give at this time.
+- 对Alice而言唯一可行的行动就是给Donald一个「5 Stall」（点到紫5）。此时并没有其他可行的Play或Save clues能给。根据先前其他玩家的提示，Alice也可以考虑弃牌，但她看到Bob、Cathy和Donald的chop全是废牌，抢走他们的提示让他们选择弃牌并不是什么自私的选择。
 
 </TabItem>
 </Tabs>

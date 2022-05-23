@@ -13,7 +13,7 @@ import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 - 然而，我们可以做到让一名玩家盲打出一张完全没有提示的卡牌。
 - 在下面的例子中：
   - Bob手中没有任何提示过的牌。
-  - Alive向Cathy提示了红色，点到了红4。这肯定是一个对红4的「Play Clue」。
+  - Alice向Cathy提示了红色，点到了红4。这肯定是一个对红4的「Play Clue」。
   - Bob看到红4现在并不可被打出，若假设Alice没有犯错，那么这个提示一定暗示着有人持有红3。
   - Bob没发现其他玩家手中有红3。所以，Alice的行为保证着他一定有红3。
   - 通常情况下，这会被理解为一个「Prompt」。但Bob手中并没有红色卡牌，也没有数字3。那红3去哪了？
