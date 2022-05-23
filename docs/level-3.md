@@ -1,6 +1,6 @@
 ---
 id: level-3
-title: 进阶3 - Basic Strategy（初级策略）
+title: 进阶3 - Basic Strategy
 ---
 
 import PlayingMultiple1s1 from '@site/image-generator/yml/level-3/playing-multiple-1s-1.yml';
@@ -164,7 +164,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <br />
 
-### 效率
+### Efficiency（效率）
 
 - 花火的核心部分之一就是尽可能地提高效率。这意味着玩家会想要使用一个提示来“点明”尽可能多的牌（即获取某张卡的准确信息）。
 - 如果一个提示点明了一张卡牌，我们称之为一个1-for-1 clue（1换1提示）。譬如说：

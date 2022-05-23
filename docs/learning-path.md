@@ -30,6 +30,7 @@ title: 学习路径
 | [1](level-1.md)     | Fundamentals<br />（基础）           | 「[The Early Game（开局）](level-1.md#the-early-game)」，「[Prompts（示意）](level-1.md#the-prompt)」，「[Finesses（巧技）](level-1.md#the-finesse)」
 | [2](level-2.md)     | Basic Finesses<br />（初级巧技）          | 「[5 Stalls（5踏步）](level-2.md#the-5-stall-cluing-off-chop-5s5踏步)」，「[Double Finesses（多重巧技）](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse多重巧技)」，「[Reverse Finesses（逆向巧技）](level-2.md#the-reverse-finesse逆向巧技)」，「[Self-Finesses（自巧技）](level-2.md#the-self-finesse自巧技)」
 | [3](level-3.md)     | Basic Strategy<br />（初级策略）          | 「[Playing Multiple 1's（多张1可打时）](level-3.md#playing-multiple-1s多张1可打时)」，「[The Fix Clue（修正提示）](level-3.md#the-fix-clue修正提示)」，「[Sarcastic Discard（讽刺性弃牌）](level-3.md#the-sarcastic-discard讽刺性弃牌)」
+| [4](level-3.md)     | Basic Chop Moves<br />（初级弃牌位挪移） | 「[Trash Chop Moves](level-4.md#the-trash-chop-move)」, 「[5's Chop Moves](level-4.md#the-5s-chop-move-5cm)」
 
 <br />
 

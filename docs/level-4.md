@@ -1,6 +1,6 @@
 ---
 id: level-4
-title: Level 4 - Basic Chop Moves
+title: 进阶4 - Basic Chop Moves
 ---
 
 import TrashChopMove1 from '@site/image-generator/yml/level-4/trash-chop-move-1.yml';
@@ -12,47 +12,47 @@ import ChopMoveNew from '@site/image-generator/yml/level-4/chop-move-new.yml';
 import ChopMoveNewException from '@site/image-generator/yml/level-4/chop-move-new-exception.yml';
 import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.yml';
 
-## Conventions
+## 规定
 
 <br />
 
-### Chop Moves
+### Chop Moves（弃牌位挪移）
 
-- Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
-- A *Chop Move* is a special kind of move that indicates to a player that the unclued card that is currently on their chop is very important.
-- After the *Chop Move*, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
-- A *Chop Move* is permanent, meaning that a *Chop Moved* card should not be discarded for the remainder of the game.
-- The two most common kinds of *Chop Moves* are listed below.
+- 一般情况下，玩家们会弃掉他们最老的（最右侧的）未提示过的卡牌。然而，有时玩家可以知道一张未提示的卡牌是相当重要的。
+- 「Chop Move」是一种特殊的操作，告诉一名玩家他现在chop上的未提示的卡牌是非常重要的。
+- 在「Chop Move」后，那名玩家会认为自己的chop被一个“隐式”的提示点到了。因此，他们的chop会往左“挪移”，挪到下一张最右侧的，没有提示的卡牌。
+- 「Chop Move」是永久的，就是说「Chop Moved」的卡在之后不应该被弃掉。（除非他们变成了废牌）
+- 两种最为常见的「Chop Moves」将在下面讲解。
 
 <br />
 
-## Special Moves
+## 特殊操作
 
 <br />
 
 ### The Trash Chop Move
 
-- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered to be *Trash*.
-- The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
-- However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
-- For example, in a 3-player game:
-  - All of the 1's are played.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
-  - Bob *Chop Moves* his slot 5.
-  - Bob discards the 1.
-  - Bob's chop is now his slot 4.
+- 在游戏的中期，如果所有的1都已经被打出，而一名玩家提示了1，这就有点奇怪。（根据「Good Touch Principle」，玩家不应该点到那些已经打过的卡牌。）这种情况下，1都被认为是废牌。
+- 这个提示一定有更深层次的含义。我们不难推断出废牌右侧的卡牌都是重要的。这个提示的目的就是给那名玩家一个安全的弃牌对象。
+- 然而，除了给出一个可以安全弃掉的牌外，这个提示也会「Chop Move」**所有**废牌右侧的牌。
+- 例如，在一个三人游戏中：
+  - 所有的1都已经打出。
+  - Bob手中没有任何提示过的卡牌。
+  - Alice向Bob提示了1，点到了4号槽位的1。
+  - Bob「Chop Move」自己的5号槽位。
+  - Bob弃掉了1。
+  - Bob现在的chop变成了4号槽位。
 
 <TrashChopMove1 />
 
-- Most of the time, the *Trash Chop Move* is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards.
-- For example, in a 3-player game:
-  - All of the 1's have been played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 1.
-  - Bob *Chop Moves* his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple *Chop Move*).
-  - Bob discards the 1.
-  - Bob's chop is now his slot 1.
+- 大多数时间内，「Trash Chop Move」一般只会用来「Chop Move」一张卡（即废牌与chop只隔一张牌）。不过，你也可以一次性「Chop Move」多张牌。
+- 例如，在一个三人游戏中：
+  - 所有的1都已经打出。
+  - Bob手中没有任何提示过的卡牌。
+  - Alice向Bob提示了1，点到了1号槽位的1。
+  - Bob「Chop Move」自己的2号、3号、4号和5号槽位（一次性「Chop Move」了四张牌）。
+  - Bob弃掉了1。
+  - Bob现在的chop变成了1号槽位。
 
 <TrashChopMove2 />
 

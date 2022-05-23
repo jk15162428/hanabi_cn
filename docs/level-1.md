@@ -1,6 +1,6 @@
 ---
 id: level-1
-title: 进阶1 - Fundamentals（基础）
+title: 进阶1 - Fundamentals
 ---
 
 - 本页面大多都在重复初学者指南，尚未翻译，快来帮我翻译鸭XD。
