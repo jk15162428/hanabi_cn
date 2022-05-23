@@ -1,6 +1,6 @@
 ---
 id: level-2
-title: 进阶2 - Basic Moves
+title: 进阶2 - Basic Moves（初级操作）
 ---
 
 import DoublePrompt from '@site/image-generator/yml/level-2/double-prompt.yml';

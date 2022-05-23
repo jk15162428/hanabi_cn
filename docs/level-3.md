@@ -1,6 +1,6 @@
 ---
 id: level-3
-title: 进阶3 - Basic Strategy
+title: 进阶3 - Basic Strategy（初级策略）
 ---
 
 import PlayingMultiple1s1 from '@site/image-generator/yml/level-3/playing-multiple-1s-1.yml';
