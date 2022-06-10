@@ -13,8 +13,8 @@ import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
 - 通常情况下，玩家们只会在在无事可做时才选择弃牌，但不要理解错了。
 - 玩家**不被允许**随随便便提示任何一张卡牌：
   - 玩家**只被允许**向可以被打出的牌给出「Play Clues」。
-  - 玩家**只被允许**向在「Save Principle」中提到的特定卡牌给出「Save Principle」。
-- 如果玩家没法给出一个合法的「Play Clues」或「Save Principle」，那么他们必须**弃牌**。
+  - 玩家**只被允许**向在「Save Principle」中提到的特定卡牌给出「Save Clues」。
+- 如果玩家没法给出一个合法的「Play Clues」或「Save Clues」，那么他们必须**弃牌**。
 
 <br />
 

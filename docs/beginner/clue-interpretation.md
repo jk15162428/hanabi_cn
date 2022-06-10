@@ -11,15 +11,15 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 总的来说，现在我们有：
 
-1. 「Play Clues」
+1. 「Play Clues」（打出提示）
     - 普通的「Play Clues」
-    - 「Delayed Play Clues」
-1. 「Save Clues」
-    - 「5 Save」
-    - 「2 Save」
-    - 「Critical Save」
+    - 「Delayed Play Clues」（滞后打出提示）
+1. 「Save Clues」（保留提示）
+    - 「5 Save」（保留5）
+    - 「2 Save」（保留2）
+    - 「Critical Save」（保留关键卡牌）
 
-且每个提示只有一个「focus」。
+且每个提示只有一个「focus」（焦点）。
 
 <br />
 

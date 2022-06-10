@@ -157,32 +157,32 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ### 打错牌之后应该做些什么
 
-- 当一张牌打错的时候，队伍会得到一个“红叉”（strike）（在英文中也有时用bomb指代）。
-- 如果队伍有了三个红叉，那么就会直接游戏结束得到0分。应该**不惜一切代价**避免这种情况。
+- 当一张牌打错的时候，队伍会得到一个“红叉”（strike）（在英文中也有时用bomb指代），也就是少一条命。
+- 如果队伍有了三个红叉（败完了三条命），那么就会直接游戏结束得到0分。应该**不惜一切代价**避免这种情况。
   - 特例是当玩家们想要在某一个相当困难的变体上获得满分，不过这并不常见。
-- Building on this concept, it can also be **very bad** to get **two strikes in a row**. For example, say that Alice performs a bad clue and Bob misplays, causing a strike. And then Cathy "still believes" the original clue (thinking that Bob was the one who made the mistake instead of Alice), and Cathy goes on to misplay, causing yet another strike.
-- So, in general, we want to **isolate one mistake to one strike**. Why? Since Hanabi is so difficult, mistakes are common, and we don't want to push the team to the precipice of failure after one tiny mistake. That kind of thing is not very good for the overall win-rate.
-- This means that when a strike happens, **the state of information should "reset"** back to what it was before the mistake happened, at least most of the time.
-- For example, if Alice clues red to Cathy, and Bob misplays a card, then Cathy should **not** go on to play any of her red cards, and Cathy should **not** make any assumptions about what her red cards could be. Obviously, some kind of mistake happened, and Cathy should sit and wait patiently for further instructions.
+- 既然我们不希望把三条命都浪费完，那么**连续打错两张牌**一定是**非常糟糕**的。比如说，Alice给出一个相当糟糕的提示，Bob打错了牌，队伍少了条命。而Cathy“仍然信任”原本的提示（即认为是Bob犯了错，而不是Alice犯了错），于是Cathy也打错了牌，队伍又少了条命。
+- 所以，通常而言，我们希望**一个错误只导致一个红叉**。为什么？因为花火很难，错误十分常见，我们不希望仅仅一个小小的错误却会让队伍濒临失败的边缘，毕竟这种事情对总体胜率可没什么帮助。
+- 这意味着大多数情况下，如果打错了一张牌，**信息应该“重设”**回错误发生前的状态。
+- 比如说，如果Alice向Cathy提示了红色，Bob打错了一张牌，那么Cathy**不**应该接着打手中的任何一张红牌，Cathy**也不**应该对自己的红色卡牌作任何的假设。显然，有人犯了个错误，Cathy应该停下来，耐心地等待之后的提示。
 
 <br />
 
 ### 错误的「Prompt」
 
-- Utopia：这是一个非常常见的错误，请务必重视这个章节。（但我还没翻译2333）
+- **这是一个非常常见的错误，请务必重视这个章节。**
 - 首先，你应该看一下“[打错牌之后应该做些什么](#打错牌之后应该做些什么)”这个小节。
-- Normally, after a strike happens, you are supposed to relax and not make any additional assumptions.
-- However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a matching clued card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued card first.
-- When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
-- Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
-- For example, in a 3-player game:
-  - All of the 1's are played on the stacks.
-  - Alice sees that Bob has a red 2 on his *Finesse Position*.
-  - Alice clues red to Cathy, touching a red 3 as a *Play Clue*. She is trying to perform a *Finesse*.
-  - Bob sees that Alice is signaling that he has the red 2. This must be a *Prompt*, so Bob plays his clued red card as a red 2.
-  - However, it is actually a red 4 and it misplays. Oops! Alice forgot that Bob had a clued red card in his hand.
-  - Bob knows that this was a *Wrong Prompt*. He really does the have the red 2 and it was on his *Finesse Position* at the time of the clue.
-  - On his next turn, Bob blind-plays his slot 2. (It is on slot 2 now because he drew a card when he misplayed the red 4.)
+- 一般情况下，在打错一次牌后，你应该冷静一下，不要做过多的假设。
+- 不过呢，有一个例外。花火中玩家经常会犯的错误是自以为给出的是「Finesse」，但会被那名应该盲打的玩家解读为「Prompt」，因为他的手中有一张提示过的，并且能匹配上刚刚给出的提示的牌。由于「Prompts」优先于「Finesses」，那名玩家会优先打出自己手中已经提示过的且匹配提示的牌。
+- 当一张牌被「Prompted」却发现打错了牌时，每名玩家都会自然地认为这是犯了个错：而且几乎一定肯定是错误的「Prompt」，这意味着给出提示的玩家其实是想要那名玩家打出自己「Finesse Position」上的卡牌。
+- 因此，如果没有其他特别的情况发生，那打错牌的那名玩家应该在下一轮继续盲打自己「Finesse Position」上的卡牌。
+- 譬如，在一个三人游戏中：
+  - 所有的1都已被打出。
+  - Alice看见Bob在「Finesse Position」上有一张红2。
+  - Alice向Cathy提示了红色，点到了一张红3，这是一个「Play Clue」。她试图给出一个「Finesse」。
+  - Bob看到Alice的提示间接告诉了自己有红2。那这一定是个「Prompt」，所以Bob将手里一张已经提示过的红牌当作红2打出。
+  - 然而，这是一张红4，于是生命值-1。噫！Alice没有注意到Bob手里有张提示过的红色卡牌。
+  - Bob知道这是一个错误的「Prompt」。他确实有红2，而且一定就在给出提示时他的「Finesse Position」上。
+  - 到他的下一个回合，Bob盲打了2号槽位的卡牌。（因为打错了红4，所以新抽的卡将原本的卡牌都右移了一位）
 
 <WrongPrompt />
 
