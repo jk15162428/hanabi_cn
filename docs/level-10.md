@@ -34,7 +34,7 @@ import BluffProblem1 from '@site/image-generator/yml/level-10/bluff-question1.ym
 
 ### The Bluff
 
-- 「Finesses」是很有效率的。所以当你看见其他玩家的「Finesse Position」上有一张可以打出的牌时，你经常会想要用一个「Finesse」来顺带“捎“走那张牌（而不是直直的给那张牌一个提示）。然而，大多数情况下，想要的那张”后续牌“并没有出现在场上。
+- 「Finesses」是很有效率的。所以当你看见其他玩家的「Finesse Position」上有一张可以打出的牌时，你经常会想要用一个「Finesse」来顺带“捎”走那张牌（而不是直直的给那张牌一个提示）。然而，大多数情况下，想要的那张“后续牌”并没有出现在场上。
 - 这种情况下，玩家们可以使用利用另一种策略，即“诈”(fibbing)下一名玩家。通过提示一张与将要打出的卡牌毫无联系，但「one-away-from-playable」的牌，下一名玩家会认为这是一个「Finesse」，因此会认为自己有那张承上启下的过渡牌。所以，他们会盲打出「Finesse Position」上的牌。这种操作称为「Bluff」。
 - 在一张卡牌被盲打后，收到提示的玩家会发现奇怪的事情发生了——给出的提示**并不连着**刚刚盲打出的牌。因此，提示的卡牌肯定不是即刻能打出的，而且必须是「one-away-from-playable」的。
 - 比如说，在一个三人游戏中：
