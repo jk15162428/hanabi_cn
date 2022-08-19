@@ -1,6 +1,6 @@
 ---
 id: level-10
-title: Level 10 - Bluffs
+title: 进阶10 - Bluffs
 ---
 
 import Bluff from '@site/image-generator/yml/level-10/bluff.yml';
@@ -21,29 +21,29 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 import BluffProblem1 from '@site/image-generator/yml/level-10/bluff-question1.yml';
 
-- 进阶10我们将介绍*巧诈*，它利用*Fib*来让接下来的玩家直接盲打卡牌。
-- *巧诈*非常有趣，它使得我们可以做出更多盲打的举动。
+- 进阶10我们将介绍「Bluff」，它利用「Fib」来让接下来的玩家直接盲打卡牌。
+- 「Bluff」非常有趣，它使得我们可以做出更多盲打的举动。
 - 然而，玩家不再只是一味地给予严格正确的信息使得这个进阶相较于之前更加复杂，也更难以融会贯通。
-- 确保你已经完全适应了之前的进阶，再开始混入*巧诈*。（我们建议至少要有100-200把的游戏经验）。
+- 确保你已经完全适应了之前的进阶，再开始混入「Bluff」。（我们建议至少要有100-200把的游戏经验）。
 
 <br />
 
-## Special Moves
+## 特殊操作
 
 <br />
 
 ### The Bluff
 
-- *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
-- In this situation, players can perform an alternate strategy by fibbing to the next player. By cluing an unrelated, *one-away-from-playable* card, the next player will think that it is a *Finesse* and that they have the connecting card. Then, they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-- After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not connect** to the card that was blind-played. Thus, the clued card is not currently playable and must be a *one-away-from-playable* card.
-- For example, in a 3-player game:
-  - All the 2's are played on the stacks.
-  - Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
-  - Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 3.
-  - From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
-  - Bob blind-plays his slot 1 card, expecting it to be a red 3. Instead, it is a blue 3, and it successfully plays on the stacks. Bob now knows that he was *Bluffed* by Alice.
-  - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
+- 「Finesses」是很有效率的。所以当你看见其他玩家的「Finesse Position」上有一张可以打出的牌时，你经常会想要用一个「Finesse」来顺带“捎“走那张牌（而不是直直的给那张牌一个提示）。然而，大多数情况下，想要的那张”后续牌“并没有出现在场上。
+- 这种情况下，玩家们可以使用利用另一种策略，即“诈”(fibbing)下一名玩家。通过提示一张与将要打出的卡牌毫无联系，但「one-away-from-playable」的牌，下一名玩家会认为这是一个「Finesse」，因此会认为自己有那张承上启下的过渡牌。所以，他们会盲打出「Finesse Position」上的牌。这种操作称为「Bluff」。
+- 在一张卡牌被盲打后，收到提示的玩家会发现奇怪的事情发生了——给出的提示**并不连着**刚刚盲打出的牌。因此，提示的卡牌肯定不是即刻能打出的，而且必须是「one-away-from-playable」的。
+- 比如说，在一个三人游戏中：
+  - 所有的2都已经被打出。
+  - Alice向Cathy提示了红色，点到了一张红4，这是一个「Play Clue」。
+  - 接着轮到Bob。Bob发现，这个红色提示会让Cathy认为自己手上的是张红3。
+  - 所以在Bob的视角看来，这就是个「Finesse」——如果Bob没有选择现在盲打出红3，那么Cathy就会把红4当成红3打出。
+  - Bob盲打了自己1号槽位的卡牌，他觉得应该打出张红3。然而，这是张蓝3，但也顺顺利利地打了出去。Bob知道现在自己被Alice给「Bluff」了。
+  - 接着，Cathy看到Bob在Alice的红色提示后即刻盲打出了蓝3，所以她知道自己手中的一定是一张「one-away-from-playable」的红牌——红4。Cathy留下了红4以待后用，选择弃牌。
 
 <Bluff />
 

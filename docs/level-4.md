@@ -56,17 +56,17 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
 
 <TrashChopMove2 />
 
-- *Trash Chop Moves* are most commonly performed with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
-- Strategy wise, the *Trash Chop Move* is used for two main reasons:
-  1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
-  1. Some cards (e.g. a *one-away-from-playable* 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
-- Note that you are **not** allowed to *Trash Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-- If a *Trash Chop Move* touches **multiple** trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
-  - Bob **only** *Chop Moves* his slot 5 card.
+- 「Trash Chop Moves」通常使用数字1来实现，因为一般来说在游戏的中局，所有的1都已经被打出了。但只要所有的2都已经被打出/指明，那么数字2也能达到相同的目的。或者，当所有红色卡牌都被打出/指明时，也可以提示红色，以此类推。
+- 策略上说，「Trash Chop Move」主要应用在以下两个场合：
+  1. 有时在某名玩家的chop及chop前的槽位上有着接连几张critical cards，一名玩家没法同时save这些卡牌。在这种情况下，「Chop Move」可能就是唯一的解决方法。
+  1. 有些卡牌（比如说「one-away-from-playable」的3，4）可能在将来非常有用，但暂时“无法”直接点到它们（因为直接提示它们会意味着它们现在就可以打出）。如果游戏进展顺利，那“消耗”一个提示来永久地留下这些卡牌可能大有裨益。
+- 注意你**不被**允许「Trash Chop Move」一张可以直接用「Save Clue」安全留下的卡牌（除非有连着几张critical cards而且你没有其他选择）。因为直接信息（positive information）永远要好过一张未知的卡牌。
+- 如果「Trash Chop Move」点到了**多张**废牌，那就仅仅「Chop Moves」最右边的废牌往右的所有卡牌。
+- 比如，在一局三人游戏中：
+  - 所有的1都已被打出。
+  - Bob的手牌没有任何提示。
+  - Alice向Bob提示了数字1，点到了2号槽位和4号槽位的两张1。
+  - Bob**只**「Chop Moves」自己的5号槽位。
 
 <TrashChopMove3 />
 
@@ -74,27 +74,27 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
 
 ### The 5's Chop Move (5CM)
 
-- Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and in other "stalling" situations).
-- So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a *Play Clue* on that 5.
-- However, if the 5 is:
-  - **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), and
-  - the chop card is not a trash card
-- Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
-- Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 5's to Bob, which touches a 5 on slot 4.
-  - Bob *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
+- 通常而言，我们只允许save在chop上的5（除非这是一个发生在「Early Game」和其他踏步情况下的「5 Stall」）。
+- 所以说，如果一个数字5提示点到的并不是在chop上的5，而且现在**并不是**一个需要踏步的情况，那么这个提示看上去就是个5的「Play Clue」。
+- 然而，如果那张5满足如下条件：
+  - 与chop只有**一张**的距离（或者如果有多张5被点到，且最右侧的那张5离chop只有一张的距离），而且
+  - chop上的牌并不是一张废牌。
+- 那么，我们规定这个提示有一个特殊的含义，即这个提示完全**不是**一个「Play Clue」。
+- 反之，我们认为这个提示是一个「5's Chop Move」，那名被提示的玩家应该与之前「Trash Chop Move」一样进行「Chop Move」。
+- 比如说，在一个三人游戏中：
+  - 所有的1都已经被打出。
+  - Bob的手牌没有任何提示。
+  - Alice向Bob提示了数字5，点到了4号槽位的一张5。
+  - Bob要「Chop Move」自己5号槽位的卡牌，现在他新的chop是3号槽位。
 
 <FivesChopMove1 />
 
-- Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
-  - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
+- 与「Trash Chop Move」类似，如果一个「5's Chop Move」点到了**多张**5，那么我们只「Chop Move」最右侧的5右边的那张卡。
+- 比如说，在一个三人游戏中：
+  - 所有的1都已经被打出。
+  - Bob的手牌没有任何提示。
+  - Alice向Bob提示了数字5，点到了2号槽位和4号槽位的2张5。
+  - Bob**只**「Chop Move」自己5号槽位的卡牌。Bob现在新的chop是3号槽位。
 
 <FivesChopMove2 />
 
