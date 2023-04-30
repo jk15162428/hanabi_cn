@@ -16,7 +16,7 @@ players:
       - type: 1
         clue: 1
         middle_note: 1st
-        below: 新抽的
+        below: Fresh
       - type: x
       - type: 1
         clue: 1
@@ -24,14 +24,14 @@ players:
         middle_note: 3rd
         below:
           text:
-            - 已经
-            - 提示过
+            - Already
+            - clued
       - type: 1
         clue: 1
         retouched: true
         middle_note: 2nd
         below:
           text:
-            - 已经
-            - 提示过
+            - Already
+            - clued
       - type: x

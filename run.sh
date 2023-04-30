@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -e # Exit on any errors
 
 # Get the directory of this script
@@ -6,4 +7,4 @@ set -e # Exit on any errors
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd "$DIR"
-npm run start
+yarn start

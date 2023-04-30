@@ -36,7 +36,7 @@
 - Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
 - The formula for efficiency is:
   - `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
-  - (This formula assumes the use of *Good Touch Principle*.)
+  - (This formula assumes the use of _Good Touch Principle_.)
 
 <br />
 
@@ -51,12 +51,15 @@
 | 6 Suits (Clue Starved)                 | 1.43     | 1.58       | 1.76     | 1.58     |
 | 6 Suits (Throw It in a Hole)           | 1.00     | 1.15       | 1.30     | 1.15     |
 | 6 Suits (Throw It in a Hole) w/ 1x 1oE | 1.25     | 1.50       | 1.88     | 1.58     |
+| 6 Suits (Critical Fours)               | 1.03     | 1.20       | 1.43     | 1.25     |
+| 6 Suits (Critical Fours) w/ 1x 1oE     | 1.20     | 1.43       | 1.76     | 1.50     |
 | 5 Suits                                | 0.86     | 1.00       | 1.19     | 1.04     |
 | 5 Suits w/ 1x 1oE                      | 1.04     | 1.25       | 1.56     | 1.32     |
 | 5 Suits (Up or Down)                   | 1.04     | 1.25       | 1.56     | 1.32     |
 | 5 Suits (Clue Starved)                 | 1.39     | 1.56       | 1.79     | 1.56     |
 | 5 Suits (Throw It in a Hole)           | 1.00     | 1.19       | 1.39     | 1.19     |
 | 5 Suits (Throw It in a Hole) w/ 1x 1oE | 1.32     | 1.67       | 2.27     | 1.79     |
+| 5 Suits (Critical Fours)               | 1.04     | 1.25       | 1.56     | 1.32     |
 | 4 Suits                                | 0.87     | 1.05       | 1.33     | 1.11     |
 | 4 Suits w/ 1x 1oE                      | 1.11     | 1.43       | 2.00     | 1.54     |
 | 4 Suits (Up or Down)                   | 1.05     | 1.33       | 1.82     | 1.43     |
@@ -71,9 +74,9 @@
 - The formula for minimum efficiency is:
   - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   - "unusable clues" is 1 by default, but 2 in a 5/6-player game
-  - "unusable clues" is equal to the number of suits in a *Throw It in a Hole* game
+  - "unusable clues" is equal to the number of suits in a _Throw It in a Hole_ game
   - "unusable clues" is always 1 if a game contains a Contrarian detrimental character
-  - "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
+  - "discards per clue" is 1 by default, but 2 in a _Clue Starved_ game
 - To calculate the total number of clues given or lost, we use:
   - +8 for the 8 starting clues
   - starting pace because you get 1 clue per discard

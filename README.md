@@ -1,18 +1,16 @@
-# 花火的H-Group约定
+# H-Group Conventions for Hanabi
 
-[![H-Group](/static/img/hyphenated-circle.png)](https://hanabi.github.io/)
+Please visit the **[conventions website](https://hanabi.github.io/)**.
 
-约定细则请查阅[该网站](https://jk15162428.github.io/hanabi_cn/).
-
-这是该约定网页的Github repository。使用一个现代静态网页生成器[Docusaurus 2](https://v2.docusaurus.io/)搭建。
+This is the GitHub repository for the website. It is built with [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 <br />
 
 ## What is a Pull Request?
 
-If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to a submit a *pull request*.
+If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to a submit a _pull request_.
 
-In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the master copy of the website. Essentially, you need to make a copy of the website (called a *fork*), make some changes (called a *commit*), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR and I can look over the specific changes. Then, I can click "Approve" or "Deny" accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated!
+In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the master copy of the website. Essentially, you need to make a copy of the website (called a _fork_), make some changes (called a _commit_), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR and I can look over the specific changes. Then, I can click "Approve" or "Deny" accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated!
 
 Pull requests are how people collaborate together to work on code (and documents) on GitHub.
 
@@ -63,7 +61,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 - [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type: `cd Documents`
 - Clone the forked copy of the website with the following command:
   - `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br />
-  (replace "[YourGitHubUsername]" with your GitHub username)
+    (replace "[YourGitHubUsername]" with your GitHub username)
 - Go into the cloned directory:
   - `cd hanabi.github.io`
 - Install the dependencies:
@@ -74,7 +72,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 - In the shell from the previous step, test to see if the website works with the following command:
   - `./run.sh`
   - Now, the website will "run" forever until you press `Ctrl + C` to cancel it (or close the terminal window).
-  - In a browser, surf to http://localhost:3000/ in order to see your local copy of the website.
+  - In a browser, surf to http://localhost:3000/ in order to see your local copy of the website. <!-- markdownlint-disable-line MD034 -->
 - Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier.
 - VSCode is now treating the website as a "project". You can see the list of files in the left pane and you can double click a file to open it. (Alternatively, you can open a file by using the menu with "File" --> "Open File".)
 - The main files for the website are located in the "docs" folder. For example, the section for level 1 is located at "docs/level-1.md". Go ahead and edit whatever files that you want to change. As soon as you edit a particular file, you should see the changes automatically appear in your browser (that is, if you happen to be viewing the particular section).
@@ -83,7 +81,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 
 - The website has some automated checks that can catch spelling errors and related mistakes. After making some changes, you should ensure that there are no errors with what you did.
 - In the shell from the previous step, run the "lint.sh" script:
-  * `./lint.sh`
+  - `./lint.sh`
 - If it reports "Success!", then no errors were found. Otherwise, a description of the error will be shown.
 
 ### Part 5 - Commit Changes and Submit a PR

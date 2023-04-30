@@ -31,9 +31,7 @@ PLAYER_NAMES = [
     "Donald",
     "Emily",
 ]
-# add /hanabi_cn
-# PIECES_PATH = "/img/pieces"
-PIECES_PATH = "/hanabi_cn/img/pieces"
+PIECES_PATH = "/img/pieces"
 NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"]
 ALL_SUITS = [
     "r",  # Red
@@ -627,13 +625,9 @@ def draw_textbox(svg_file, opts, offset):
         ):
             color = {
                 "focus": "gold",
-                "焦点": "gold",
                 "play": "gold",
-                "打出": "gold",
                 "chop": "darkred",
-                "弃牌位": "darkred",
                 "fresh": "green",
-                "新抽的": "green",
                 "bad": "gray",
                 "brown": "sienna",
             }.get(color, "black")
@@ -788,7 +782,7 @@ def print_svg(svg_file):
     svg_file.write(output, pretty=True)
     output = output.getvalue()
 
-    # Workround for stupid Docusaurus/React error similar to this one:
+    # Workaround for stupid Docusaurus/React error similar to this one:
     # https://github.com/facebook/docusaurus/issues/3689
     output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 
