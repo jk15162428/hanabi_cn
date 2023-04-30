@@ -3,7 +3,7 @@ module.exports = {
     "about",
     // "rules",
     {
-      "初学者指南": [
+      初学者指南: [
         "beginner",
         "beginner/card-layout",
         {
@@ -118,7 +118,7 @@ module.exports = {
     "how-to-join",
     "learning-path",
     {
-      "基础策略": [
+      基础策略: [
         "reference",
         "first-principles",
         "level-1",
