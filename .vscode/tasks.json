@@ -4,25 +4,25 @@
 // Alternatively, you can bind them to a specific hotkey:
 // https://code.visualstudio.com/docs/editor/tasks#_binding-keyboard-shortcuts-to-tasks
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "Install Dependencies",
-        "type": "shell",
-        "command": "./install.sh",
-        "presentation": {
-          "reveal": "always",
-          "panel": "new",
-        },
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "./install.sh",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
       },
-      {
-        "label": "Run Website",
-        "type": "shell",
-        "command": "./run.sh",
-        "presentation": {
-          "reveal": "always",
-          "panel": "new",
-        },
+    },
+    {
+      "label": "Run Website",
+      "type": "shell",
+      "command": "./run.sh",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
       },
-    ],
-  }
+    },
+  ],
+}
