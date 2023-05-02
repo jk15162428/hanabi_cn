@@ -31,7 +31,8 @@ PLAYER_NAMES = [
     "Donald",
     "Emily",
 ]
-PIECES_PATH = "/img/pieces"
+# add /hanabi_cn for chinese version
+PIECES_PATH = "/hanabi_cn/img/pieces"
 NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"]
 ALL_SUITS = [
     "r",  # Red

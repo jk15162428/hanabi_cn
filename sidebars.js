@@ -1,7 +1,6 @@
 module.exports = {
   mainSidebar: [
     "about",
-    // "rules",
     {
       初学者指南: [
         "beginner",
