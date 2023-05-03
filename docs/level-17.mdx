@@ -1,6 +1,6 @@
 ---
 id: level-17
-title: 进阶17 - Dupe Tech
+title: 进阶17 - Dupe Tech（玩转复制）
 ---
 
 import AssistedTrashChopMoveTrashFinesse from "@site/image-generator/yml/level-17/assisted-trash-chop-move-trash-finesse.yml";
@@ -20,7 +20,7 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 - 通常而言，我们不会给复制牌「Play Clues」，因为这违背了「Good Touch Principle」。
 - 然而，在某些情况下，给下一名玩家一个「Play Clue」并让他打出一张复制是可行的。如果这么做的同时，提示还会点到其他有用的卡牌，那这就是一个「Duplicitous Value Clue」。
 - 我们规定只要这种提示符合「Minimum Clue Value Principle」（不计算复制牌本身），- 那么这个提示的目的就仅仅是存下那些有用的卡牌。
-- 譬如说，在一局三人游戏中：
+- 比如说，在一局三人游戏中：
   - 红 2 和蓝 2 已经被打出。
   - Alice 手中有一张明牌红 3。
   - Alice 向 Bob 提示了数字 3，这是一个点到了 2 张牌的「Play Clue」。
@@ -37,9 +37,9 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 ### The Duplicitous Blind-Play
 
 - 首先，请阅读「[Duplicitous Value Clue](#the-duplicitous-value-clue)」这一部分。
-- 在「Duplicitous Value Clue」中，一张复制牌被直接提示（为了“得到”其他有用的牌）。同样的，让一张复制牌被盲打出来（为了“得到”其他有用的牌）也是可行的。这被称为「Duplicitous Blind-Play」。
+- 在「Duplicitous Value Clue」中，一张复制牌被直接提示（为了“获得”其他有用的牌）。同样的，让一张复制牌被盲打出来（为了“获得”其他有用的牌）也是可行的。这被称为「Duplicitous Blind-Play」。
 - 「Duplicitous Blind-Play」与「Duplicitous Value Clues」几乎没有区别，只要提示符合「Minimum Clue Value Principle」，且不需要进一步的「Prompts」或盲打。
-- 譬如说，在一局三人游戏中：
+- 比如说，在一局三人游戏中：
   - 红 2 和蓝 2 已经被打出。
   - Alice 手中有一张明牌红 3。
   - Alice 向 Cathy 提示了蓝色，这是一个在蓝 4 上的「Play Clue」。
@@ -57,13 +57,13 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 
 - 首先，请阅读「[Duplicitous Value Clue](#the-duplicitous-value-clue)」和「[Duplicitous Blind-Play](#the-duplicitous-blind-play)」这两部分。
 - 在「Duplicitous Value Clue」和「Duplicitous Blind-Play」的情形中，至少一张“额外”的，有价值的卡牌被点到。但如果这种操作出现的时候，没有其他有用的卡牌被点到呢？
-- 如果一张「filled-in」后的牌变成了可以打出的牌，那这个提示就应该被追溯为「Tempo Clue」。因此，这种类型的提示被称为「Duplicitous Tempo Clue」。
+- 如果一张“填充”后的牌变成了可以打出的牌，那这个提示就应该被追溯为「Tempo Clue」。因此，这种类型的提示被称为「Duplicitous Tempo Clue」。
 - 「Duplicitous Tempo Clues」有可能会导致「Tempo Clue Chop Move」。（发生的条件则与“一般”的「Tempo Clue」一致。）
-- 譬如说，在一局三人游戏中：
+- 比如说，在一局三人游戏中：
   - 红 1、绿 1 和蓝 1 已经被打出。
   - Cathy 手中有一张明牌红 2。
-  - Bob 手中有一张曾被提示过的绿 2，但它的数字在之前还不知道。
-  - Alice 向 Bob 提示了数字 2，点到一张新卡，同时「filling in」了绿 2。
+  - Bob 手中有一张曾被提示过的绿 2，但数字暂时还不知道。
+  - Alice 向 Bob 提示了数字 2，点到一张新卡，同时“填充”了绿 2。
   - Bob 知道这是一个在蓝 2 上的「Play Clue」。他打了出来，但它实际上是张红 2 并被顺利打出。
   - Bob 盲打出「Finesse Position」上的牌，以为打出的是蓝 3 的「Finesse」。但是，这是一张红 3，并被顺利打出。
   - Bob 第一反应是这是一个「Duplicitous Value Clue」，但没有其他新卡被点到。因此，Bob 知道这是一个「Duplicitous Tempo Clue」。
@@ -79,7 +79,7 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 - 「Trash Chop Moves」十分有用，但有时他们会被“挡住”，即没有合适的方法清晰地指出一张明废牌。
 - 这种情况下，可以通过使用「Trash Bluff」或「Unknown Trash Discharge」来让一张复制牌被盲打出来的形式解决问题。这种操作被称为「Assisted Trash Chop Move」。
 - 因为这种操作下没有“额外”的卡牌会被点到（不是「Duplicitous Value Clue」的情况），这种提示的目的对于队伍而言应该清晰了当：一个「Trash Chop Move」，即将被提示的牌右侧所有的牌全部「Chop Move」。
-- 譬如说，这是一局三人游戏，「Assisted Chop Move」由「Trash Finesse」触发：
+- 比如说，这是一局三人游戏，「Assisted Chop Move」由「Trash Finesse」触发：
   - 蓝 1 已经被打出。
   - Alice 手中有一张明黄 1。
   - Alice 向 Bob 提示了数字 1，这是一个在 3 号槽位的蓝 1 上的「Play Clue」。
@@ -89,7 +89,7 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 
 <AssistedTrashChopMoveTrashFinesse />
 
-- 譬如说，这是一局三人游戏，「Assisted Chop Move」由「Unknown Trash Discharge」触发：
+- 比如说，这是一局三人游戏，「Assisted Chop Move」由「Unknown Trash Discharge」触发：
   - 蓝 1 已经被打出
   - Alice 手中有一张明黄 1。
   - Alice 向 Cathy 提示蓝色，这是一个在 2 号槽位的蓝 1 上的「Play Clue」。
@@ -103,15 +103,15 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 
 ### The Time Travel Chop Move (Direct Form)
 
-- First, see the section on the _[Duplicitous Value Clue](#the-duplicitous-value-clue)_ and the _[Duplicitous Blind-Play](#the-duplicitous-blind-play)_.
-- Normally, a _Duplicitous Clue_ "gets" an extra card or "fills in" another card as a _Tempo Clue_. However, if a _Duplicitous Clue_ is performed that does not accomplish either of these things, it must have been done for some other reason.
-- In this situation, after the duplication reveals itself, the clued player should interpret the clue as a _Trash Chop Move_ on their own hand. (In other words, they should pretend like the duplicated card was clued directly as a _Trash Chop Move_.)
-- For example, in a 3-player game:
-  - All of the 2s are played on the stacks.
-  - Cathy holds a globally-known red 3.
-  - Alice clues number 3 to Bob, touching a new 3 as a _Play Clue_.
-  - Bob plays his 3, expecting it to be any 3 other than red. However, it is actually red 3, and successfully plays on the stacks.
-  - Since this move was a 0-for-1 and did not provide tempo on any cards, everyone knows that this was a _Time Travel Chop Move_. Bob _Chop Moves_ all the cards that were behind his red 3.
+- 首先，请阅读「[Duplicitous Value Clue](#the-duplicitous-value-clue)」和「[Duplicitous Blind-Play](#the-duplicitous-blind-play)」这两部分。
+- 通常而言，一个「Duplicitous Clue」“获得”了一张额外的牌或者作为「Tempo Clue」“填充”了另一张卡。但是，如果一个「Duplicitous Clue」并没有做到这两件事中的任意一件，那这么做肯定是为了其他原因。
+- 这种情况下，当复制的情况明了后，被提示的玩家应该将这个提示认为是对自己手牌的「Trash Chop Move」。（也就是说，他们应该认为刚才的提示与被直接提示一张废牌触发「Trash Chop Move」等价。
+- 比如说，在一局三人游戏中：
+  - 所有的 2 都已经被打出。
+  - Cathy 手中有一张明红 3。
+  - Alice 向 Bob 提示了数字 3，这是一个在新点到的 3 上的「Play Clue」。
+  - Bob 打出自己的 3，他认为这是张除了红色外的任意一种 3。但是，这是一张红 3 并被顺利打出。
+  - 因为这个提示只是个“0 换 1”，并且并不是为了某些牌提供 tempo，每名玩家都应该知道这是一个「Time Travel Chop Move」。Bob「Chop Move」了自己这张红 3 之后的所有卡牌。
 
 <TimeTravelChopMoveDirect />
 
@@ -119,17 +119,17 @@ import TimeTravelChopMoveDirect from "@site/image-generator/yml/level-17/time-tr
 
 ### The Time Travel Chop Move (Blind-Play Form)
 
-- First, see the section on the _[Time Travel Chop Move (Direct Form)](#the-time-travel-chop-move-direct-form)_.
-- Normally, a _Time Travel Chop Move_ involves cluing the duplicated card directly. But what if the duplicated card is "blocked" with no way to cleanly clue it?
-- In this situation, players can cause the duplicated card to blind-play instead of cluing it directly, which should accomplish the same thing (i.e. the cards to the right of the duplicated card being _Chop Moved_). However, care has to be taken to ensure that the end result is truly "bad" enough to not be misinterpreted as another kind of clue.
-- Specifically:
-  - The clue must not satisfy _Minimum Clue Value Principle_ (similar to a _Duplicitous Clue_).
-  - The clue must not look like an _[Assisted Trash Chop Move](#the-assisted-trash-chop-move)_ on the clue receiver.
-- For example, in a 3-player game:
-  - All of the 1s are played on the stacks. Cathy has a known blue 2.
-  - Bob has a previously-clued red card in his hand, but does not know the rank of the card.
-  - Alice clues number 3 to Bob, "filling in" the red card as the red 3. (The clue touches no other cards.)
-  - Bob knows that this is a _Finesse_ on the red 2 into the red 3. Bob blind-plays his _Finesse Position_, but it is a blue 2 instead of a red 2, which successfully plays on the stacks.
-  - Since the move was a 0-for-1, Bob understands that he should _Chop Move_ everything that was behind the blue 2 as a _Time Travel Chop Move_.
+- 首先，请阅读「[Time Travel Chop Move (Direct Form)](#the-time-travel-chop-move-direct-form)」这一部分。
+- 通常而言，一个「Time Travel Chop Move」会直接提示一张复制牌。但如果这张复制牌被“挡”住了，没有办法直接提示到呢？
+- 这种情况下，玩家可以让这张复制牌被盲打出去而不是直接提示它，这理应是一样的原理（即打出的复制牌右侧的所有卡牌都应该被「Chop Moved」）。但是，需要注意使用这种技巧时，结果必须要“差”得可以，即不会被解释为其他类型的提示。
+- 详细解释：
+  - 提示一定不能符合「Minimum Clue Value Principle」（与「Duplicitous Clue」类似）
+  - 对于收到提示的玩家而言，这个提示看上去不能像是一个「[Assisted Trash Chop Move](#the-assisted-trash-chop-move)」。
+    比如说，在一局三人游戏中：
+  - 所有的 1 都已被打出。Cathy 手中有一张明蓝 2。
+  - Bob 手里有一张曾被提示过的红牌，但数字暂时还不知道。
+  - Alice 向 Bob 提示了数字 3，“填充”了这张红牌，使其变成了明红 3。（这个提示没有点到其他卡牌。）
+  - Bob 知道这是一个后接红 3 的红 2「Finesse」。Bob 盲打出自己「Finesse Position」的牌，但这是一张蓝 2 而非红 2，牌被顺利打出。
+  - 因为这个提示是个“0 换 1”，Bob 知道因为「Time Travel Chop Move」，他应该「Chop Move」所有蓝 2 后的牌。
 
 <TimeTravelChopMoveBlind />
