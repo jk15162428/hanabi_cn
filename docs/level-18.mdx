@@ -24,7 +24,7 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
 - 譬如说，在一局三人游戏中：
   - 红 3 已经被打出。
   - Alice 手中没有任何提示过的牌。
-  - Alice 弃掉了 chop（5 号槽位）的牌，这是一张（可以打出的）红 4。
+  - Alice 弃掉了 chop（5 号槽位）上的牌，这是一张（可以打出的）红 4。
   - Alice 很惊讶 - 她知道队伍里的其他成员不会让彼此弃掉可以打出的牌（根据「Save Principle」）。
   - Alice 知道队伍并不在一个很紧急的情况下，唯一的解释就是她手里有另一张红 4。
   - Alice 在自己的 2 号、3 号、4 号和 5 号槽位记下了“r4?”的笔记。（不可能会在 1 号槽位，因为她刚刚才抽到这张牌。）
@@ -42,58 +42,58 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
 
 ### Double Discard Elimination
 
-- When a player who is in a _Double Discard_ situation discards anyway with an obvious clue to give (such as a _5 Stall_), it implies that they **see** the other copy of the card, and were not _Double Discarding_ at all.
-- Thus, when this occurs, you should write _Elimination Notes_ on your entire hand for that card.
-- This is almost exactly the same thing as _Discard Elimination_, except it is triggered by the discard of a separate player.
+- 当一名玩家在「Double Discard」情况下选择弃牌，但他明明看得到有一个显而易见的提示可以给（比如「5 Stall」），这暗示着他们“看见”了那张牌的另一张复制，所以自己根本就不在「Double Discard」情况中。
+- 因此，这种情况发生时，你应该在你的所有手牌上记下「Elimination Notes」。
+- 除了是由另一名玩家弃牌触发的，这与「Discard Elimination」几乎没有区别。
 
 ### 2 Elimination
 
-- According to _Save Principle_, everyone knows that all of the 2's must get saved. Thus, if someone else on the team lets a 2 get discarded, that is very strange.
-- If there is not anything special going on, then this should be a signal that someone else has the other copy of the 2, and should trigger the writing of _Elimination Notes_ on their hand.
+- 根据「Save Principle」，每名玩家都知道所有的 2 都应该保存下来。因此，如果有名玩家选择让一张 2 被弃掉，这是很奇怪的。
+- 如果没有其他特殊的情况发生，那么这就是一个信号，其他人手里有另一张 2，所以应该在他们的手牌上写下「Elimination Notes」。
 
 <br />
 
-## Special Moves
+## 特殊操作
 
 <br />
 
-### The Elimination Blind-Play
+### The Elimination Blind-Play（排除法盲打）
 
-- First, see the section on [Elimination](#elimination--elimination-notes).
-- In the example for _Discard Elimination_, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the _Elimination Notes_ can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an _Elimination Blind-Play_.
-- For example, in a 3-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes "r4?" _Elimination Notes_ on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a _Play Clue_ on slot 1.)
-  - Alice writes a note of "blue 1" on slot 1.
-  - Alice erases her _Elimination Notes_ for the red 4 from slots 2, 3, and 4.
-  - The only card left with an _Elimination Note_ is slot 5.
-  - Alice can now blind-play the red 4 when it gets to her turn as an _Elimination Blind-Play_.
+- 首先，请阅读「[Elimination](#elimination--elimination-notes（排除法与排除笔记）)」这一部分。
+- 在「Discard Elimination」的例子中，队伍直接提示了另一张红 4。但有些时候，队伍并**不会**提示任何东西。写有「Elimination Notes」的玩家可以逐个排除掉可能性。当只剩下一种可能性时，他们就可以使用「Elimination Blind-Play」直接盲打出那张牌。
+- 比如说，在一局三人游戏中：
+  - 红 3 已经被打出。
+  - Alice 手中没有任何提示过的牌。
+  - Alice 弃掉了 chop（5 号槽位）上的牌。这是一张（可以打出的）红 4。
+  - Alice 知道队伍并不在一个很紧急的情况下，唯一的解释就是她手里有另一张红 4。
+  - Alice 在自己的 2 号、3 号、4 号和 5 号槽位记下了“r4?”的笔记。（不可能会在 1 号槽位，因为她刚刚才抽到这张牌。）
+  - Bob 向 Alice 提示了蓝色，点到了 1 号、2 号、3 号和 4 号槽位的牌。（这是在 1 号槽位上的「Play Clue」。）
+  - Alice 在 1 号槽位记下了“blue 1”。
+  - Alice 去掉了写在 2 号、3 号和 4 号槽位上的"r4"笔记。
+  - 现在还留有「Elimination Note」的牌只有 5 号槽位了。
+  - 轮到 Alice 的回合时，她可以使用「Elimination Blind-Play」直接打出红 4。
 
 <EliminationBlindPlay />
 
-### The Elimination Play Clue
+### The Elimination Play Clue（排除法打出提示）
 
-- A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
-- However, this rule does not apply if a clue singles out a playable card from _Elimination_. In this case, the card is only focused on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
-- For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
-  - Alice discards her chop, and it is revealed to be the red 2.
-  - Alice is surprised, and writes _Discard Elimination Notes_ for red 2 on slots 2, 3, 4, and 5.
-  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
-  - Normally, Alice would treat this as a _Play Clue_ on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
-  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
+- 一个点到多张牌的提示只有一个 focus。你应该知道的，如果 chop 上的牌没有被点到，那 focus 就在最左侧的牌。
+- 然而，如果根据「Elimination」这个提示单独排出了一张牌，那这个规则就不适用了。这种情况下，只有「Elimination」排除而出的那张牌是 focus，其他所有被点到的牌都不保证现在是能打出的。
+- 比如说，在一局三人游戏中：
+  - 红 1 和蓝 1 都已被打出。
+  - Alice 的 3 号槽位和 5 号槽位都是红 2。（Alice 的 chop 是 5 号槽位。）
+  - Alice 弃掉了 chop 上的牌，这是一张红 2。
+  - Alice 很惊讶，并在 2 号、3 号、4 号和 5 号槽位上记下了红 2 的「Elimination Notes」。
+  - Bob 向 Alice 提示了数字 2，点到了 1 号和 4 号槽位。
+  - 通常而言，Alice 会认为在 1 号槽位上的「Play Clue」。但是，她知道自己的 4 号槽位肯定是红 2（她现在就可以打出这张牌）。
+  - 因此，Alice 知道这个提示的目的就是为了获得红 2。1 号槽位的 2 可以是任意一张其他的 2，现在并不保证能被打出。
 
 <EliminationPlayClue />
 
 ### Interaction Between Elimination & Chop-Focus
 
-- Sometimes, players will have two or more _Elimination Notes_ on cards in their hand. These players can be given follow-up clues that single out the identity of the _Elimination_ card.
-- Clues can single out the _Elimination_ card using _positive information_ or by using _negative information_.
+- 有时，玩家的手牌中有两张或更多的牌有「Elimination Notes」。通过后续给这些玩家提示，他们可以用「Elimination」排出某张卡是什么。
+- 提示可以使用「positive information」（正向信息）或使用「negative information」（负向信息）来帮助「Elimination」的使用。
 
 #### Example of an Elimination Single-Out Using a Clue With Positive Information
 
