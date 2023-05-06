@@ -190,25 +190,24 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
 
 ### Trash Touch Elimination
 
-- 我就这段没翻，你肯定可以自己看完的吧？
-- Players carefully choose between using a color clue and a number clue in order to avoid violating _Good Touch Principle_. Sometimes, when both a color clue **and** a number would violate _Good Touch Principle_, players are forced to pick between the lesser of two evils.
-- For example, in a 3-player game:
-  - Red 3 and blue 1 are played on the stacks.
-  - Bob's hand is, from newest to oldest: `red 4, red 3, blue 4, blue 4, blue 1`
-  - If Alice needs to clue the red 4 **right now** for some reason, she would be screwed. If she clues red, she would duplicate the red 3. If she clues number 4, she would duplicate the blue 4. Both are bad.
-  - So, Alice has to choose between the lesser of two evils and chooses to clue number 4 as a _Play Clue_ on the red 4.
-  - Bob plays the red 4.
-  - Now, Cathy has to interpret what happened. Normally, Alice duplicating the blue 4 would mean that she is making a mistake or something else special is going on. However, in this situation, Cathy knows that Alice had to choose between two evils, so the number 4 clue is considered to be ordinary.
-- In some situations, players you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So if a clue is given that does so anyway, it is conveying an extra special message.
-- When this occurs, and there is exactly one "missing" card, players should write an _Elimination Note_ in their hand for the missing card. This is called _Trash Touch Elimination_.
-- For example, in a 3-player game:
-  - Red 3 and all the other 1s are played on the stacks.
-  - Bob's hand is, from newest to oldest: `red 4, red 1, blue 1, green 1, yellow 1`
-  - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
-    - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy _Good Touch Principle_).
-    - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** _Good Touch Principle_).
-  - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
-  - Bob plays the red 4.
-  - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from _Good Touch Principle_). This must mean that Cathy has the red 5. Cathy writes _Trash Touch Elimination Notes_ on her hand for the red 5.
+- 玩家会仔细地在颜色提示和数字提示中选择，防止违背「Good Touch Principle」。有时，在两种提示都会违背「Good Touch Principle」时，玩家被迫得选一个不那么坏的。
+- 比如说，在一局三人游戏中：
+  - 红 3 和蓝 1 已经被打出。
+  - Bob 的手牌从左到右是：`红4，红3，蓝4，蓝4，蓝1`。
+  - 如果 Alice**现在**因为某些原因需要提示红 4，她会很难受。如果她提示红色，那么就会提示到红 3。如果她提示数字 4，她会提示到两张蓝 4。都不好。
+  - 所以，Alice 必须在两者中选一个相对好点的，她选择提示数字 4，这是一个在红 4 上的「Play Clue」。
+  - Bob 打出了红 4。
+  - 现在，Cathy 需要思考一下发生了什么。通常而言，Alice 点到两张蓝 4 不是犯了错，就是有什么特殊情况发生了。但是，本例的情况中，Cathy 知道 Alice 是被迫要在两个提示中选一个，提示数字 4 是正常的行为。
+- 某些情况下，玩家们可以看出来这**是**完全可以用颜色或数字提示来点到想要的牌，并且不会“碰到”其他的坏牌。所以如果提示仍然这么给了，那就是在传递额外的信息。
+- 这种情况发生时，且恰好只有一张“未见”的卡牌，玩家应该在自己的手牌上记下那张未见卡牌的「Elimination Note」。这被称为「Trash Touch Elimination」。
+- 比如说，在一局三人游戏中：
+  - 红 3 和其他的 1 都已被打出。
+  - Bob 的手牌从左到右是：`红4，红1，蓝1，绿1，黄1`。
+  - Alice 想要给红 4 一个打出提示。其他队伍里的玩家（除了 Bob）知道她可以给数字 4 或红色。
+    - 如果 Alice 提示了数字 4，那只会点到红 4（满足了「Good Touch Principle」）。
+    - 如果 Alice 提示了红色，那么会点到红 4 和红 1（**违背**了「Good Touch Principle」）。
+  - Alice 向 Bob 提示了红色。因为没有其他原因让她没法提示数字 4，这就很奇怪了。
+  - Bob 打出了红 4。
+  - 还有一张“未见”的红牌 - 红 5。Cathy 知道哦通常而言，Bob 会把自己的红 1 当成红 4（根据「Good Touch Principle」）。这意味着 Cathy 一定有红 4。Cathy 在手牌中记下了红 5 的「Trash Touch Elimination Notes」。
 
 <TrashTouchElimination />
