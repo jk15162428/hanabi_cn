@@ -1,6 +1,6 @@
 ---
 id: level-19
-title: Level 19 - 5 Tech
+title: 进阶19 - 5的技巧
 ---
 
 import TheFivePull from "@site/image-generator/yml/level-19/the-five-pull.yml";
@@ -12,68 +12,67 @@ import TheFiveNumberEjection from "@site/image-generator/yml/level-19/the-five-n
 import TheFiveNumberDischarge from "@site/image-generator/yml/level-19/the-five-number-discharge.yml";
 import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level-19/interaction-between-2-saves-and-5-stalls.yml";
 
-## Conventions
+## 规定
 
 <br />
 
-### The Low Score Phase and the Normal Score Phase
+### 低分数阶段和正常分数阶段
 
-- At this point, you should already know that we split up the game of Hanabi into the _Early Game_ and the _Mid-Game_ (based on when someone discards).
-- In a similar way, we also split up the game of Hanabi into the _Low Score Phase_ and the _Normal Score Phase_:
-  - The _Low Score Phase_ is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
-  - The _Normal Score Phase_ is defined as when the score is equal to or past this threshold.
-- Some special moves using a number 5 clue can only be performed in the _Low Score Phase_ of the game.
-- On Hanab Live, the score will be colored cyan when the _Low Score Phase_ is active.
-
-<br />
-
-### No Play Clues with a Number 5 Clue in the Low Score Phase
-
-- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a _Play Clue_ on the 5.
-- However, all number 5 clues in the _Low Score Phase_ are **never** to be interpreted as a direct _Play Clue_.
-- They are instead interpreted as a more advanced move. (See the _[5 Pull](#the-5-pull)_ section below.)
-- This means that if players need to give a _Play Clue_ to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+- 都到这了，你应该知道我们将一局游戏分为了「Early Game」（开局）和「Mid-Game」（中局）两个阶段（基于是否有玩家弃牌）。
+- 类似的，我们也将一局游戏分为「Low Score Phase」（低分数阶段）和「Normal Score Phase」（正常分数阶段）两个阶段：
+  - 「Low Score Phase」被定义为分数小于`2 x 花色数`时。（例：无变体游戏中是 10 分，3 套就是 6 分，以此类推。）
+  - 「Normal Score Phase」被定义为分数大于或等于这个阈值时。
+- 一些使用数字 5 提示启动的特殊操作只能在「Low Score Phase」使用。
 
 <br />
 
-## Special Moves
+### 低分数阶段时数字 5 提示不能是打出提示
+
+- 通常而言，如果一名玩家向一个离 chop 两格或更远的 5 提示数字 5，且那名玩家并不在 stalling 处境下，那这就是一个对 5 的「Play Clue」。
+- 但是，所有在「Low Score Phase」时给出的数字 5 提示**永远**不要解读成直接的「Play Clue」。
+- 它们会被解读成更加高级的技巧。（请阅读底下的「[5 Pull](#the-5-pull)」这一部分。）
+- 这意味着如果一名玩家想要给一个能打的 5「Play Clue」，而分数还比花色数乘 2 少，那他们**必须**使用颜色提示，或者只能继续等待机会。
+
+<br />
+
+## 特殊操作
 
 <br />
 
 ### The Early 5's Chop Move
 
-- First, see the section on the _[5 Stall](level-9.mdx#the-5-stall-intermediate-section)_.
-- In the _Early Game_, players are only allowed to perform a _5 Stall_ if there is nothing left to do. (Or, as a special exception, if there is only one _Play Clue_ to give and that card is on _Finesse Position_.)
-- Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
-- If the 5 is one-away from chop, they intend for an _Early 5's Chop Move_. This functions in the exact same way a normal _5's Chop Move_ does (except it was done in the _Early Game_, which is not normally possible).
-- For level 22+ players, there are [additional rules](level-22.mdx#interaction-with-5-rank-clues) relating to _Early 5's Chop Moves_.
+- 首先，请阅读「[5 Stall](level-9.mdx#the-5-stall-intermediate-section)」这一部分。）
+- 在「Early Game」中，玩家只能在什么事都干不了时才能给「5 Stall」。（或者还有一个特例，当只有一个「Play Clue」可以给，并且那张卡刚好在「Finesse Position」上时。）
+- 因此，如果有玩家提示了一个 5，并且**还有**其他事可以做时，他们一定是想要给出额外的信息。
+- 如果 5 离 chop 只有一格远，他们的目的是一个「Early 5's Chop Move」。这与平常情况下的「5's Chop Move」完全一致（除了这是在「Early Game」给的，而这以前是做不到的）。
+- 对于进阶等级达到 22 及以上的玩家，还有「[additional rules](level-22.mdx#interaction-with-5-rank-clues)」这一部分与「Early 5's Chop Moves」有关联。
   <br />
 
 ### The 5 Pull
 
-- This convention only applies in the _Low Score Phase_.
-- Players are only allowed to perform a _5 Stall_ in certain situations. If a player performs a _5 Stall_ when it would otherwise be illegal, then it is not a _5 Stall_ at all, and would instead be:
-  - a _5's Chop Move_ if the 5 is one-away-from-chop
-  - a _Play Clue_ if the 5 is two-or-more-away-from-chop
-- However, since _Play Clues_ with number 5 clues are "turned off" in the _Low Score Phase_, then the cluing player must be intending something else: a _5 Pull_.
-- A _5 Pull_ causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a _Pull_ instead of a _Finesse_ or a _Bluff_.
-- _5 Pulls_ are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-- _5 Pulls_ take precedence over _Finesses_ and _Bluffs_, because a number 5 clue is never considered to be _Play Clue_.
-- For example in a 3-player game:
-  - It is the _Early Game_ and the _Low Score Phase_.
-  - Red 3 is played on the stacks.
-  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other _Play Clues_ for Alice to give, so this cannot be a _5 Stall_.)
-  - Normally, Bob would think that this is a _Finesse_ and that he should blind-play his _Finesse Position_ card as the red 4.
-  - However, Bob knows that _Play Clues_ with a number 5 clue are "turned off" in the _Low Score Phase_, which means that Alice is **not** indicating that the red 5 is playable.
-  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a _5 Pull_. When it gets to Cathy's turn, Cathy will blind-play that card.
+- 这一规定只适用于「Low Score Phase」。
+- 玩家只被允许在特定情况下进行「5 Stall」。如果一名玩家在非法的情况下进行「5 Stall」，那这就压根不是一个「5 Stall」，而应该是：
+  - 「5's Chop Move」，如果 5 离 chop 一格远。
+  - 「Play Clue」，如果 5 离 chop 两格或更远。
+- 然而，因为数字 5 的「Play Clues」在「Low Score Phase」中被“禁用”，那给出提示的玩家一定着眼于他处：一个「5 Pull」。
+- 一个「5 Pull」会让一名玩家盲打出 5 右边的那张牌。被提示的 5 跟盲打出的牌没有什么关联。这也是为什么被称为「Pull」而不是「Finesse」或「Bluff」。
+- 「5 Pulls」通常而言是用 1 号槽位的 5 启动的。但，比如说，你也可以提示 2 号槽位的 5 来让 3 号槽位的牌被盲打出。
+- 「5 Pulls」比「Finesse」和「Bluffs」的优先级更高，因为数字 5 提示永远都不被认为是「Play Clue」。
+- 譬如说，在一局三人游戏中：
+  - 现在是「Early Game」，并且是「Low Score Phase」时。
+  - 红 3 已经被打出。
+  - Alice 向 Cathy 提示数字 5，点到了 1 号槽位的红 5。（Alice 还有其他「Play Clues」可以给，所以这不可能是个「5 Stall」。）
+  - 通常而言，Bob 会认为这是一个「Finesse」，他应该将「Finesse Position」的牌当作是红 4 盲打出去。
+  - 但是，Bob 知道在「Low Score Phase」中，数字 5「Play Clues」被禁用，这意味着 Alice 并**不是**想表明红 5 是可以打出的。
+  - Bob 可以看到在 5 的右边有一张可以打出的蓝 1，所以 Alice 肯定想要启动一个「5 Pull」。到了 Cathy 的回合时，Cathy 会盲打出那张牌。
 
 <TheFivePull />
 
-- Since _5 Pulls_ are never _Play Clues_ on the 5, it is possible to _5 Pull_ a 4 without promising that the 5 is the same suit.
-- Confusingly, _5 Pulls_ work differently from _Finesses_. Even though they involve playing a blind card, a _5 Pull_ should be treated as a _Delayed Play Clue_ (or a potential _Prompt_). This means that the blind card could play through any existing touched cards.
-- When a player is _Finessed_ or _Bluffed_, they are allowed to defer playing the blind card in order to do a _Finesse_ or _Bluff_ of their own. However, if they could be _Bluffed_, they are **not** allowed to initiate a _5 Pull_. (Players are still allowed to defer playing into a _Finesse_ in order to initiate a _5 Pull_.)
-- In the rare case where a _5 Pull_ is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the _5 Pulled_ card is slot 2.
-- Remember that a number 5 clue [is always a _5 Stall_ instead of a _5 Pull_ if the only card ignored is a 2 on chop](#interaction-between-2-saves--5-stalls).
+- 因为「5 Pulls」永远不是对 5 的「Play Clues」，所以这种情况是可能出现的：使用「5 Pull」打出一张 4，但 4 与 5 并不是同一花色。
+- 容易疑惑的点是，「5 Pulls」和「Finesse」并不完全一样。即便它们都涉及盲打出一张牌，「5 Pull」应该被认为是一个「Delayed Play Clue」（或可能的「Prompt」）。这意味着要盲打的牌可能会接上场上已经被点过的牌。
+- 当一名玩家被「Finessed」或「Bluffed」时，它们可以推迟盲打，转而自己给出一个「Finesse」或「Bluff」。但是，如果他们可能被「Bluffed」了，他们就**不**能启动一个「5 Pull」。（玩家还是允许推迟「Finesse」转而启动一个「5 Pull」。）
+- 特殊情况下，3 人游戏中使用的「5 Pull」可能会同时点到 1 号和 3 号槽位的两张 5，此时「5 Pull」要打出的牌在 2 号槽位上。
+- 记住，数字 5 提示[在只有一张 chop 上的 2 被忽视时，永远是一个「5 Stall」而不是一个「5 Pull](#interaction-between-2-saves--5-stalls)。
 
 <br />
 
