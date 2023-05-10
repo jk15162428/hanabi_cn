@@ -30,7 +30,7 @@ import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level
 
 - 通常而言，如果一名玩家向一个离 chop 两格或更远的 5 提示数字 5，且那名玩家并不在 stalling 处境下，那这就是一个对 5 的「Play Clue」。
 - 但是，所有在「Low Score Phase」时给出的数字 5 提示**永远**不要解读成直接的「Play Clue」。
-- 它们会被解读成更加高级的技巧。（请阅读底下的「[5 Pull](#the-5-pull)」这一部分。）
+- 它们会被解读成更加高级的技巧。（请阅读底下的「[5 Pull](#the-5-pull（5拽）)」这一部分。）
 - 这意味着如果一名玩家想要给一个能打的 5「Play Clue」，而分数还比花色数乘 2 少，那他们**必须**使用颜色提示，或者只能继续等待机会。
 
 <br />
@@ -48,7 +48,7 @@ import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level
 - 对于进阶等级达到 22 及以上的玩家，还有「[additional rules](level-22.mdx#interaction-with-5-rank-clues)」这一部分与「Early 5's Chop Moves」有关联。
   <br />
 
-### The 5 Pull
+### The 5 Pull（5 拽）
 
 - 这一规定只适用于「Low Score Phase」。
 - 玩家只被允许在特定情况下进行「5 Stall」。如果一名玩家在非法的情况下进行「5 Stall」，那这就压根不是一个「5 Stall」，而应该是：
@@ -71,176 +71,175 @@ import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level
 - 因为「5 Pulls」永远不是对 5 的「Play Clues」，所以这种情况是可能出现的：使用「5 Pull」打出一张 4，但 4 与 5 并不是同一花色。
 - 容易疑惑的点是，「5 Pulls」和「Finesse」并不完全一样。即便它们都涉及盲打出一张牌，「5 Pull」应该被认为是一个「Delayed Play Clue」（或可能的「Prompt」）。这意味着要盲打的牌可能会接上场上已经被点过的牌。
 - 当一名玩家被「Finessed」或「Bluffed」时，它们可以推迟盲打，转而自己给出一个「Finesse」或「Bluff」。但是，如果他们可能被「Bluffed」了，他们就**不**能启动一个「5 Pull」。（玩家还是允许推迟「Finesse」转而启动一个「5 Pull」。）
-- 特殊情况下，3 人游戏中使用的「5 Pull」可能会同时点到 1 号和 3 号槽位的两张 5，此时「5 Pull」要打出的牌在 2 号槽位上。
+- 特殊情况下，3 人游戏中使用的「5 Pull」可能会同时点到 1 号和 3 号槽位的两张 5，此时拽的牌在 2 号槽位上。
 - 记住，数字 5 提示[在只有一张 chop 上的 2 被忽视时，永远是一个「5 Stall」而不是一个「5 Pull](#interaction-between-2-saves--5-stalls)。
 
 <br />
 
 ### A Flowchart for Cluing 5's
 
-- Differentiating between a _5 Stall_ and a _5 Pull_ can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+- 区分「5 Stall」和「5 Pull」很容易会困惑。[这里是一张流程图](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early-game-5-flowchart.png)，可以一步步帮你如何区别这两种操作。
 
 <br />
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
-- _5 Pulls_ are also allowed to initiate a _Prompt_ or _Finesse_.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 5, red 2, red 2`
-  - Donald's hand is as follows, from newest to oldest: `yellow 4, green 1, yellow 3, yellow 3`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob knows that since the team is the _Early Game_, Alice's clue might be a _5 Stall_.
-  - However, Bob also knows that you are only allowed to perform a _5 Stall_ if there are no normal _Save Clues_ or _Play Clues_ to give. Bob sees that Donald has a green 1 that could be _Play Clued_. Thus, Bob knows that Alice's clue cannot be a _5 Stall_, which makes it a _5 Pull_ instead (since it is two-or-more-away from the chop).
-  - Bob knows that if this was a _5 Pull_, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
-  - Thus, this must be a _5 Pull Finesse_, so Bob blind-plays his _Finesse Position_. It is a red 1 and it successfully plays.
-  - Cathy knows that the only reason that Bob would blind-play a card is it this was a _5 Pull Finesse_. Cathy blind-plays her slot 3 card. It is a red 2 and it successfully plays.
+- 「5 Pulls」有时也可以使用「Prompt」或「Finesse」启动。
+- 比如说，在一局四人游戏中：
+  - 现在是游戏的第一回合，没有任何牌被打出。
+  - Cathy 的手牌从左到右分别是：`蓝4，蓝5，红2，红2`。
+  - Donald 的手牌从左到右分别是：`黄4，绿1，黄3，黄3`。
+  - Alice 向 Cathy 提示了数字 5，点到了 3 号槽位的蓝 5。
+  - Bob 知道现在队伍还在「Early Game」，Alice 的提示可能是一个「5 Stall」。
+  - 但是，Bob 同样知道只有在没有正常的「Save Clues」和「Play Clues」可以给时才可以进行「5 Stall」。Bob 看见 Donald 有一张绿 1 可以给「Play Clue」。因此，Bob 知道 Alice 的提示不可能是「5 Stall」，而是一个「5 Pull」（因为它离 chop 两格远）。
+  - Bob 知道如果这是个「5 Pull」，那就要打出红 2。如果 Bob 什么都不做，Cathy 就会将红 2 当成是某个 1 打出。
+  - 因此，这肯定是一个「5 Pull Finesse」，所以 Bob 盲打出自己「Finesse Position」的牌。这是一张红 1 并被成功打出。
+  - Cathy 知道 Bob 会盲打牌的唯一原因就是这是一个「5 Pull Finesse」。Cathy 盲打出自己 3 号槽位的牌。这是一张红 3 并被成功打出。
 
 <TheFivePullPrompt />
 
-- Unlike other types of _Finesses_, _5 Pull Finesses_ **must** be demonstrated with a blind-play between when the _5 Pull_ is given and the _5 Pulled_ player's next turn (e.g. a _Forward Finesse_).
-- Subsequently, _5 Pulls_ are **not** allowed to initiate a _Reverse Finesse_. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- Remember that during a _5 Pull Finesse_, the pulled card **always** connects to the blind-play. In other words, it not possible to perform a _5 Pull Bluff_.
+- 与其他种类的「Finesses」不同，「5 Pull Finesses」**必须**要在「5 Pull」被给出后，被给到「5 Pull」的那名玩家下一个行动之前由一个盲打展示出来（即，一个「Forward Finesse」）。
+- 也因此，「5 Pulls」**不**允许启动一个「Reverse Finesse」。（这是因为我们不想要被提示的玩家在被拽的牌上记下太多可能性。）
+- 记住在一个「5 Pull Finesse」中，被拽的牌**永远**连接着盲打出的牌。换句话说，「5 Pull Bluff」是不可能的。
 
 <br />
 
 ### The 5 Pull Double Finesse
 
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- As you would expect, it is also possible to perform a _5 Pull Double Finesse_ in the exact same way that you can _5 Pull Finesse_.
-- The "pulled" card will always connect to the final blind-play.
-- For example in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 5, red 3, blue 2`
-  - Alice clues number 5 to Donald, touching the blue 5 on slot 2.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a _5 Stall_).
-  - Cathy blind-plays the red 2 (because she knows that she needs to play into the _Double Finesse_).
-  - Donald knows that the _5 Pulled_ card is the red 3 (connecting to the red 1 and the red 2).
+- 首先，请阅读「[5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse)」这一部分。
+- 正如你所想，用着与「5 Pull Finesse」完全一样的方式，「5 Pull Double Finesse」也是可能的。
+- 被“拽”的牌永远会连接着最后盲打出的牌。
+- 比如说，在一局四人游戏中：
+  - 现在是游戏的第一回合，没有任何牌被打出。
+  - Donald 的手牌从左到右分别是：`蓝4，蓝5，红3，蓝2`。
+  - Alice 向 Donald 提示数字 5，点到了 2 号槽位的蓝 5。
+  - Bob 盲打出红 1（因为他知道这个提示不可能是「5 Stall）。
+  - Cathy 盲打出红 2（因为她知道自己需要打牌以接上「Double Finesse」）。
+  - Donald 知道被「5 Pull」的牌是红 3（接上红 1 与红 2）。
 
 <TheFivePullDoubleFinesse />
 
-- Previously, we said that _5 Pull Finesse_ **must** be a _Forward Finesse_. However, _5 Pulled_ players **do** have to respect that a _5 Pull Finesse_ can be a _5 Pull Double Finesse_ with the second blind-play as a _Reverse Finesse_. (Specifically, we refer to this as a _Finesse_ with a _Reverse Finesse_ component.)
-- More examples of a _5 Pull Double Finesse_ can be found [here](examples/5-pull-double-finesse.mdx).
+- 之前我们说过，「5 Pull Finesse」**必须**是一个「Forward Finesse」。但是，被拽的那名玩家**还是**需要尊重「5 Pull Finesse」可以是一个第二张盲打的牌是「Reverse Finesse」的「5 Pull Double Finesse」。（特别的，我们把这个称作是有「Reverse Finesse」元素的「Finesse」。）
+- 更多关于「5 Pull Double Finesse」的例子可以从[这里](examples/5-pull-double-finesse.mdx)找到。
 
 <br />
 
 ### The 5 Pull Clandestine Finesse
 
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- A _5 Pull Finesse_ **must** be a _Forward Finesse_.
-- However, _5 Pulled_ players **do** have to respect that the _Finesse_ can be _Clandestine_.
-- For example in a 3-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 1, blue 5, green 2, blue 2`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a _5 Stall_).
-  - Normally, Cathy would think that Alice performed a _5 Pull Finesse_, and she would blind-play her slot 4 card as the red 2 (which would connect to the red 1).
-  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a _5 Pull Clandestine Finesse_.
-  - Cathy performs an unrelated action.
-  - Alice performs an unrelated action.
-  - Bob blind-plays the green 1 from slot 2.
-  - Cathy now knows that this was indeed a _5 Pull Clandestine Finesse_ and that she has the green 2 on her slot 4.
+- 首先，请阅读「[5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse)」这一部分。
+- 一个「5 Pull Finesse」**必须**是一个「Forward Finesse」。
+- 但是，被「5 Pulled」的玩家**还是**需要尊重「Finesse」可以是「Clandestine」的。
+- 比如说，在一局三人游戏中：
+  - 现在是游戏的第一回合，没有任何牌被打出。
+  - Bob 的手牌从左到右分别是：`红1，绿1，绿4，绿4，绿5`。
+  - Cathy 的手牌从左到右分别是：`蓝4，蓝1，蓝5，绿2，蓝2`。
+  - Alice 向 Cathy 提示了数字 5，点到了 3 号槽位的蓝 5。
+  - Bob 盲打出红 1（因为他知道这不可能是「5 Stall」）。
+  - 通常而言，Cathy 会认为 Alice 启动了一个「5 Pull Finesse」，她会将 4 号槽位的牌当成红 2 打出（这连上了红 1）。
+  - 但是，Cathy 也看见在给出提示的时候，Bob 的红 1 后面还有张可以打出的绿 1。因此，Alice 可能是在启动一个「5 Pull Clandestine Finesse」。
+  - Cathy 做了一个无关的操作。
+  - Alice 做了一个无关的操作。
+  - Bob 盲打出 2 号槽位的绿 1。
+  - Cathy 现在知道这确实是一个「5 Pull Clandestine Finesse」，她的 4 号槽位是一张绿 2。
 
 <TheFivePullClandestineFinesse />
 
 ### The 5 Pull Promise (A Play Clue After a 5 Pull)
 
-- Normally, _5 Pulls_ have to be treated as _Delayed Play Clues_. This means that sometimes, it can take a long time for the pulled card to blind-play.
-- From the perspective of the player who is _5 Pulled_, if a follow up _Play Clue_ is given to a currently unplayable card, then they can disregard the _Delayed Play Clue_ interpretation - the _5 Pulled_ player is **promised** the card that makes the unplayable card playable.
-- For example, in a 4-player game:
-  - Alice has two clued 1's in her hand - red 1 and blue 1.
-  - Bob does a _5 Pull_ on Donald. Donald knows that the _5 Pulled_ card could be either red 2 or blue 2 (if it is a _Delayed Play Clue_).
-  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his _5 Pulled_ card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+- 通常而言，「5 Pulls」需要被认为是「Delayed Play Clues」。这意味着有些时候，被拽的牌可能需要很久才会被盲打出去。
+- 从被「5 Pulled」的玩家视角看，如果一个后续的「Play Clue」被给到一个目前无法打出的牌上，那他们就可以抛去「Delayed Play Clue」的解读 - 被「5 Pulled」的玩家**保证**有能让那张牌变得能打的过渡牌。
+- 比如说，在一局四人游戏中：
+  - Alice 手中有两张提示过的 1 - 红 1 和蓝 1。
+  - Bob 启动了一个对 Donald 的「5 Pull」。Donald 知道被「5 Pulled」的卡要么是红 2 或者是蓝 2（如果这是一个「Delayed Play Clue」的话）。
+  - Cathy 向 Alice 提示红 3。现在，Donald 知道他被「5 Pulled」的牌**肯定**是红 2（并且他无需再等待蓝 1 打出就可以直接盲打）。
 
 <TheFivePullPromise />
 
 ### Finesses While 5 Pulled are Certain Finesses
 
-- Sometimes, a _5 Pulled_ player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a _Finesse_ while it is still available.
-- Any _Finesse_ that a _5 Pulled_ player performs is to be treated as a _Certain Finesse_.
-- Any _Certain Discard_ that is performed in response to a _Finesse_ that a _5 Pulled_ player did applies to the _5 Pulled_ card.
+- 有时，被「5 Pulled」的玩家不会立刻打出被拽的牌。也许他们还要等其他牌先打出，也或许他们想要在机会还没流逝前留住一个「Finesse」。
+- 任何被「5 Pulled」的玩家给出的「Finesse」都应被视为是「Certain Finesse」。
+- 任何回应被「5 Pulled」的玩家给出的「Finesse」所作出的「Certain Discard」都适用于那张被「5 Pulled」的牌。
 
 <br />
 
 ### The 5 Pull Skip
 
-- If a player is already _Finessed_, it is possible to _Finesse_ them again and get them to play their _Second Finesse Position_ card.
-- Similarly, if a _5 Pull_ is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the _5 Pull_ skips over that card and gets the next card after that.
+- 如果一名玩家已经被「Finessed」了，是可以再次「Finesse」他们的，以让他们打出「Second Finesse Position」的牌。
+- 同样的，如果已经进行了一个「5 Pull」，但 5 右侧的那张牌已经被提示或者“得到”，那这个「5 Pull」会跳过那张牌，而是在拽下一张牌。
 
 <br />
 
 ### The 5 Number Ejection (5NE)
 
-- This convention only applies in the _Low Score Phase_.
-- Players are only allowed to perform a _5 Stall_ in certain situations. If a player performs a _5 Stall_ when it would otherwise be illegal, then it is not a _5 Stall_ at all, and would instead be:
-  - a _5's Chop Move_ if the 5 is one-away-from-chop
-  - a _5 Pull_ if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
-  - a _5 Pull Finesse_ if the 5 is two-or-more-away-from-chop and the card to the right of it is _one-away-from-playable_
-- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is _two-or-more-away-from-playable_? This would be quite strange.
-- We agree that this signals an _Ejection_ and that the next player should play their _Second Finesse Position_.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  - Cathy's hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
-  - Bob thinks about what Alice's 5 clue could mean:
-    - The clue cannot be a _5 Stall_, because there is a green 1 to _Play Clue_.
-    - The clue cannot be a _5 Pull_, because the red 3 is not playable.
-    - The clue cannot be a _5 Pull Finesse_, because the red 3 is _two-away-from-playable_.
-  - Since Bob would have to blind-play two cards into the _Finesse_ (the same rule as in _5 Color Ejections_), Bob knows that he should instead treat this as a _5 Number Ejection_. Bob blind-plays his slot 2 card and it successfully plays as the red 1.
-- After a _5 Number Ejection_, the card next to the 5 should be globally marked as _Chop Moved_, and marked accordingly as _two-or-more-away-from-playable_. For example, in a no variant game, the card would always be a 3 or 4.
+- 这一规定只适用于「Low Score Phase」时。
+- 玩家只被允许在特定情况下进行「5 Stall」。如果一名玩家在非法的情况下进行「5 Stall」，那这就压根不是一个「5 Stall」，而应该是：
+  - 「5's Chop Move」，如果 5 离 chop 一格远。
+  - 「5 Pull」，如果 5 离 chop 两格或更远且 5 右边的牌是可以打出的。
+  - 「5 Pull Finesse」，如果 5 离 chop 两格或更远且右边的牌是「one-away-from-playable」的。
+- 但是，如果这个 5 离 chop 两格或更远，但右边的那张牌是「two-or-more-away-from-playable」的呢？这就很奇怪了。
+- 我们规定这意味着一个「Ejection」，下一名玩家应该打出自己「Second Finesse Position」上的牌。
+- 比如说，在一局三人游戏中：
+  - 现在是游戏的第一回合，没有任何牌被打出。
+  - Alice 向 Cathy 提示了数字 5，点到了 1 号槽位的 5。
+  - Cathy 的手牌从左到右分别是：`红5，红3，绿2，绿1，绿2`。
+  - Bob 思考 Alice 的数字 5 提示可能是什么：
+    - 这个提示不可能是「5 Stall」，因为还有一个绿 1 的「Play Clue」可以给。
+    - 这个提示不可能是「5 Pull」，因为红 3 是不可以打出的。
+    - 这个提示不可能是「5 Pull Finesse」，因为红 3 是「two-away-from-playable」的。
+  - 因为 Bob 需要打两张牌才能对上「Finesse」（与「5 Color Ejection」是一样的规则），Bob 知道他应该把这个提示视为「5 Number Ejection」。Bob 盲打出 2 号槽位的牌，这是一张红 1 并被成功打出。
+- 在「5 Number Ejection」后，所有玩家都应将 5 右边的那张牌记为「Chop Moved」，并相应地记下「two-or-more-away-from-playable」。比如说，在一局无变体游戏里，这个卡只可能是 3 或 4。
 
 <TheFiveNumberEjection />
 
 ### 5 Number Discharge (5ND)
 
-- This convention only applies in the _Low Score Phase_.
-- When a _5 Pull_ is given, depending on the playability of the _pulled_ card, it would trigger a normal _5 Pull_, a _5 Pull Finesse_, or a _5 Number Ejection_.
-- But what if the card was not playable at all? In other words, what happens if a _5 Pulled_ card is trash?
-- We agree that this signals a _Discharge_ and that the next player should play their _Third Finesse Position_.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  - Cathy's hand is, from newest to oldest: blue 5, red 1, green 2, green 4, yellow 1
-  - Bob thinks about what Alice's 5 clue could mean:
-    - The clue cannot be a _5 Stall_, because there is a green 2 to _Play Clue_.
-    - The clue cannot be a _5 Pull_, because the red 1 is not playable.
-    - The clue cannot be a _5 Pull Finesse_, because the red 1 is not _one-away-from-playable_.
-    - The clue cannot be a _5 Number Ejection_, because the red 1 is not _two-or-more-away-from-playable_.
-  - Thus, Bob knows that this is a _5 Number Discharge_. He blind-plays his _Third Finesse Position_ card. It is a blue 2 and successfully plays.
-- After a _5 Number Discharge_, the card next to the 5 should be marked as globally known-trash.
-  - This means that the card counts as having a positive clue on it (as if it was used to perform a _Trash Chop Move_, for example).
-  - Subsequently, the clued player's _Finesse Position_ should move to the next unclued card.
+- 这一规定只适用于「Low Score Phase」时。
+- 当给出一个「5 Pull」时，取决于被拽的牌是否可以打出，会启动一个标准的「5 Pull」、「5 Pull Finesse」或「5 Number Ejection」。
+- 但如果那张牌完全就不可以打呢？换句话而言，如果被「5 Pulled」的牌是个废牌呢？
+- 我们规定这意味着一个「Discharge」，下一名玩家应该打出自己「Third Finesse Position」上的牌。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已被打出。
+  - Alice 向 Cathy 提示了数字 5，点到了 1 号槽位的 5。
+  - Cathy 的手牌从左到右分别是：`蓝5，红1，绿2，绿4，黄1`
+  - Bob 思考 Alice 的数字 5 提示可能是什么：
+    - 这个提示不可能是「5 Stall」，因为还有一个绿 2 的「Play Clue」可以给。
+    - 这个提示不可能是「5 Pull」，因为红 1 是不可以打出的。
+    - 这个提示不可能是「5 Pull Finesse」，因为红 1 不是「one-away-from-playable」的。
+    - 这个提示不可能是「5 Number Ejection」，因为红 1 不是「two-or-more-away-from-playable」的。
+  - 因此，Bob 知道这是一个「5 Number Discharge」。他盲打出自己「Third Finesse Position」的牌。这是一张蓝 2 并被顺利打出。 -在「5 Number Discharge」后，5 右边的那张牌应该被所有玩家标为明废牌。
+  - 这意味着那张牌需要被视为得到了一个正向提示（比如被用来启动一个「Trash Chop Move」）。
+  - 也就是说，被提示的玩家需要将「Finesse Position」移动到下一张没有提示过的牌上。
 
 <TheFiveNumberDischarge />
 
 ### 5 Number Ejection Finesse Position Skips
 
-- First, see the section on the _[5 Number Ejection](#5-number-ejection-5ne)_ and the _[5 Number Discharge](#5-number-discharge-5nd)_.
-- After a _5 Number Ejection_, the card next to the 5 will be marked as either a _Chop Moved_ _two-or-more-away-from-playable_ card.
-- Normally, when a card is _Chop Moved_, players will skip over it when blind-playing into a _Finesse_. However, in the case of a _5 Number Ejection_, players agree to not skip over the _Chop Moved_ card as a special exception.
-  - For example, if the clued 5 was on slot 1, the _Chop Moved_ card is on slot 2, but the _Finesse Position_ is also on slot 2.
-- With that said, if that player is _Finessed_ for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their _Finesse Position_ card and instead play their _Second Finesse Position_.
+- 首先，请阅读「[5 Number Ejection](#5-number-ejection-5ne)」和「[5 Number Discharge](#5-number-discharge-5nd)」这两部分。
+- 在「5 Number Ejection」后，5 右边的那张牌会被标为「Chop Moved」，并且是「two-or-more-away-from-playable」的牌。
+- 通常而言，当一张牌被「Chop Moved」了，玩家在找「Finesse」的牌时需要跳过它。但是，对于「5 Number Ejection」，玩家需要视为特例，不要跳过被「Chop Moved」的牌。
+  - 比如说，如果被提示的 5 在 1 号槽位，被「Chop Moved」的牌在 2 号槽位上，此时「Finesse Position」也在 2 号槽位上。
+- 也就是说，如果玩家需要找一张 1 或 2 接上「Finesse」，那显然他们不应该打出已经被标为 3 或 4 的牌。这种情况下，那名玩家应该跳过自己的「Finesse Position」，而打出「Second Finesse Position」上的牌。
 
 <br />
 
-## General Principles
+## 常用原则
 
 <br />
 
 ### Interaction Between 2 Saves & 5 Stalls
 
-- Normally, players are only allowed to _5 Stall_ if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
-- Sometimes, a player can receive a _5 Stall_ clue when:
-  1. A _2 Save_ still needs to be done to another player
-  1. That _2 Save_ is the only clue left
-- In this situation, players should assume the least complicated thing: a _5 Stall_. Because of the _[Visible Rule](level-1.mdx#the-visible-rule)_, the player who gave the _5 Stall_ clue was not allowed to perform the _2 Save_ because the other copy was visible.
-- In this situation, the player who received the _5 Stall_ should write _Elimination Notes_ on their hand for the other copy of the 2. Furthermore, they are not allowed to _2 Save_ the other copy of the 2, so they must give some other clue or discard.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 5 to Bob, touching a 5 on slot 1.
-  - From Bob's perspective, he does not see any other _Play Clues_ or _Save Clues_ that Alice could have given, with the exception of a _2 Save_ on a red 2 on Cathy's chop.
-  - Thus, Alice's number 5 clue could be either a _5 Pull_ or a _5 Stall_, depending on whether or not Bob has the other copy of the red 2 in his hand.
-  - Bob knows that in this situation, _5 Stalls_ take precedence over _5 Pulls_, so he marks his hand for the other copy of red 2 and discards.
+- 通常而言，玩家只能在无事可做时进行「5 Stall」。如果还有其他事情可以做，那数字 5 提示就标志着更为高级的操作。
+- 有时，玩家可以在这个情况下得到「5 Stall」：
+  1. 一个「2 Save」仍然需要给到另一名玩家。
+  1. 这个「2 Save」是唯一剩下的可以给的提示。
+- 在这种情况下，玩家应该假设最不复杂的事情：一个「5 Stall」。因为「[Visible Rule](level-1.mdx#the-visible-rule)」，给出「5 Stall」的玩家不能给出「2 Save」，因为他能看到另一张复制。
+- 这种情况下，得到「5 Stall」的玩家应该在自己的手牌上记下另一张 2 的复制的「Elimination Notes」。此外，他不允许「2 Save」另一张 2，搜易他们必须给出其他提示或弃牌。
+- 比如说，在一局四人游戏中：
+  - 现在是游戏的第一回合，没有任何牌被打出。
+  - Alice 向 Bob 提示了数字 5，点到了 1 号槽位的 5。
+  - 在 Bob 的视线中，他没有看到其他 Alice 可以给的「Play Clues」和「Save Clues」，除了在 Cathy 的 chop 上的一张红 2 的「Save Clue」。
+  - 因此，Alice 的数字 5 提示可以是「5 Pull」或「5 Stall」，取决于 Bob 的手中是否有另一张红 2。
+  - Bob 知道这种情况下，「5 Stalls」优先级比「5 Pulls」高，所以他在自己的手里标上了另一张红 2 并选择了弃牌。
 
 <InteractionsBetween2SavesAnd5Stalls />
