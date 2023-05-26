@@ -11,13 +11,13 @@ players:
       - type: x
       - type: b2
       - type: x
-  - text: Alice plays Blue 2
+  - text: Alice 打出了蓝2
   - name: Bob
     cards:
       - type: x
       - type: x
       - type: 3
-        above: Blue 3
+        above: 蓝3
       - type: 3
       - type: x
   - name: Cathy
