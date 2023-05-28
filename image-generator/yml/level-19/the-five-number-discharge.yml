@@ -19,23 +19,23 @@ players:
       - type: x
       - type: x
       - type: x
-        above: 蓝2
+        above: 蓝 2
         below: plays
       - type: x
       - type: x
   - cards:
       - type: 5
         clue: 5
-        above: 蓝5
+        above: 蓝 5
       - type: x
-        above: 红1
+        above: 红 1
         middle_note: kt
         below:
           - 明
           - 废牌
       - type: x
-        above: 绿2
+        above: 绿 2
       - type: x
-        above: 绿4
+        above: 绿 4
       - type: x
-        above: 黄1
+        above: 黄 1

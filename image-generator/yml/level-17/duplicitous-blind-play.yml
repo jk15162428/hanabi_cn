@@ -14,9 +14,9 @@ players:
       - type: x
   - cards:
       - type: x
-        above: red 3
+        above: 红 3
         middle_note: (f)
-        below: plays
+        below: 打出
       - type: x
       - type: x
       - type: x
@@ -27,9 +27,9 @@ players:
       - type: x
       - type: b
         clue: b
-        above: blue 4
+        above: 蓝 4
       - type: x
-  - text: After Bob blind-plays...
+  - text: 在Bob盲打后…
   - name: Cathy
     cards:
       - type: x
@@ -38,5 +38,5 @@ players:
       - type: b
         clue: b
         below:
-          - Blue 4
+          - 蓝 4
       - type: x

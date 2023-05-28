@@ -17,7 +17,7 @@ players:
       - type: x
       - type: x
       - type: 3
-        above: 蓝3
+        above: 蓝 3
       - type: 3
       - type: x
   - name: Cathy

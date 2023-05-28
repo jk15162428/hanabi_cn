@@ -11,7 +11,7 @@ players:
       - type: x
       - type: b2
       - type: x
-  - text: Alice 打出了 蓝2
+  - text: Alice 打出了蓝2
   - name: Bob
     cards:
       - type: x
@@ -22,7 +22,7 @@ players:
   - name: Cathy
     cards:
       - type: x
-        above: 蓝3
+        above: 蓝 3
       - type: x
       - type: x
       - type: x

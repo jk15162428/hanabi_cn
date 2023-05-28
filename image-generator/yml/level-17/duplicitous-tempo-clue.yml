@@ -16,8 +16,8 @@ players:
       - type: x
       - type: 2
         clue: 2
-        above: Red 2
-        below: plays
+        above: 红 2
+        below: 打出
       - type: g2
         clue: 2
       - type: x
@@ -28,7 +28,7 @@ players:
       - type: x
       - type: r2
       - type: x
-  - text: After Bob plays red 2...
+  - text: 在Bob打出红2后…
   - name: Bob
     cards:
       - type: x

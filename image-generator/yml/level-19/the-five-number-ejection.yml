@@ -18,7 +18,7 @@ players:
   - cards:
       - type: x
       - type: x
-        above: 红1
+        above: 红 1
         below: 打出
       - type: x
       - type: x
@@ -26,13 +26,13 @@ players:
   - cards:
       - type: 5
         clue: 5
-        above: 红5
+        above: 红 5
       - type: x
-        above: 红3
+        above: 红 3
         middle_note: 3,4
       - type: x
-        above: 绿2
+        above: 绿 2
       - type: x
-        above: 绿1
+        above: 绿 1
       - type: x
-        above: 绿2
+        above: 绿 2

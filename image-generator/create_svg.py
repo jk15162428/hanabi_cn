@@ -614,6 +614,23 @@ def draw_textbox(svg_file, opts, offset):
     if isinstance(opts, str):
         text = [opts]
         color = text[0].split()[0].lower()
+        # if the 'above' text is not the correct color, add this
+        if color == "蓝":
+            color = "blue"
+        elif color == "红":
+            color = "red"
+        elif color == "黄":
+            color = "yellow"
+        elif color == "黑":
+            color = "black"
+        elif color == "紫":
+            color = "purple"
+        elif color == "绿":
+            color = "green"
+        elif color == "彩":
+            color = "rainbow"
+        elif color == "粉":
+            color = "pink"
         if color not in (
             "red",
             "yellow",

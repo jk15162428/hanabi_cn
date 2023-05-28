@@ -14,9 +14,9 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Blue 2
+        above: 蓝 2
         middle_note: f
-        below: plays
+        below: 打出
       - type: r3
         clue: 3
       - type: x
@@ -28,7 +28,7 @@ players:
       - type: x
       - type: b2
       - type: x
-  - text: AFter Bob blind-plays blue 2...
+  - text: 在Bob盲打出蓝2后…
   - name: Bob
     cards:
       - type: x

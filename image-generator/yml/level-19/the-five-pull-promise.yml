@@ -7,13 +7,13 @@ stacks:
 players:
   - cards:
       - type: 1
-        above: 红1
+        above: 红 1
       - type: x
       - type: 1
-        above: 蓝1
+        above: 蓝 1
       - type: 3
         clue: 3
-        above: 红3
+        above: 红 3
   - cards:
       - type: x
       - type: x

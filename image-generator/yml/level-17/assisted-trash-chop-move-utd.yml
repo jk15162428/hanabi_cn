@@ -16,20 +16,20 @@ players:
       - type: x
       - type: x
       - type: x
-        above: Yellow 1
+        above: 黄 1
         middle_note: (f)
-        below: plays
+        below: 打出
       - type: x
       - type: x
   - cards:
       - type: x
       - type: b
         clue: b
-        above: Blue 1
+        above: 蓝 1
       - type: x
       - type: x
       - type: x
-  - text: After Bob discharges yellow 1...
+  - text: Bob把黄1「discharges」出去后…
   - name: Cathy
     cards:
       - type: x
