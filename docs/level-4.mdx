@@ -19,58 +19,58 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 
 ### Chop Moves（弃牌位挪移）
 
-- Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
-- A _Chop Move_ is a special kind of move that indicates to a player that the unclued card that is currently on their chop is very important.
-- After the _Chop Move_, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
-- A _Chop Move_ is permanent, meaning that a _Chop Moved_ card should not be discarded for the remainder of the game.
-- The three simplest kinds of _Chop Moves_ are listed below.
-  (In levels 6 and 7, two additional common kinds of _Chop Moves_ will be introduced:
-  _[Tempo Clue Chop Moves (TCCM)](level-6.mdx#the-tempo-clue-chop-move-tccm)_, and
-  _[Scream Discard Chop Moves (SDCM)](level-7.mdx#the-scream-discard-chop-move-sdcm)_.)
+- 一般情况下，玩家们会弃掉他们最老的（最右侧的）未提示过的卡牌。然而，有时玩家可以知道一张未提示的卡牌是相当重要的。
+- 「Chop Move」是一种特殊的操作，用来告诉一名玩家他现在 chop 上的未提示的卡牌是非常重要的。
+- 在「Chop Move」后，那名玩家会认为自己的弃牌位被一个“隐形”的提示点到了。因此，他们的弃牌位会往左“挪移”，挪到下一张最右侧的，没有提示的卡牌。
+- 「Chop Move」是永久的，就是说「Chop Moved」的卡在之后不应该被弃掉。（除非他们变成了废牌）
+- 三种最为简单的「Chop Moves」将在下面讲解。
+  （在进阶 6 和 7 中，会介绍另外两种常见的「Chop Moves」：
+  「[Tempo Clue Chop Moves (TCCM)](level-6.mdx#the-tempo-clue-chop-move-tccm)」，和
+  「[Scream Discard Chop Moves (SDCM)](level-7.mdx#the-scream-discard-chop-move-sdcm)」。）
 
 <br />
 
-## Special Moves
+## 特殊操作
 
 <br />
 
 ### The Trash Chop Move
 
-- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From _Good Touch Principle_, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered to be _Trash_.
-- The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
-- However, in addition to giving a safe discard, it should also _Chop Move_ **all** of the cards to the right of the trash.
-- For example, in a 3-player game:
-  - All of the 1's are played.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
-  - Bob _Chop Moves_ his slot 5.
-  - Bob discards the 1.
-  - Bob's chop is now his slot 4.
+- 在游戏的中期，如果所有的 1 都已经被打出，而一名玩家提示了 1，这就有点奇怪。（根据「Good Touch Principle」，玩家不应该点到那些已经打过的卡牌。）这种情况下，1 都被认为是「Trash」（废牌）。
+- 这个提示一定有更深层次的含义。我们认为废牌右侧的卡牌是重要的。这个提示的目的就是给那名玩家一张可以安全弃掉的牌。
+- 然而，除了给出一个可以安全弃掉的牌外，这个提示也会「Chop Move」**所有**废牌右侧的牌。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已经被打出。
+  - Bob 手中没有任何提示过的卡牌。
+  - Alice 向 Bob 提示了 1，点到了 4 号槽位。
+  - Bob「Chop Move」自己的 5 号槽位。
+  - Bob 弃掉了 1。
+  - Bob 现在的 chop 变成了 4 号槽位。
 
 <TrashChopMove1 />
 
-- Most of the time, the _Trash Chop Move_ is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the _Trash Chop Move_ to _Chop Move_ multiple cards.
-- For example, in a 3-player game:
-  - All of the 1's have been played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 1.
-  - Bob _Chop Moves_ his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple _Chop Move_).
-  - Bob discards the 1.
-  - Bob's chop is now his slot 1.
+- 大多数时间内，「Trash Chop Move」一般只会用来「Chop Move」一张卡（即废牌就在弃牌位旁边）。不过，你也可以一次性「Chop Move」多张牌。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已经被打出。
+  - Bob 手中没有任何提示过的卡牌。
+  - Alice 向 Bob 提示了 1，点到了 1 号槽位的 1。
+  - Bob「Chop Move」自己的 2 号、3 号、4 号和 5 号槽位（一次性「Chop Move」了四张牌）。
+  - Bob 弃掉了 1。
+  - Bob 现在的 chop 变成了 1 号槽位。
 
 <TrashChopMove2 />
 
-- _Trash Chop Moves_ are most commonly performed with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
-- Strategy wise, the _Trash Chop Move_ is used for two main reasons:
-  1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card _Chop Move_ could be the only way to do it.
-  1. Some cards (e.g. a _one-away-from-playable_ 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
-- Note that you are **not** allowed to _Trash Chop Move_ a card that you can just clue directly with a _Save Clue_ (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-- If a _Trash Chop Move_ touches **multiple** trash cards, then it only _Chop Moves_ the cards to the right of the right-most trash card.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
-  - Bob **only** _Chop Moves_ his slot 5 card.
+- 「Trash Chop Moves」通常使用数字 1 来启动，因为一般来说在游戏的中局，所有的 1 都已经被打出了。但只要所有的 2 都已经被打出/指明，那么数字 2 也能达到相同的目的。或者，当所有红色卡牌都被打出/指明时，也可以提示红色，以此类推。
+- 从策略角度出发，「Trash Chop Move」主要应用在以下两个场合：
+  1. 有时在某名玩家的弃牌位及弃牌位前的槽位上有着接连几张关键卡牌，一名玩家没法同时留下这些卡牌。在这种情况下，「Chop Move」可能就是唯一的解决方法。
+  1. 有些卡牌（比如说「one-away-from-playable」的 3）可能在将来非常有用，但暂时“无法”直接点到它们（因为直接提示它们会意味着它们现在就可以打出）。如果游戏进展顺利，那“消耗”一个提示来永久地留下这些卡牌可能大有裨益。
+- 注意你**不被**允许「Trash Chop Move」一张可以直接用「Save Clue」安全留下的卡牌（除非有连着几张关键卡牌而且你没有其他选择）。因为正向信息（positive information）永远要好过一张未知的卡牌。
+- 如果「Trash Chop Move」点到了**多张**废牌，那就仅仅「Chop Moves」最右边的废牌往右的所有卡牌。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已经被打出。
+  - Bob 手中没有任何提示过的卡牌。
+  - Alice 向 Bob 提示了数字 1，点到了 2 号槽位和 4 号槽位的两张 1。
+  - Bob**只**「Chop Moves」自己的 5 号槽位。
 
 <TrashChopMove3 />
 
@@ -78,27 +78,27 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 
 ### The 5's Chop Move (5CM)
 
-- Normally, we are only allowed to save 5's on chop (unless it is done with a _5 Stall_ clue, which can happen in the _Early Game_ and in other "stalling" situations).
-- So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a _Play Clue_ on that 5.
-- However, if the 5 is:
-  - **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), and
-  - the chop card is not a trash card
-- Then, we agree that it has a special meaning, and that the clue is **not** a _Play Clue_ at all.
-- Instead, it is understood that the clue is a _5's Chop Move_, and the player should _Chop Move_ in a manner similar to the _Trash Chop Move_.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 5's to Bob, which touches a 5 on slot 4.
-  - Bob _Chop Moves_ his slot 5 card. Bob's new chop is his slot 3.
+- 通常而言，我们只允许直接保留在弃牌位上的 5（除非这是一个发生在「Early Game」和其他踏步情况下的「5 Stall」）。
+- 所以说，如果一个数字 5 提示点到的并不是在弃牌位上的 5，而且现在**并不是**一个需要踏步的情况，那么这个提示看上去就是个 5 的「Play Clue」。
+- 然而，如果那张 5 满足如下条件：
+  - 与弃牌位只有**一张**的距离（或者如果有多张 5 被点到，且最右侧的那张 5 离弃牌位只有一张的距离），而且
+  - 弃牌位上的牌并不是一张废牌。
+- 那么，我们规定这个提示有一个特殊的含义，即这个提示完全**不是**一个「Play Clue」。
+- 反之，我们认为这个提示是一个「5's Chop Move」，那名被提示的玩家应该与之前「Trash Chop Move」一样进行「Chop Move」。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已经被打出。
+  - Bob 手中没有任何提示过的卡牌。
+  - Alice 向 Bob 提示了数字 5，点到了 4 号槽位的一张 5。
+  - Bob 要「Chop Move」自己 5 号槽位的卡牌，现在他新的弃牌位是 3 号槽位。
 
 <FivesChopMove1 />
 
-- Similar to the _Trash Chop Move_, if a _5's Chop Move_ touches **multiple** 5's, then it only _Chop Moves_ the cards to the right of the right-most 5.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
-  - Bob **only** _Chop Moves_ his slot 5 card. Bob's new chop is his slot 3.
+- 与「Trash Chop Move」类似，如果一个「5's Chop Move」点到了**多张**5，那么我们只「Chop Move」最右侧的 5 右边的那张卡。
+- 比如说，在一局三人游戏中：
+  - 所有的 1 都已经被打出。
+  - Bob 手中没有任何提示过的卡牌。
+  - Alice 向 Bob 提示了数字 5，点到了 2 号槽位和 4 号槽位的 2 张 5。
+  - Bob**只**「Chop Move」自己 5 号槽位的卡牌。Bob 现在新的弃牌位是 3 号槽位。
 
 <FivesChopMove2 />
 
