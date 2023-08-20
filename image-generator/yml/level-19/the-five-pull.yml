@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 big_text:
-  text: 低分数阶段
+  text: low score
   color: black
 players:
   - clue_giver: true
@@ -25,7 +25,7 @@ players:
       - type: 5
         clue: 5
       - type: x
-        above: 蓝 1
+        above: Blue 1
       - type: x
       - type: x
       - type: x

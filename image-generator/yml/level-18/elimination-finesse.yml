@@ -11,8 +11,8 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Alice 弃牌，弃掉一张蓝3
-  - text: Alice 记下 Elimination Notes
+  - text: Alice discards, it is Blue 3
+  - text: Alice writes Elimination Notes
   - name: Alice
     cards:
       - type: x
@@ -51,6 +51,6 @@ players:
       - type: x
       - type: x
       - type: b
-        above: 蓝 4
+        above: Blue 4
         clue: b
       - type: x

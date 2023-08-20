@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - name: 红色
+  - name: red
     cards:
       - type: r1
         border: false
@@ -17,7 +17,7 @@ players:
         border: false
       - type: r5
         border: false
-  - name: 黄色
+  - name: yellow
     cards:
       - type: y1
         border: false
@@ -29,7 +29,7 @@ players:
         border: false
       - type: y5
         border: false
-  - name: 绿色
+  - name: green
     cards:
       - type: g1
         border: false
@@ -41,7 +41,7 @@ players:
         border: false
       - type: g5
         border: false
-  - name: 蓝色
+  - name: blue
     cards:
       - type: b1
         border: false
@@ -53,7 +53,7 @@ players:
         border: false
       - type: b5
         border: false
-  - name: 紫色
+  - name: purple
     cards:
       - type: p1
         border: false

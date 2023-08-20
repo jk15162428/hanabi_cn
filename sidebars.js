@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
   mainSidebar: [
     "about",
     {
@@ -119,7 +120,6 @@ module.exports = {
     {
       基础策略: [
         "reference",
-        "first-principles",
         "level-1",
         "level-2",
         "level-3",
@@ -145,6 +145,7 @@ module.exports = {
         "level-23",
         "level-24",
         "level-25",
+        "summary",
       ],
     },
     {
@@ -223,3 +224,5 @@ module.exports = {
     "convention-attribution",
   ],
 };
+
+module.exports = sidebars;
