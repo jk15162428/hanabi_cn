@@ -1,5 +1,5 @@
 {
-  "name": "hanabi.github.io",
+  "name": "jk15162428.github.io",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -37,9 +37,9 @@
     "@tsconfig/docusaurus": "^2.0.0",
     "cspell": "^7.0.0",
     "cspell-check-unused-words": "^1.0.4",
-    "isaacscript-lint": "^5.4.0",
+    "isaacscript-lint": "^5.2.3",
     "isaacscript-tsconfig": "^4.0.0",
-    "npm-check-updates": "^16.12.2",
+    "npm-check-updates": "^16.11.1",
     "remark-cli": "^11.0.0",
     "remark-lint-match-punctuation": "^0.2.1",
     "remark-lint-no-dead-urls": "^1.1.0",
@@ -59,7 +59,7 @@
     "retext-syntax-urls": "^3.1.2",
     "shell-loader": "^1.2.1",
     "typescript": "^5.1.6",
-    "unified": "^11.0.1"
+    "unified": "^10.1.2"
   },
   "packageManager": "yarn@3.6.1"
 }
