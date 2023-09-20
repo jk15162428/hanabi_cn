@@ -1,6 +1,6 @@
 ---
 id: critical-save
-title: The Critical Save
+title: The Critical Save（保留关键卡牌）
 ---
 
 import BeginnersGuideProgress from "@site/src/beginnersGuide.js";
@@ -8,17 +8,17 @@ import CriticalSave from "@site/image-generator/yml/beginner/critical-save.yml";
 
 <BeginnersGuideProgress id="critical-save" />
 
-- Critical cards are defined as the final card of a suit and rank combination that is not discarded yet. For example:
-  - If Alice has a red 2 in her hand, and the other copy of red 2 is in the deck, then Alice's red 2 is not critical.
-  - If Alice has a red 2 in her hand, and the other copy of red 2 is already discarded, then Alice's red 2 is critical.
-  - If Alice has a red 5 in her hand, then it is always critical. (There is only one copy of each 5 in a Hanabi deck.)
-- Obviously, critical cards need to be given _Save Clues_ so that they are not discarded. (If a critical card was discarded, then the maximum score of the game would decrease.)
-- As long as the critical card is not a 5, we agree that players can save critical cards with **either a color clue or a number clue**.
-- In the example below:
-  - Alice clues Bob blue, which touches a card on slot 4.
-  - Before this clue, the only clued card in Bob's hand was the 5 on slot 5.
-  - Bob's first instinct is that this could be a _Play Clue_ on the blue 2. However, since the clue was focused on his chop, this could also be a _Save Clue_.
-  - Bob looks through the discard pile and finds that there is a blue 4 there. Thus, this could be a _Save Clue_ on the blue 4. So, Bob knows that for now, he has to hold on to the card.
-  - Bob marks the card as either a blue 2 or a blue 4, so that he can keep track of it for later. Then, he discards.
+- Critical Card被定义为每种卡牌的最后一张。例如：
+  - 如果Alice手中有张红2，另一张红2在抽排堆中，那么Alice的红2就不是Critical Card。
+  - 如果Alice手中有张红2，另一张红2已经被弃掉，那么Alice的红2就是Critical Card。
+  - 如果Alice手中有张红5，那它永远被视为Critical Card。（花火默认规则下，每种花色的5只有1张）。
+- 显而易见，我们需要给予Critical Card「Save Clues」以防止它们被弃掉。（如果Critical Card被弃掉了，那么本局游戏的最高分就会衰减）
+- 只要这张Critical Card不是数字5，我们规定玩家可以使用**颜色提示或数字提示**来保留Critical Card。
+- 在下面的例子中：
+  - Alice向Bob提示了蓝色，点到了4号槽位的卡牌。
+  - 提示前，Bob手中只有5号槽位的单张5被提示过。
+  - Bob第一反应认为这可能是给蓝2的「Play Clues」。然而，因为这个提示focus在了chop上，这也可能是一个「Save Clues」。
+  - Bob看了眼弃牌堆，发现里面躺着张蓝4。因此，这可能是一个对蓝4的「Save Clues」。Bob知道这个回合他不应该动这张卡卡牌。
+  - Bob标记这张牌位蓝2或蓝4，方便他之后查阅。然后他选择弃牌。
 
 <CriticalSave />

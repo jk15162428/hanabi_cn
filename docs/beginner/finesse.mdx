@@ -1,6 +1,6 @@
 ---
 id: finesse
-title: The Finesse
+title: The Finesse（巧技）
 ---
 
 import BeginnersGuideProgress from "@site/src/beginnersGuide.js";
@@ -9,49 +9,50 @@ import Finesse2 from "@site/image-generator/yml/beginner/finesse-2.yml";
 
 <BeginnersGuideProgress id="finesse" />
 
-- Normally, players play cards that have been clued by someone else on the team.
-- However, it is also possible to tell a player to blind-play a card without any clues on it at all.
-- In the example below:
-  - Bob has no clued cards in his hand.
-  - Alice clues red to Cathy, touching a red 4. This must be a _Play Clue_ on the red 4.
-  - Bob sees that the red 4 is currently unplayable. Assuming Alice is not making a mistake, this clue implies that someone has the red 3.
-  - Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that he has a red 3.
-  - Normally, this would indicate a _Prompt_. But Bob does not have any red cards and Bob does not have any 3's. So where is the red 3?
-  - Bob knows that this must be a _Finesse_ - he is promised that his left-most unclued card is the red 3.
-  - Bob blind-plays his slot 1 card, and it is the red 3.
-  - Cathy sees the blind-play happen immediately after this red clue, so she knows that she must have the connecting red card, the red 4.
-  - Cathy plays the red 4.
+- 通常情况下，玩家都会选择打出由其他队员提示过的卡牌。
+- 然而，我们可以做到让一名玩家盲打出一张完全没有提示的卡牌。
+- 在下面的例子中：
+  - Bob手中没有任何提示过的牌。
+  - Alice向Cathy提示了红色，点到了红4。这肯定是一个对红4的「Play Clue」。
+  - Bob看到红4现在并不可被打出，若假设Alice没有犯错，那么这个提示一定暗示着有人持有红3。
+  - Bob没发现其他玩家手中有红3。所以，Alice的行为保证着他一定有红3。
+  - 通常情况下，这会被理解为一个「Prompt」。但Bob手中并没有红色卡牌，也没有数字3。那红3去哪了？
+  - Bob知道这肯定是一个「Finesse」——他确定自己的左手第一张未被提示的卡牌一定是张红3。
+  - Bob盲打出1号槽位的卡牌，这是一张红3。
+  - Cathy看到在给出红色提示后盲打即刻发生，她知道自己一定有着接下来的牌，那张红4。
+  - Cathy打出红4。
 
 <Finesse1 />
 
 ### Prompts > Finesses
 
-- **_Prompts_ always take precedence over _Finesses_**.
-- This means that if Alice has to decide between:
-  1. playing a card in her hand with a red clue on it, and
-  1. blind-playing a potential red card from her _Finesse Position_
-- Then Alice should always do #1.
+- **「Prompt」永远优先于「Finesse」**。
+- 这意味着如果Alice需要在两者之间作出抉择：
+  1. 打出自己手中一张有着红色提示的卡牌，和
+  1. 盲打出自己「Finesse Position」（巧技位）上可能的红色卡牌。
+- 那么Alice永远都应该选择做第一种行动。
 
 <br />
 
-### Finesse Urgency
+### Finesse Urgency（巧技的紧急性）
 
-- When a _Finesse_ occurs, it causes temporary information desynchronization.
-- For example, in the previous scenario, if Bob discarded instead of blind-played, Cathy would go on to think that she had the red 3. But she really doesn't have the red 3, which means that information is not synchronized throughout the team.
-- For this reason, blind-playing a card into a _Finesse_ is very important - by doing so, it resynchronizes all of the information. So, **if a player is _Finessed_, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
+- 「Finesse」出现时，会导致暂时的信息错位。
+- 譬如，在先前的案例中，如果Bob没有盲打，而是弃牌，Cathy就会认为自己有着红3。但她实际上并没有红3，这意味着队伍中的信息不再同步。
+- 出于这个缘由，盲打一张牌完成「Finesse」是非常重要的——这么做后，信息再次同步。因此，**如果玩家被应用「Finesse」，他们往往应该立刻盲打出Finesse Position的卡牌**，即使他们还有其他重要的卡牌需要打出，或者有非常好的提示可以给出。
 
 <br />
 
-### Finesse Position
+### Finesse Position（巧技位）
 
-- We define the _Finesse Position_ as the slot that a player's left-most unclued card is in.
-- A player's _Finesse Position_ can move around, and if it does, it is still possible to _Finesse_ them.
-- In the example below:
-  - Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
-  - Cathy assumes that the slot 1 card is a red 1.
-  - Next, Bob clues Donald blue, which touches a blue 2.
-  - Now, it is Cathy's turn. Cathy knows that she must have the blue 1 and that Bob is trying to perform a _Finesse_.
-  - Blind-playing the blue 1 is more important than playing the red 1.
-  - Normally, Cathy's _Finesse Position_ would be her left-most card. However, since Cathy's slot 1 and slot 2 card are already clued, her _Finesse Position_ card has shifted down to her slot 3. Thus, Cathy must blind-play the blue 1 from slot 3.
+我们定义「Finesse Position」为玩家最左端的未被提示的卡牌。一个玩家的「Finesse Position」可以移动，移动后，仍然可以应用「Finesse」。
+
+- 在下面的例子中：
+
+  - Alice向Cathy提示红色，点到了1号与2号槽位的卡牌。
+  - Cathy假设自己的1号槽位为红1。
+  - 接着，Bob向Donald提示蓝色，点到了蓝2。
+  - 现在轮到Cathy。她知道自己一定有蓝1，Bob正使用「Finesse」。
+  - 盲打蓝1要比打出红1更加重要。
+  - 平时，Cathy的「Finesse Position」是她最左端的卡牌。不过，既然她的1号与2号槽位都已被提示，她的「Finesse」位移到了3号槽位。因此，Cathy必须盲打出在3号槽位的蓝1。
 
 <Finesse2 />
